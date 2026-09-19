@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content';
+import { ui } from '../data/content.js';
+const { locale = 'hu' } = Astro.props;
+const t = ui[locale];
+let posts = (await getCollection('blog', (p) => p.data.lang === locale && !p.data.draft));
+posts = posts.sort((a, b) => b.data.date - a.data.date);
+const base = locale === 'hu' ? '' : `/${locale}`;
+const dateFmt = (d) => new Date(d).toLocaleDateString(locale === 'zh' ? 'zh-CN' : locale === 'en' ? 'en-GB' : 'hu-HU', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+<section>
+  <div class="wrap">
+    <div class="sec-head"><hr class="hr-gold" /><h2>{t.nav.blog}</h2></div>
+    {posts.length === 0 ? (
+      <p style="text-align:center;color:var(--slate)">—</p>
+    ) : (
+      <div class="grid g2">
+        {posts.map((p) => (
+          <a class="post" href={`${base}/blog/${p.data.key}`}>
+            <span class="date">{dateFmt(p.data.date)}{p.data.coauthor ? ` · ${p.data.author} – ${p.data.coauthor}` : ` · ${p.data.author}`}</span>
+            <h3>{p.data.title}</h3>
+            <p>{p.data.excerpt}</p>
+          </a>
+        ))}
+      </div>
+    )}
+  </div>
+</section>

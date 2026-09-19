@@ -1,0 +1,25 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+const locale = 'hu';
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', (p) => p.data.lang === 'hu' && !p.data.draft);
+  return posts.map((entry) => ({ params: { slug: entry.data.key }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const d = new Date(entry.data.date).toLocaleDateString('hu-HU', { year: 'numeric', month: 'long', day: 'numeric' });
+const by = entry.data.coauthor ? `${entry.data.author} – ${entry.data.coauthor}` : entry.data.author;
+---
+<Base locale={locale} title={`${entry.data.title} | Czudar DHH Ügyvédi Iroda`} description={entry.data.excerpt}>
+  <article class="article">
+    <a class="backlink" href="/blog">← Vissza a bloghoz</a>
+    <div class="meta">{d} · {by}</div>
+    <h1>{entry.data.title}</h1>
+    <p class="lead">{entry.data.excerpt}</p>
+    {entry.data.reviewNote && <div class="review">{entry.data.reviewNote}</div>}
+    <div class="body"><Content /></div>
+    {entry.data.source && <p class="src">Első megjelenés: {entry.data.source}</p>}
+    <p class="src">A jelen szakmai tartalom általános tájékoztatásul szolgál, és nem minősül jogi tanácsnak.</p>
+  </article>
+</Base>

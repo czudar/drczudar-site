@@ -1,0 +1,25 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+const locale = 'zh';
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', (p) => p.data.lang === 'zh' && !p.data.draft);
+  return posts.map((entry) => ({ params: { slug: entry.data.key }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const d = new Date(entry.data.date).toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' });
+const by = entry.data.coauthor ? `${entry.data.author} – ${entry.data.coauthor}` : entry.data.author;
+---
+<Base locale={locale} title={`${entry.data.title} | 德和衡（匈牙利）律师事务所`} description={entry.data.excerpt}>
+  <article class="article">
+    <a class="backlink" href="/zh/blog">← 返回资讯</a>
+    <div class="meta">{d} · {by}</div>
+    <h1>{entry.data.title}</h1>
+    <p class="lead">{entry.data.excerpt}</p>
+    {entry.data.reviewNote && <div class="review">{entry.data.reviewNote}</div>}
+    <div class="body"><Content /></div>
+    {entry.data.source && <p class="src">首次发表于：{entry.data.source}</p>}
+    <p class="src">本专业内容仅供一般参考，不构成法律意见。</p>
+  </article>
+</Base>

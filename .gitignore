@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.astro/
+# Érzékeny: a brand-tokens.yaml (bank, adószám) SOHA nem kerül a repóba.
+/brand-tokens.yaml
+# Munkakönyvtár-szemét
+*.log
+shot*.cjs
+verify_*.png
+desk_*.png desk_*.jpg
+mob_*.png mob_*.jpg
+blog_*.png blog_*.jpg
+qr_*.png qr_*.b64
+# A generált arculati fájlok (SITE-BIZTOS: csak szín/betű/cégnév/publikus elérhetőség)
+# SZÁNDÉKOSAN be vannak commitolva, hogy a CI a tokens-fájl nélkül is tudjon buildelni.
+!src/data/brand.generated.js
+!src/styles/brand.generated.css

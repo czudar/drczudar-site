@@ -1,0 +1,83 @@
+---
+import '../styles/brand.generated.css';
+import '../styles/global.css';
+import { brand, office } from '../data/brand.js';
+import { ui, network } from '../data/content.js';
+
+const { locale = 'hu', title, description, path = '' } = Astro.props;
+const t = ui[locale];
+const homeHref = locale === 'hu' ? '/' : `/${locale}/`;
+const base = locale === 'hu' ? '' : `/${locale}`;
+const langHrefs = { hu: '/', en: '/en/', zh: '/zh/' };
+const navItems = [
+  [`${homeHref}#about`, t.nav.about], [`${homeHref}#practice`, t.nav.practice],
+  [`${homeHref}#team`, t.nav.team], [`${base}/blog`, t.nav.blog], [`${homeHref}#contact`, t.nav.contact],
+];
+const fullTitle = title || brand.name[locale];
+const desc = description || brand.tagline[locale];
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+---
+<!DOCTYPE html>
+<html lang={locale}>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={desc} />
+  <link rel="canonical" href={canonical} />
+  <link rel="alternate" hreflang="hu" href={new URL('/', Astro.site).href} />
+  <link rel="alternate" hreflang="en" href={new URL('/en/', Astro.site).href} />
+  <link rel="alternate" hreflang="zh" href={new URL('/zh/', Astro.site).href} />
+  <link rel="alternate" hreflang="x-default" href={new URL('/', Astro.site).href} />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content={brand.name[locale]} />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={desc} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:image" content={new URL('/dhh-mark.png', Astro.site).href} />
+  <meta name="twitter:card" content="summary" />
+  <link rel="icon" type="image/png" href="/dhh-mark.png" />
+  <link rel="apple-touch-icon" href="/dhh-mark.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Libre+Franklin:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@500;700&family=Noto+Sans+SC:wght@400;500&display=swap" />
+</head>
+<body>
+  <a class="skip" href="#main">{t.skipToContent}</a>
+  <header class="site-head">
+    <div class="wrap head-in">
+      <a class="brand" href={homeHref} aria-label={brand.name[locale]}>
+        <img src="/dhh-mark.png" alt="DHH" />
+        <span class="wm">CZUDAR&nbsp;DHH<small>{brand.networkFooter}</small></span>
+      </a>
+      <nav class="nav" id="nav">
+        {navItems.map(([href, label]) => <a href={href}>{label}</a>)}
+        <span class="langs">
+          {Object.entries(langHrefs).map(([lc, href]) => (
+            <a href={href} aria-current={lc === locale ? 'true' : undefined} hreflang={lc}>{lc.toUpperCase()}</a>
+          ))}
+        </span>
+      </nav>
+      <button class="menu-btn" aria-label="Menu" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <slot />
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <p class="foot-net"><a href={network.url[locale]} target="_blank" rel="noopener noreferrer" style="color:var(--gold-soft)">{brand.networkFooter} ↗</a></p>
+      <p>{brand.name[locale]} · {office.hqAddress} · {office.bar} {office.barRegNo} · {office.web}</p>
+      <p style="color:#8a94a8;font-size:12px">
+        {locale === 'hu'
+          ? 'A honlapon található információk kizárólag általános tájékoztatást szolgálnak, nem minősülnek ajánlatnak vagy jogi tanácsnak.'
+          : locale === 'en'
+          ? 'The information on this site is for general information only and does not constitute an offer or legal advice.'
+          : '本网站信息仅供一般参考，不构成要约或法律意见。'}
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,25 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+const locale = 'en';
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', (p) => p.data.lang === 'en' && !p.data.draft);
+  return posts.map((entry) => ({ params: { slug: entry.data.key }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const d = new Date(entry.data.date).toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' });
+const by = entry.data.coauthor ? `${entry.data.author} – ${entry.data.coauthor}` : entry.data.author;
+---
+<Base locale={locale} title={`${entry.data.title} | Czudar DHH Law Firm`} description={entry.data.excerpt}>
+  <article class="article">
+    <a class="backlink" href="/en/blog">← Back to insights</a>
+    <div class="meta">{d} · {by}</div>
+    <h1>{entry.data.title}</h1>
+    <p class="lead">{entry.data.excerpt}</p>
+    {entry.data.reviewNote && <div class="review">{entry.data.reviewNote}</div>}
+    <div class="body"><Content /></div>
+    {entry.data.source && <p class="src">Originally published in: {entry.data.source}</p>}
+    <p class="src">This professional content is provided for general information only and does not constitute legal advice.</p>
+  </article>
+</Base>

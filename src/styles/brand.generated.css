@@ -1,0 +1,11 @@
+/* AUTOMATIKUSAN GENERÁLT a brand-tokens.yaml-ból — ne szerkeszd. */
+:root{
+  --navy:#002A6C;--navy2:#001B47;--red:#C7000A;
+  --gold:#9C7B3E;--gold-soft:#C6A15C;
+  --ivory:#F6F3EC;--stone:#EBE6DA;--line:#D9D3C5;
+  --slate:#565C68;--mist:#8A8F99;--ink:#16181D;
+  --cinzel:'Cinzel',Georgia,serif;
+  --display:'Cormorant Garamond',Georgia,serif;
+  --sans:'Libre Franklin',Arial,Helvetica,sans-serif;
+  --cjk:'Noto Serif SC',serif;--cjks:'Noto Sans SC',sans-serif;
+}
