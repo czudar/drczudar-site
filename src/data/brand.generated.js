@@ -1,8 +1,8 @@
 // AUTOMATIKUSAN GENERÁLT — NE SZERKESZD KÉZZEL.
-// Forrás: czudar-brand/brand-tokens.yaml · generálva: 2026-09-19T22:54:10.435Z
+// Forrás: czudar-brand/brand-tokens.yaml · generálva: 2026-09-19T23:39:43.693Z
 // Újragenerálás: npm run sync (a build ezt automatikusan lefuttatja).
 export default {
-  "_generatedAt": "2026-09-19T22:54:10.435Z",
+  "_generatedAt": "2026-09-19T23:39:43.693Z",
   "_source": "czudar-brand/brand-tokens.yaml",
   "brand": {
     "name": {

@@ -8,6 +8,10 @@ const { locale = 'hu', title, description, path = '' } = Astro.props;
 const t = ui[locale];
 const homeHref = locale === 'hu' ? '/' : `/${locale}/`;
 const base = locale === 'hu' ? '' : `/${locale}`;
+const privHref = `${base}/adatvedelmi-tajekoztato`;
+const BP_BAR = 'https://bpugyvedikamara.hu/';
+const MU_BAR = 'https://www.magyarugyvedikamara.hu/';
+const privLabel = { hu: 'Adatvédelmi tájékoztató', en: 'Privacy notice', zh: '隐私声明' }[locale];
 const langHrefs = { hu: '/', en: '/en/', zh: '/zh/' };
 const navItems = [
   [`${homeHref}#about`, t.nav.about], [`${homeHref}#practice`, t.nav.practice],
@@ -70,13 +74,18 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
     <div class="wrap">
       <p class="foot-net"><a href={network.url[locale]} target="_blank" rel="noopener noreferrer" style="color:var(--gold-soft)">{brand.networkFooter} ↗</a></p>
       <p>{brand.name[locale]} · {office.hqAddress} · {office.bar} {office.barRegNo} · {office.web}</p>
-      <p style="color:#8a94a8;font-size:12px">
-        {locale === 'hu'
-          ? 'A honlapon található információk kizárólag általános tájékoztatást szolgálnak, nem minősülnek ajánlatnak vagy jogi tanácsnak.'
-          : locale === 'en'
-          ? 'The information on this site is for general information only and does not constitute an offer or legal advice.'
-          : '本网站信息仅供一般参考，不构成要约或法律意见。'}
+      <p class="foot-legal">
+        {locale === 'hu' && (<Fragment>
+          Ezt a weboldalt a Czudar Ügyvédi Iroda, a <a href={BP_BAR} target="_blank" rel="noopener">Budapest Ügyvédi Kamara</a> által nyilvántartott ügyvédi iroda tartja fenn az ügyvédekre vonatkozó jogszabályok és belső szabályzatok szerint, melyek az ügyféljogokra vonatkozó tájékoztatással együtt a <a href={MU_BAR} target="_blank" rel="noopener">Magyar Ügyvédi Kamara</a> honlapján elérhetők. Az ügyvédi honlap tartalmára és megjelenésére vonatkozó rendelkezéseket a Magyar Ügyvédi Kamara által megalkotott, az ügyvédi hivatás etikai szabályairól és elvárásairól szóló szabályzat tartalmazza. A honlapon megtalálható információk kizárólag általános tájékoztatást szolgálnak, nem minősülnek ajánlatnak vagy jogi tanácsnak.
+        </Fragment>)}
+        {locale === 'en' && (<Fragment>
+          This website is maintained by Czudar Ügyvédi Iroda, a law firm registered with the <a href={BP_BAR} target="_blank" rel="noopener">Budapest Bar Association</a>, in accordance with the laws and internal regulations applicable to attorneys, which — together with information on client rights — are available on the website of the <a href={MU_BAR} target="_blank" rel="noopener">Hungarian Bar Association</a>. The provisions applicable to the content and appearance of an attorney's website are set out in the regulation on the ethical rules and expectations of the legal profession adopted by the Hungarian Bar Association. The information on this website is provided for general information only and does not constitute an offer or legal advice.
+        </Fragment>)}
+        {locale === 'zh' && (<Fragment>
+          本网站由 Czudar Ügyvédi Iroda（楚达尔律师事务所）维护，该所是在<a href={BP_BAR} target="_blank" rel="noopener">布达佩斯律师公会</a>注册的律师事务所，并遵守适用于律师的法律法规及内部规章；上述规定连同有关客户权利的信息，可在<a href={MU_BAR} target="_blank" rel="noopener">匈牙利全国律师公会</a>网站查阅。有关律师网站内容与呈现的规定，载于匈牙利全国律师公会制定的关于律师职业道德规则与要求的规章。本网站信息仅供一般参考，不构成要约或法律意见。
+        </Fragment>)}
       </p>
+      <p style="margin-top:8px"><a href={privHref} style="color:var(--gold-soft)">{privLabel}</a></p>
     </div>
   </footer>
 </body>
