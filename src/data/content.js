@@ -168,6 +168,27 @@ export const contact = {
   followUs: { hu: 'Kövessen minket', en: 'Follow us', zh: '关注我们' },
 };
 
+// Cookie-hozzájárulás — a honlap maga nem tesz le cookie-t; a beágyazott Google Térkép
+// hozzájárulás nélkül nem töltődik be (adatvédő alapértelmezés). A döntés a böngésző
+// helyi tárolójában marad, nem kerül harmadik félhez.
+export const cookie = {
+  message: {
+    hu: 'Ez a honlap maga nem használ cookie-t. A beágyazott Google Térkép csak az Ön hozzájárulásával töltődik be, és ekkor a Google cookie-kat helyezhet el.',
+    en: 'This website itself uses no cookies. The embedded Google Map loads only with your consent, and Google may then set cookies.',
+    zh: '本网站自身不使用 Cookie。嵌入式谷歌地图仅在您同意后才会加载，届时谷歌可能设置 Cookie。',
+  },
+  accept: { hu: 'Elfogadom', en: 'Accept', zh: '接受' },
+  reject: { hu: 'Elutasítom', en: 'Decline', zh: '拒绝' },
+  settings: { hu: 'Cookie-beállítások', en: 'Cookie settings', zh: 'Cookie 设置' },
+  more: { hu: 'Adatvédelmi tájékoztató', en: 'Privacy notice', zh: '隐私声明' },
+  mapNotice: {
+    hu: 'A térkép a Google-tól töltődik be, amely cookie-kat helyezhet el.',
+    en: 'The map loads from Google, which may set cookies.',
+    zh: '地图由谷歌加载，谷歌可能设置 Cookie。',
+  },
+  mapLoad: { hu: 'Térkép betöltése', en: 'Load map', zh: '加载地图' },
+};
+
 // Bizalmi jelek — GYŰJTÉS ALATT, NEM PUBLIKUS.
 // published:false → a szekció NEM jelenik meg a honlapon. Ha megtelt tartalommal,
 // MP-döntéssel published:true, és megjelenik. Csak bizonyítható, engedélyezett elemek kerülhetnek be.

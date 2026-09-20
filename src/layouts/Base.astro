@@ -2,7 +2,7 @@
 import '../styles/brand.generated.css';
 import '../styles/global.css';
 import { brand, office } from '../data/brand.js';
-import { ui, network } from '../data/content.js';
+import { ui, network, cookie } from '../data/content.js';
 
 const { locale = 'hu', title, description, path = '' } = Astro.props;
 const t = ui[locale];
@@ -76,17 +76,69 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
       <p>{brand.name[locale]} · {office.hqAddress} · {office.bar} {office.barRegNo} · {office.web}</p>
       <p class="foot-legal">
         {locale === 'hu' && (<Fragment>
-          Ezt a weboldalt a Czudar Ügyvédi Iroda, a <a href={BP_BAR} target="_blank" rel="noopener">Budapest Ügyvédi Kamara</a> által nyilvántartott ügyvédi iroda tartja fenn az ügyvédekre vonatkozó jogszabályok és belső szabályzatok szerint, melyek az ügyféljogokra vonatkozó tájékoztatással együtt a <a href={MU_BAR} target="_blank" rel="noopener">Magyar Ügyvédi Kamara</a> honlapján elérhetők. Az ügyvédi honlap tartalmára és megjelenésére vonatkozó rendelkezéseket a Magyar Ügyvédi Kamara által megalkotott, az ügyvédi hivatás etikai szabályairól és elvárásairól szóló szabályzat tartalmazza. A honlapon megtalálható információk kizárólag általános tájékoztatást szolgálnak, nem minősülnek ajánlatnak vagy jogi tanácsnak.
+          Ezt a weboldalt a {brand.name[locale]}, a <a href={BP_BAR} target="_blank" rel="noopener">Budapest Ügyvédi Kamara</a> által nyilvántartott ügyvédi iroda tartja fenn az ügyvédekre vonatkozó jogszabályok és belső szabályzatok szerint, melyek az ügyféljogokra vonatkozó tájékoztatással együtt a <a href={MU_BAR} target="_blank" rel="noopener">Magyar Ügyvédi Kamara</a> honlapján elérhetők. Az ügyvédi honlap tartalmára és megjelenésére vonatkozó rendelkezéseket a Magyar Ügyvédi Kamara által megalkotott, az ügyvédi hivatás etikai szabályairól és elvárásairól szóló szabályzat tartalmazza. A honlapon megtalálható információk kizárólag általános tájékoztatást szolgálnak, nem minősülnek ajánlatnak vagy jogi tanácsnak.
         </Fragment>)}
         {locale === 'en' && (<Fragment>
-          This website is maintained by Czudar Ügyvédi Iroda, a law firm registered with the <a href={BP_BAR} target="_blank" rel="noopener">Budapest Bar Association</a>, in accordance with the laws and internal regulations applicable to attorneys, which — together with information on client rights — are available on the website of the <a href={MU_BAR} target="_blank" rel="noopener">Hungarian Bar Association</a>. The provisions applicable to the content and appearance of an attorney's website are set out in the regulation on the ethical rules and expectations of the legal profession adopted by the Hungarian Bar Association. The information on this website is provided for general information only and does not constitute an offer or legal advice.
+          This website is maintained by {brand.name[locale]}, a law firm registered with the <a href={BP_BAR} target="_blank" rel="noopener">Budapest Bar Association</a>, in accordance with the laws and internal regulations applicable to attorneys, which — together with information on client rights — are available on the website of the <a href={MU_BAR} target="_blank" rel="noopener">Hungarian Bar Association</a>. The provisions applicable to the content and appearance of an attorney's website are set out in the regulation on the ethical rules and expectations of the legal profession adopted by the Hungarian Bar Association. The information on this website is provided for general information only and does not constitute an offer or legal advice.
         </Fragment>)}
         {locale === 'zh' && (<Fragment>
-          本网站由 Czudar Ügyvédi Iroda（楚达尔律师事务所）维护，该所是在<a href={BP_BAR} target="_blank" rel="noopener">布达佩斯律师公会</a>注册的律师事务所，并遵守适用于律师的法律法规及内部规章；上述规定连同有关客户权利的信息，可在<a href={MU_BAR} target="_blank" rel="noopener">匈牙利全国律师公会</a>网站查阅。有关律师网站内容与呈现的规定，载于匈牙利全国律师公会制定的关于律师职业道德规则与要求的规章。本网站信息仅供一般参考，不构成要约或法律意见。
+          本网站由 {brand.name[locale]} 维护，该所是在<a href={BP_BAR} target="_blank" rel="noopener">布达佩斯律师公会</a>注册的律师事务所，并遵守适用于律师的法律法规及内部规章；上述规定连同有关客户权利的信息，可在<a href={MU_BAR} target="_blank" rel="noopener">匈牙利全国律师公会</a>网站查阅。有关律师网站内容与呈现的规定，载于匈牙利全国律师公会制定的关于律师职业道德规则与要求的规章。本网站信息仅供一般参考，不构成要约或法律意见。
         </Fragment>)}
       </p>
-      <p style="margin-top:8px"><a href={privHref} style="color:var(--gold-soft)">{privLabel}</a></p>
+      <p style="margin-top:8px"><a href={privHref} style="color:var(--gold-soft)">{privLabel}</a> · <button type="button" id="cookie-settings" class="foot-cookie">{cookie.settings[locale]}</button></p>
     </div>
   </footer>
+
+  <div id="cookie-bar" class="cookie-bar" role="dialog" aria-live="polite" aria-label={cookie.settings[locale]} hidden>
+    <div class="wrap cookie-in">
+      <p class="cookie-msg">{cookie.message[locale]} <a href={privHref}>{cookie.more[locale]}</a></p>
+      <div class="cookie-actions">
+        <button type="button" id="cookie-reject" class="cookie-btn ghost">{cookie.reject[locale]}</button>
+        <button type="button" id="cookie-accept" class="cookie-btn">{cookie.accept[locale]}</button>
+      </div>
+    </div>
+  </div>
+
+  <script is:inline>
+    (function () {
+      var KEY = 'cookieConsent';
+      function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+      function set(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+      var bar = document.getElementById('cookie-bar');
+      function showBar() { if (bar) bar.hidden = false; }
+      function hideBar() { if (bar) bar.hidden = true; }
+      function loadMap(el) {
+        if (!el || el.dataset.loaded) return;
+        var f = document.createElement('iframe');
+        f.src = el.dataset.mapSrc;
+        f.title = el.dataset.mapTitle || '';
+        f.loading = 'lazy';
+        f.setAttribute('referrerpolicy', 'no-referrer-when-downgrade');
+        el.innerHTML = '';
+        el.appendChild(f);
+        el.dataset.loaded = '1';
+      }
+      function loadAllMaps() {
+        var maps = document.querySelectorAll('.map-embed');
+        for (var i = 0; i < maps.length; i++) loadMap(maps[i]);
+      }
+      var c = get();
+      if (c === 'accepted') { loadAllMaps(); }
+      else if (c !== 'rejected') { showBar(); }
+      var a = document.getElementById('cookie-accept');
+      var r = document.getElementById('cookie-reject');
+      var s = document.getElementById('cookie-settings');
+      if (a) a.addEventListener('click', function () { set('accepted'); hideBar(); loadAllMaps(); });
+      if (r) r.addEventListener('click', function () { set('rejected'); hideBar(); });
+      if (s) s.addEventListener('click', function () { showBar(); });
+      var loaders = document.querySelectorAll('.map-load');
+      for (var j = 0; j < loaders.length; j++) {
+        loaders[j].addEventListener('click', function (ev) {
+          var el = ev.currentTarget.closest('.map-embed');
+          loadMap(el);
+        });
+      }
+    })();
+  </script>
 </body>
 </html>

@@ -91,6 +91,29 @@ section.alt .post{background:#fff}
 .site-foot a{color:#cdd6e6}
 .foot-legal{max-width:900px;margin:12px auto 0;font-size:11.5px;line-height:1.7;color:#8a94a8}
 .foot-legal a{color:var(--gold-soft);text-decoration:underline}
+.foot-cookie{background:none;border:0;padding:0;margin:0;font:inherit;color:var(--gold-soft);text-decoration:underline;cursor:pointer}
+.foot-cookie:hover{color:#fff}
+
+/* Cookie-hozzájárulás sáv */
+.cookie-bar{position:fixed;left:0;right:0;bottom:0;z-index:300;background:var(--navy);color:#e6ebf4;border-top:2px solid var(--gold);box-shadow:0 -8px 30px rgba(0,0,0,.28)}
+.cookie-in{display:flex;align-items:center;gap:20px;padding:16px 24px;flex-wrap:wrap}
+.cookie-msg{margin:0;font-size:13.5px;line-height:1.5;flex:1 1 340px}
+.cookie-msg a{color:var(--gold-soft);text-decoration:underline}
+.cookie-actions{display:flex;gap:10px;flex:0 0 auto}
+.cookie-btn{border:1px solid var(--gold);background:var(--gold);color:var(--navy);font-weight:600;font-size:14px;padding:10px 20px;border-radius:9px;cursor:pointer;font-family:inherit}
+.cookie-btn:hover{background:var(--gold-soft);border-color:var(--gold-soft)}
+.cookie-btn.ghost{background:transparent;color:var(--gold-soft)}
+.cookie-btn.ghost:hover{background:rgba(255,255,255,.08);color:#fff}
+
+/* Térkép — hozzájárulásig placeholder */
+.map-embed .map-ph{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;padding:18px;color:#cdd6e6}
+.map-embed .map-ph p{margin:0;font-size:13px;max-width:280px;line-height:1.5}
+.map-load{border:1px solid var(--gold);background:transparent;color:var(--gold-soft);font-weight:600;font-size:14px;padding:9px 18px;border-radius:9px;cursor:pointer;font-family:inherit}
+.map-load:hover{background:var(--gold);color:var(--navy)}
+@media(max-width:560px){
+  .cookie-in{flex-direction:column;align-items:stretch;gap:12px}
+  .cookie-actions{justify-content:flex-end}
+}
 
 @media(max-width:820px){
   .g3{grid-template-columns:1fr}

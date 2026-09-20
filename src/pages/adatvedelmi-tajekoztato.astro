@@ -1,23 +1,25 @@
 ---
 import Base from '../layouts/Base.astro';
+import { brand, office } from '../data/brand.js';
 const locale = 'hu';
+const name = brand.name[locale];
 ---
-<Base locale={locale} title={"Adatvédelmi tájékoztató | Czudar DHH Ügyvédi Iroda"} description={"A Czudar DHH Ügyvédi Iroda honlapjához kapcsolódó adatkezelés GDPR- és Infotv-alapú tájékoztatója: kezelt adatok, célok és jogalapok, adatfeldolgozók, az érintett jogai és jogorvoslat."}>
+<Base locale={locale} title={`Adatvédelmi tájékoztató | ${name}`} description={`A ${name} honlapjához kapcsolódó adatkezelés GDPR- és Infotv-alapú tájékoztatója: kezelt adatok, célok és jogalapok, adatfeldolgozók, az érintett jogai és jogorvoslat.`}>
   <article class="article">
     <a class="backlink" href="/">← Vissza a főoldalra</a>
     <h1>Adatvédelmi tájékoztató</h1>
-    <p class="lead">A jelen tájékoztató a Czudar DHH Ügyvédi Iroda honlapjának (drczudar.hu) használatával összefüggő személyesadat-kezelésről nyújt tájékoztatást az EU 2016/679 rendelet (GDPR) és az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény (Infotv.) szerint.</p>
+    <p class="lead">A jelen tájékoztató a {name} honlapjának ({office.web}) használatával összefüggő személyesadat-kezelésről nyújt tájékoztatást az EU 2016/679 rendelet (GDPR) és az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény (Infotv.) szerint.</p>
     <div class="body">
 
       <h2>1. Az adatkezelő és elérhetőségei</h2>
       <p>Az adatkezelő:</p>
       <ul>
-        <li><strong>Név:</strong> Czudar DHH Ügyvédi Iroda <em>(⚠️ ellenőrizendő: az iroda pontos, bejegyzett megnevezését az ügyvéd erősítse meg — a kötelező kamarai szövegben „Czudar Ügyvédi Iroda” megnevezés is szerepel)</em></li>
-        <li><strong>Székhely:</strong> 1054 Budapest, Szemere u. 23. I/1.</li>
-        <li><strong>Fiókiroda:</strong> 2660 Balassagyarmat, Rákóczi fejedelem út 13.</li>
-        <li><strong>E-mail:</strong> info@drczudar.hu</li>
-        <li><strong>Telefon:</strong> +36 1 577 9191</li>
-        <li><strong>Kamarai nyilvántartás:</strong> Budapesti Ügyvédi Kamara, nyilvántartási szám 5160</li>
+        <li><strong>Név:</strong> {name}</li>
+        <li><strong>Székhely:</strong> {office.hqAddress}</li>
+        <li><strong>Fiókiroda:</strong> {office.branchAddress}</li>
+        <li><strong>E-mail:</strong> {office.email}</li>
+        <li><strong>Telefon:</strong> {office.phone}</li>
+        <li><strong>Kamarai nyilvántartás:</strong> {office.bar}, nyilvántartási szám {office.barRegNo}</li>
       </ul>
       <p>Az iroda önálló adatvédelmi tisztviselő kijelölésére a GDPR 37. cikke alapján nem köteles; adatvédelmi kérdésekben a fenti elérhetőségeken lehet az adatkezelőhöz fordulni. <em>(⚠️ ellenőrizendő: kell-e adatvédelmi tisztviselőt kijelölni, illetve annak elérhetőségei.)</em></p>
 
@@ -30,7 +32,7 @@ const locale = 'hu';
       <p>A honlapon keresztül elérhető online időpontfoglalás a Google Naptár (Google Calendar) szolgáltatáson keresztül működik. Ennek során a foglaláshoz megadott adatok (pl. név, e-mail-cím, a kért időpont és a megkeresés tárgya) a Google rendszerében kerülnek rögzítésre. A <strong>Google mint adatfeldolgozó</strong> jár el, a foglalási adatokat az adatkezelő nevében és utasítása szerint kezeli.</p>
 
       <h3>2.3 Beágyazott Google Térkép</h3>
-      <p>A honlapon <strong>beágyazott Google Térkép (Google Maps)</strong> jelenítheti meg az iroda elhelyezkedését. A térkép betöltésekor a <strong>Google cookie-kat helyezhet el és technikai adatokat (pl. IP-cím, eszköz- és böngészőadatok) kezelhet</strong> a saját szolgáltatásaihoz. Ez a Google önálló adatkezelése, amelyre a Google adatvédelmi tájékoztatója irányadó. <em>(⚠️ ellenőrizendő: a beágyazott térkép ténylegesen aktív-e az oldalon, és milyen konfigurációval.)</em></p>
+      <p>A honlap az iroda elhelyezkedésének megjelenítésére <strong>beágyazott Google Térképet (Google Maps)</strong> tud használni. Adatvédelmi okból a térkép <strong>alapértelmezetten nem töltődik be</strong>: csak akkor jelenik meg, ha Ön ehhez a cookie-sávon vagy a térkép helyén megjelenő gombra kattintva kifejezetten hozzájárul. A térkép betöltésekor a <strong>Google cookie-kat helyezhet el és technikai adatokat (pl. IP-cím, eszköz- és böngészőadatok) kezelhet</strong> a saját szolgáltatásaihoz; ez a Google önálló adatkezelése, amelyre a Google adatvédelmi tájékoztatója irányadó. Hozzájárulását bármikor visszavonhatja a lábléc „Cookie-beállítások” pontján keresztül.</p>
 
       <h3>2.4 Szerver- és hosting-naplók</h3>
       <p>A honlap tárhelyszolgáltatója a <strong>GitHub (GitHub Pages)</strong>. A honlap statikus oldalakból áll; a tárhely oldalán a szolgáltató a szokásos módon technikai naplókat (pl. IP-cím, a lekérés időpontja, a lekért oldal, böngésző-azonosító) kezelhet a szolgáltatás nyújtása és biztonsága érdekében. <em>(⚠️ ellenőrizendő: a GitHub Pages által ténylegesen kezelt naplóadatok köre és megőrzése.)</em></p>
@@ -43,7 +45,7 @@ const locale = 'hu';
         <li><strong>Kapcsolatfelvétel, megkeresés megválaszolása, megbízás előkészítése</strong> — jogalap: a szerződés megkötését megelőző lépések megtétele, illetve a szerződés teljesítése (GDPR 6. cikk (1) bekezdés b) pont).</li>
         <li><strong>Online időpontfoglalás lebonyolítása</strong> — jogalap: az Ön kérésére történő, szerződéskötést megelőző intézkedés (GDPR 6. cikk (1) bekezdés b) pont).</li>
         <li><strong>A honlap üzemeltetése, biztonsága, a beágyazott térkép megjelenítése, valamint statisztikai/technikai naplózás</strong> — jogalap: az adatkezelő jogos érdeke (GDPR 6. cikk (1) bekezdés f) pont).</li>
-        <li><strong>A beágyazott Google-szolgáltatások által elhelyezett, nem feltétlenül szükséges cookie-k</strong> — jogalap: az Ön hozzájárulása (GDPR 6. cikk (1) bekezdés a) pont). <em>(⚠️ ellenőrizendő: kell-e hozzájárulás-kezelő (cookie-banner) a beágyazott szolgáltatásokhoz.)</em></li>
+        <li><strong>A beágyazott Google-szolgáltatások (pl. Google Térkép) által elhelyezett, nem feltétlenül szükséges cookie-k</strong> — jogalap: az Ön hozzájárulása (GDPR 6. cikk (1) bekezdés a) pont), amelyet a honlap cookie-sávján keresztül kér be, és amely bármikor visszavonható.</li>
       </ul>
 
       <h2>4. Adatmegőrzési idők</h2>
@@ -82,9 +84,11 @@ const locale = 'hu';
       <p>A megbízásokkal összefüggésben kezelt ügyféladatokra az ügyvédi titoktartás, valamint az ügyvédi tevékenységről szóló 2017. évi LXXVIII. törvény (Üttv.) rendelkezései az irányadók. Az ügyvédi titok védelme és a szakmai-jogi felelősség kizárólag az eljáró ügyvédet terheli. Az ügyvédi titok körébe tartozó adatok tekintetében az érintetti jogok gyakorlása — így különösen a hozzáférés és a törlés — a titoktartási kötelezettség és a jogszabályi megőrzési előírások keretei között gyakorolható.</p>
 
       <h2>9. Cookie-tájékoztatás</h2>
-      <p>A honlap statikus oldalakból épül fel, és <strong>önmagában nem helyez el cookie-t</strong> az Ön eszközén. Ugyanakkor a beágyazott Google-szolgáltatások (Google Térkép, valamint az időpontfoglalás Google-felülete) betöltésükkor <strong>cookie-kat helyezhetnek el, illetve technikai adatokat kezelhetnek</strong>. Ezekre a Google saját adatvédelmi és cookie-tájékoztatója az irányadó. <em>(⚠️ ellenőrizendő: a ténylegesen elhelyezett cookie-k köre és élettartama, valamint hogy szükséges-e hozzájárulás-kezelő megoldás.)</em></p>
+      <p>A honlap statikus oldalakból épül fel, és <strong>saját maga nem helyez el cookie-t</strong> az Ön eszközén; kizárólag az Ön cookie-döntését tárolja a böngészőjében (a böngésző helyi tárolójában), ami nem kerül továbbításra harmadik félhez.</p>
+      <p>A honlap az oldal első megnyitásakor <strong>cookie-sávot</strong> jelenít meg. Az esetlegesen cookie-t elhelyező, beágyazott harmadik feles tartalom (mindenekelőtt a <strong>Google Térkép</strong>) <strong>az Ön hozzájárulása nélkül nem töltődik be</strong>: a térkép helyén addig egy tájékoztató nézet és egy „térkép betöltése” gomb látható. Ha Ön a cookie-sávon az elfogadást választja, illetve a gombra kattint, a beágyazott tartalom betöltődik, és ekkor a szolgáltató (Google) cookie-kat helyezhet el, amelyekre a saját adatvédelmi és cookie-tájékoztatója az irányadó. Az online időpontfoglalás <strong>külön oldalra mutató hivatkozás</strong>, amely csak akkor tölt be Google-tartalmat, ha Ön rákattint.</p>
+      <p>Cookie-döntését bármikor módosíthatja vagy visszavonhatja a lábléc <strong>„Cookie-beállítások”</strong> pontjára kattintva.</p>
 
     </div>
-    <p class="src">Utolsó frissítés: 2026-09-19.</p>
+    <p class="src">Utolsó frissítés: 2026-09-20.</p>
   </article>
 </Base>

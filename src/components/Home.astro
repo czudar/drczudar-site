@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import { brand, office, people } from '../data/brand.js';
-import { ui, home, practices, network, whyus, contact, trust } from '../data/content.js';
+import { ui, home, practices, network, whyus, contact, trust, cookie } from '../data/content.js';
 const { locale = 'hu' } = Astro.props;
 const t = ui[locale];
 const h = home[locale];
@@ -174,14 +174,18 @@ const initials = (n) => n.replace('dr. ', '').split(' ').map(w => w[0]).join('')
         <h3>{t.officeBudapest}</h3>
         <p>{office.hqAddress}</p>
         <p><a href={`tel:${office.phoneHref}`}>{office.phone}</a> · <a href={`mailto:${office.email}`}>{office.email}</a></p>
-        <div class="office-map"><iframe src={contact.budapest.map} loading="lazy" referrerpolicy="no-referrer-when-downgrade" title={t.officeBudapest}></iframe></div>
+        <div class="office-map map-embed" data-map-src={contact.budapest.map} data-map-title={t.officeBudapest}>
+          <div class="map-ph"><p>{cookie.mapNotice[locale]}</p><button type="button" class="map-load">{cookie.mapLoad[locale]}</button></div>
+        </div>
         <a class="book-btn" href={contact.budapest.booking} target="_blank" rel="noopener noreferrer">{contact.book[locale]} — Budapest ↗</a>
       </div>
       <div class="office">
         <h3>{t.officeBalassagyarmat}</h3>
         <p>{office.branchAddress}</p>
         <p><a href={`tel:${office.phoneHref}`}>{office.phone}</a> · <a href={`mailto:${office.email}`}>{office.email}</a></p>
-        <div class="office-map"><iframe src={contact.balassagyarmat.map} loading="lazy" referrerpolicy="no-referrer-when-downgrade" title={t.officeBalassagyarmat}></iframe></div>
+        <div class="office-map map-embed" data-map-src={contact.balassagyarmat.map} data-map-title={t.officeBalassagyarmat}>
+          <div class="map-ph"><p>{cookie.mapNotice[locale]}</p><button type="button" class="map-load">{cookie.mapLoad[locale]}</button></div>
+        </div>
         <a class="book-btn" href={contact.balassagyarmat.booking} target="_blank" rel="noopener noreferrer">{contact.book[locale]} — Balassagyarmat ↗</a>
       </div>
     </div>

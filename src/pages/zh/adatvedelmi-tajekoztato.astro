@@ -1,23 +1,25 @@
 ---
 import Base from '../../layouts/Base.astro';
+import { brand, office } from '../../data/brand.js';
 const locale = 'zh';
+const name = brand.name[locale];
 ---
-<Base locale={locale} title={"隐私声明 | 德和衡（匈牙利）律师事务所"} description={"德和衡（匈牙利）律师事务所网站相关个人数据处理的隐私声明，依据《通用数据保护条例》（欧盟 2016/679）及匈牙利数据保护法：处理的数据、目的与法律依据、数据处理者、数据主体权利与救济途径。"}>
+<Base locale={locale} title={`隐私声明 | ${name}`} description={`${name}网站相关个人数据处理的隐私声明，依据《通用数据保护条例》（欧盟 2016/679）及匈牙利数据保护法：处理的数据、目的与法律依据、数据处理者、数据主体权利与救济途径。`}>
   <article class="article">
     <a class="backlink" href="/zh/">← 返回首页</a>
     <h1>隐私声明</h1>
-    <p class="lead">本声明说明在使用德和衡（匈牙利）律师事务所网站（drczudar.hu）时，与之相关的个人数据处理情况，依据《通用数据保护条例》（欧盟 2016/679，GDPR）及匈牙利《2011 年第 CXII 号关于信息自决权与信息自由的法律》（《信息法》）。</p>
+    <p class="lead">本声明说明在使用{name}网站（{office.web}）时，与之相关的个人数据处理情况，依据《通用数据保护条例》（欧盟 2016/679，GDPR）及匈牙利《2011 年第 CXII 号关于信息自决权与信息自由的法律》（《信息法》）。</p>
     <div class="body">
 
       <h2>1. 数据控制者及联系方式</h2>
       <p>数据控制者：</p>
       <ul>
-        <li><strong>名称：</strong>德和衡（匈牙利）律师事务所 <em>（⚠️ 有待核实：事务所的准确注册名称应由律师确认——强制性律师公会文本中亦使用“Czudar Ügyvédi Iroda”这一名称）</em></li>
-        <li><strong>注册地址：</strong>1054 Budapest, Szemere u. 23. I/1.，匈牙利</li>
-        <li><strong>分所：</strong>2660 Balassagyarmat, Rákóczi fejedelem út 13.，匈牙利</li>
-        <li><strong>电子邮箱：</strong>info@drczudar.hu</li>
-        <li><strong>电话：</strong>+36 1 577 9191</li>
-        <li><strong>律师公会登记：</strong>布达佩斯律师公会，登记号 5160</li>
+        <li><strong>名称：</strong>{name}</li>
+        <li><strong>注册地址：</strong>{office.hqAddress}，匈牙利</li>
+        <li><strong>分所：</strong>{office.branchAddress}，匈牙利</li>
+        <li><strong>电子邮箱：</strong>{office.email}</li>
+        <li><strong>电话：</strong>{office.phone}</li>
+        <li><strong>律师公会登记：</strong>布达佩斯律师公会，登记号 {office.barRegNo}</li>
       </ul>
       <p>依据 GDPR 第 37 条，本所无须指定数据保护官；有关数据保护的咨询，可通过上述联系方式与控制者联系。<em>（⚠️ 有待核实：是否须指定数据保护官及其联系方式。）</em></p>
 
@@ -30,7 +32,7 @@ const locale = 'zh';
       <p>通过网站提供的在线预约功能，经由谷歌日历（Google Calendar）运行。为预约而提供的数据（如姓名、电子邮箱、所请求的时间及咨询主题）将记录于谷歌的系统中。在此方面，<strong>谷歌作为数据处理者</strong>，代表控制者并按其指示处理预约数据。</p>
 
       <h3>2.3 嵌入式谷歌地图</h3>
-      <p>本网站可能通过<strong>嵌入式谷歌地图（Google Maps）</strong>显示事务所的位置。地图加载时，<strong>谷歌可能为其自身服务设置 Cookie 并处理技术数据（如 IP 地址、设备与浏览器信息）</strong>。此属谷歌自身的数据处理，受谷歌隐私政策约束。<em>（⚠️ 有待核实：嵌入式地图是否确已在页面上启用，及其配置。）</em></p>
+      <p>本网站可通过<strong>嵌入式谷歌地图（Google Maps）</strong>显示事务所的位置。出于隐私保护，地图<strong>默认不会加载</strong>：仅在您通过 Cookie 提示条或点击地图处显示的按钮明确同意后才会显示。地图加载时，<strong>谷歌可能为其自身服务设置 Cookie 并处理技术数据（如 IP 地址、设备与浏览器信息）</strong>；此属谷歌自身的数据处理，受谷歌隐私政策约束。您可随时通过页脚的“Cookie 设置”撤回同意。</p>
 
       <h3>2.4 服务器与托管日志</h3>
       <p>本网站的托管服务提供商为 <strong>GitHub（GitHub Pages）</strong>。本网站由静态页面构成；在托管一侧，服务商可能按惯例为服务的提供与安全而处理技术日志（如 IP 地址、请求时间、所请求的页面、浏览器标识）。<em>（⚠️ 有待核实：GitHub Pages 实际处理的日志数据范围及保存期限。）</em></p>
@@ -43,7 +45,7 @@ const locale = 'zh';
         <li><strong>联系、回复咨询、准备委托</strong>——法律依据：订立合同前所采取的步骤，或合同的履行（GDPR 第 6 条第 1 款 b 项）。</li>
         <li><strong>办理在线预约</strong>——法律依据：应您请求在订立合同前采取的措施（GDPR 第 6 条第 1 款 b 项）。</li>
         <li><strong>网站的运营与安全、嵌入式地图的显示，以及技术／统计日志记录</strong>——法律依据：控制者的正当利益（GDPR 第 6 条第 1 款 f 项）。</li>
-        <li><strong>由嵌入式谷歌服务设置的非严格必要 Cookie</strong>——法律依据：您的同意（GDPR 第 6 条第 1 款 a 项）。<em>（⚠️ 有待核实：嵌入式服务是否须设置同意管理工具（Cookie 提示条）。）</em></li>
+        <li><strong>由嵌入式谷歌服务（如谷歌地图）设置的非严格必要 Cookie</strong>——法律依据：您的同意（GDPR 第 6 条第 1 款 a 项），该同意通过本网站的 Cookie 提示条取得，并可随时撤回。</li>
       </ul>
 
       <h2>4. 数据保存期限</h2>
@@ -82,9 +84,11 @@ const locale = 'zh';
       <p>与委托相关处理的客户数据，受律师保密义务以及匈牙利《2017 年第 LXXVIII 号关于律师执业活动的法律》约束。保密信息的保护以及专业与法律责任，仅由承办律师承担。就属于律师保密范围的数据，数据主体权利——尤其是访问权与删除权——仅可在保密义务及法定保存要求的范围内行使。</p>
 
       <h2>9. Cookie 说明</h2>
-      <p>本网站由静态页面构成，<strong>其自身不在您的设备上设置任何 Cookie</strong>。但嵌入式谷歌服务（谷歌地图及谷歌预约界面）在加载时<strong>可能设置 Cookie 并处理技术数据</strong>。此受谷歌自身的隐私与 Cookie 政策约束。<em>（⚠️ 有待核实：实际设置的 Cookie 范围与有效期，以及是否须采用同意管理方案。）</em></p>
+      <p>本网站由静态页面构成，<strong>其自身不在您的设备上设置任何 Cookie</strong>；仅在您的浏览器（本地存储）中保存您的 Cookie 选择，该信息不会传输给任何第三方。</p>
+      <p>页面首次打开时，本网站会显示 <strong>Cookie 提示条</strong>。可能设置 Cookie 的嵌入式第三方内容（首先是<strong>谷歌地图</strong>）<strong>在未经您同意时不会加载</strong>：在其位置会显示说明性占位内容和“加载地图”按钮。若您在 Cookie 提示条上选择接受或点击该按钮，嵌入式内容即会加载，届时服务商（谷歌）可能设置 Cookie，并受其自身的隐私与 Cookie 政策约束。在线预约为<strong>指向独立页面的链接</strong>，仅在您点击时才加载谷歌内容。</p>
+      <p>您可随时点击页脚的<strong>“Cookie 设置”</strong>更改或撤回您的 Cookie 选择。</p>
 
     </div>
-    <p class="src">最后更新：2026 年 9 月 19 日。</p>
+    <p class="src">最后更新：2026 年 9 月 20 日。</p>
   </article>
 </Base>
