@@ -9,7 +9,7 @@ excerpt: "匈牙利2026年政府更迭并非针对中国投资，而是一次监
 draft: false
 ---
 
-作者：程涛（北京德和衡（青岛）律师事务所，DHH Qingdao）、楚达尔·鲍尔赤（Czudar Balázs）博士（德和衡（匈牙利）律师事务所，DHH Hungary）
+作者：成焘（北京德和衡（青岛）律师事务所，DHH Qingdao）、楚达尔·鲍尔赤（Czudar Balázs）博士（德和衡（匈牙利）律师事务所，DHH Hungary）
 
 ## 摘要
 
