@@ -11,7 +11,7 @@ draft: false
 
 *Mire számítsanak a kínai befektetők Magyarországon 2026–2027-ben, és hogyan kerülhetők el a szankciók – II. rész*
 
-dr. Czudar Balázs (Czudar DHH Ügyvédi Iroda / DHH Budapest Office) – Cheng Tao 程涛 (北京德和衡（青岛）律师事务所 / DHH Qingdao) · Szakcikk, 2026. szeptember
+dr. Czudar Balázs (Czudar DHH Ügyvédi Iroda / DHH Budapest Office) – Cheng Tao 成焘 (北京德和衡（青岛）律师事务所 / DHH Qingdao) · Szakcikk, 2026. szeptember
 
 ## VEZETŐI ÖSSZEFOGLALÓ
 

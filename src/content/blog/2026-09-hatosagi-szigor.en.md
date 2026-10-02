@@ -11,7 +11,7 @@ draft: false
 
 *What Chinese investors in Hungary should expect in 2026–2027, and how sanctions can be avoided – Part II*
 
-Dr. Balázs Czudar (Czudar DHH Law Firm – Hungary / DHH Budapest Office) – Cheng Tao 程涛 (北京德和衡（青岛）律师事务所 / DHH Qingdao) · Professional article, September 2026
+Dr. Balázs Czudar (Czudar DHH Law Firm – Hungary / DHH Budapest Office) – Cheng Tao 成焘 (北京德和衡（青岛）律师事务所 / DHH Qingdao) · Professional article, September 2026
 
 ## EXECUTIVE SUMMARY
 
