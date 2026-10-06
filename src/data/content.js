@@ -249,22 +249,6 @@ export const practices = [
   { key: 'nemzetkozi-kap', hu: ['Kína-desk', 'Magyar–kínai üzleti hídszerep a Beijing DHH hálózatában: befektetések, letelepedés, kereskedelmi ügyek kétnyelvű támogatással.'], en: ['China desk', 'A Hungary–China business bridge within the Beijing DHH network: investments, establishment and commercial matters with bilingual support.'], zh: ['中国事务组', '依托德和衡网络，搭建中匈商业桥梁，就投资、落地及商事事务提供双语支持。'] },
 ];
 
-// Blog — meglévő cikkek (a tartalom migrálandó; itt cím + dátum + kivonat)
-export const posts = [
-  { slug: 'europai-unio-birosaga-hatarozat-devizahiteles-perek', date: '2024-02-08',
-    title: { hu: 'Európai Unió Bírósága: határozat és a devizahiteles perek', en: 'CJEU ruling and the FX-loan cases', zh: '欧盟法院裁决与外币贷款诉讼' },
-    excerpt: { hu: 'Mit jelent a legújabb uniós bírósági határozat a devizahiteles perek szempontjából?', en: 'What does the latest CJEU ruling mean for foreign-currency loan litigation?', zh: '欧盟法院最新裁决对外币贷款诉讼意味着什么？' } },
-  { slug: 'energiapiac-ellatasi-kockazatok', date: '2024-02-07',
-    title: { hu: 'Az energiapiac és az ellátási kockázatok', en: 'The energy market and supply risks', zh: '能源市场与供应风险' },
-    excerpt: { hu: 'Mi történik, ha csődbe megy az energiakereskedő? A fogyasztókat és vállalkozásokat érintő kockázatok.', en: 'What happens if an energy trader goes bankrupt? Risks for consumers and businesses.', zh: '如果能源交易商破产会怎样？对消费者与企业的风险。' } },
-  { slug: 'vallalkozas-inditasa-magyarorszagon', date: '2024-02-04',
-    title: { hu: 'Vállalkozás indítása Magyarországon külföldiek számára', en: 'Starting a business in Hungary as a foreigner', zh: '外国人在匈牙利创业指南' },
-    excerpt: { hu: 'A cégalapítás lépései és jogi keretei külföldi befektetők számára.', en: 'The steps and legal framework of company formation for foreign investors.', zh: '外国投资者设立公司的步骤与法律框架。' } },
-  { slug: 'onkormanyzati-beszerzesek-afaja', date: '2024-02-03',
-    title: { hu: 'Önkormányzati beszerzések áfája — jogi optimalizáció', en: 'VAT on municipal procurement — legal optimisation', zh: '地方政府采购的增值税与法律优化' },
-    excerpt: { hu: 'Az önkormányzati beszerzések áfa-kezelésének jogi szempontjai.', en: 'Legal aspects of the VAT treatment of municipal procurement.', zh: '地方政府采购增值税处理的法律要点。' } },
-];
-
 // Munkatárs-tartalom (szerkesztői: fotó, lajstromszám, életrajz) — slug szerint.
 // A NÉV/TITULUS/EMAIL a brand-tokens.yaml-ból jön (auto-sync); ez itt a bővebb tartalom.
 export const peopleContent = {
