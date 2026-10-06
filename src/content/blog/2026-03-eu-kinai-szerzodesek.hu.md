@@ -3,7 +3,7 @@ title: "Azonos szöveg, mégis más jogi tartalom"
 lang: "hu"
 key: "2026-03-eu-kinai-szerzodesek"
 date: 2026-03-24
-author: "Czudar DHH"
+author: "dr. Czudar Balázs"
 excerpt: "Ugyanaz a szerződés nem jelent ugyanazt a jogi kockázatot minden jogrendszerben – a kínai–magyar üzleti szerződések rejtett buktatói és az alkalmazandó jog megválasztásának kulcsszerepe."
 draft: false
 ---

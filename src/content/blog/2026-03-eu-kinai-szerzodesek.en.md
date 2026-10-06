@@ -3,7 +3,7 @@ title: "Identical Text, Different Legal Substance"
 lang: "en"
 key: "2026-03-eu-kinai-szerzodesek"
 date: 2026-03-24
-author: "Czudar DHH"
+author: "dr. Czudar Balázs"
 excerpt: "The same contract does not carry the same legal risk in every legal system – the hidden pitfalls of Chinese–Hungarian business contracts and the crucial role of choosing the governing law."
 draft: false
 ---
