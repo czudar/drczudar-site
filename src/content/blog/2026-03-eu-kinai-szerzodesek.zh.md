@@ -3,7 +3,7 @@ title: "文本相同，法律内涵却不同"
 lang: "zh"
 key: "2026-03-eu-kinai-szerzodesek"
 date: 2026-03-24
-author: "Czudar DHH"
+author: "dr. Czudar Balázs"
 excerpt: "同一份合同在不同法域中并不意味着相同的法律风险——中匈商事合同中隐藏的陷阱，以及选择适用法律的关键作用。"
 draft: false
 ---

@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+import sitemap from '@astrojs/sitemap';
 
 // drczudar.hu — Czudar DHH Ügyvédi Iroda
 // Statikus, háromnyelvű (HU alap, EN, 中文). Token-vezérelt (brand-tokens.yaml).
@@ -13,4 +14,5 @@ export default defineConfig({
     },
   },
   build: { format: 'directory', assets: 'assets' },
+  integrations: [sitemap()],
 });
