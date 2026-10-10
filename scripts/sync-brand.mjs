@@ -35,6 +35,9 @@ if (!fs.existsSync(tokensPath)) {
   process.exit(1);
 }
 
+// Koreai titulus-fallback (amíg a tokenekben nincs title_ko).
+const KO_TITLES = { 'alapító, irodavezető ügyvéd': '설립자 겸 대표변호사', 'ügyvéd': '변호사', 'ügyvédjelölt': '변호사 시보' };
+
 const T = yamlLoad(fs.readFileSync(tokensPath, 'utf8'));
 const c = T.colors || {};
 const hex = (k, fallback) => (c[k] && c[k].hex) || fallback;
@@ -43,7 +46,8 @@ const data = {
   _generatedAt: new Date().toISOString(),
   _source: 'czudar-brand/brand-tokens.yaml',
   brand: {
-    name: { hu: T.brand.name_hu, en: T.brand.name_en, zh: T.brand.name_zh },
+    // a 한국어 név/tagline nincs (még) a tokenekben — fallback, amíg a brand-tokens.yaml nem kap name_ko / tagline_ko mezőt:
+    name: { hu: T.brand.name_hu, en: T.brand.name_en, zh: T.brand.name_zh, ko: T.brand.name_ko || 'Czudar DHH 법률사무소' },
     networkLabel: T.brand.network_label,
     networkParent: { latin: 'Beijing DHH Law Firm', zh: T.brand.network_parent_zh || '北京德和衡' },
     networkFooter: (T.documents && T.documents.network_footer) || 'DHH Budapest Office · 北京德和衡',
@@ -52,6 +56,7 @@ const data = {
       en: T.brand.tagline_en,
       // a 中文 tagline nincs a tokenekben (szerkesztői tartalom) — fallback:
       zh: T.brand.tagline_zh || '量身定制的法律解决方案 —— 高效、优化的法律保护。',
+      ko: T.brand.tagline_ko || '고객 맞춤형 법률 솔루션 — 효율적이고 최적화된 법적 보호.',
     },
     mottoZh: T.brand.motto_zh || null,
   },
@@ -79,8 +84,8 @@ const data = {
   },
   peopleTokens: (T.people || []).map((p) => ({
     slug: slugify(p.name_hu),
-    name: { hu: p.name_hu, en: p.name_en, zh: p.name_zh || p.name_en },
-    title: { hu: p.title_hu, en: p.title_en, zh: p.title_zh || p.title_en },
+    name: { hu: p.name_hu, en: p.name_en, zh: p.name_zh || p.name_en, ko: p.name_ko || p.name_en },
+    title: { hu: p.title_hu, en: p.title_en, zh: p.title_zh || p.title_en, ko: p.title_ko || KO_TITLES[p.title_hu] || p.title_en },
     email: p.email,
     mobile: p.mobile || null,
   })),
@@ -102,6 +107,7 @@ const css = `/* AUTOMATIKUSAN GENERÁLT a brand-tokens.yaml-ból — ne szerkesz
   `  --cinzel:'${f.cinzel}',Georgia,serif;\n` +
   `  --display:'${f.display}',Georgia,serif;\n` +
   `  --sans:'${f.body}',Arial,Helvetica,sans-serif;\n` +
-  `  --cjk:'Noto Serif SC',serif;--cjks:'Noto Sans SC',sans-serif;\n}\n`;
+  `  --cjk:'Noto Serif SC',serif;--cjks:'Noto Sans SC',sans-serif;\n` +
+  `  --kr:'Noto Serif KR',serif;--krs:'Noto Sans KR',sans-serif;\n}\n`;
 fs.writeFileSync(cssPath, css, 'utf8');
 console.log(`[sync-brand] OK → ${path.relative(root, outPath)} + ${path.relative(root, cssPath)} (${data.peopleTokens.length} munkatárs, forrás: ${path.relative(root, tokensPath)})`);

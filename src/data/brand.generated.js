@@ -8,7 +8,8 @@ export default {
     "name": {
       "hu": "Czudar DHH Ügyvédi Iroda",
       "en": "Czudar DHH Law Firm",
-      "zh": "德和衡（匈牙利）律师事务所"
+      "zh": "德和衡（匈牙利）律师事务所",
+      "ko": "Czudar DHH 법률사무소"
     },
     "networkLabel": "DHH Budapest Office",
     "networkParent": {
@@ -19,7 +20,8 @@ export default {
     "tagline": {
       "hu": "Jogi megoldások személyre szabva — hatékony és optimalizált jogvédelem.",
       "en": "Legal solutions, tailored — effective, optimised protection",
-      "zh": "量身定制的法律解决方案 —— 高效、优化的法律保护。"
+      "zh": "量身定制的法律解决方案 —— 高效、优化的法律保护。",
+      "ko": "고객 맞춤형 법률 솔루션 — 효율적이고 최적화된 법적 보호."
     },
     "mottoZh": "和實生物，同則不繼"
   },
@@ -57,12 +59,14 @@ export default {
       "name": {
         "hu": "dr. Czudar Balázs",
         "en": "dr. Balázs Czudar",
-        "zh": "dr. Balázs Czudar"
+        "zh": "dr. Balázs Czudar",
+        "ko": "dr. Balázs Czudar"
       },
       "title": {
         "hu": "alapító, irodavezető ügyvéd",
         "en": "founding partner, attorney at law",
-        "zh": "创始合伙人、主任律师"
+        "zh": "创始合伙人、主任律师",
+        "ko": "설립자 겸 대표변호사"
       },
       "email": "balazs.czudar@drczudar.hu",
       "mobile": null
@@ -72,12 +76,14 @@ export default {
       "name": {
         "hu": "dr. Simon Domokos",
         "en": "dr. Domokos Simon",
-        "zh": "dr. Domokos Simon"
+        "zh": "dr. Domokos Simon",
+        "ko": "dr. Domokos Simon"
       },
       "title": {
         "hu": "ügyvéd",
         "en": "attorney at law",
-        "zh": "律师"
+        "zh": "律师",
+        "ko": "변호사"
       },
       "email": "domokos.simon@drczudar.hu",
       "mobile": "+36 20 919 9050"
@@ -87,12 +93,14 @@ export default {
       "name": {
         "hu": "dr. Lőrincz-Csiri Anna",
         "en": "dr. Anna Lőrincz-Csiri",
-        "zh": "dr. Anna Lőrincz-Csiri"
+        "zh": "dr. Anna Lőrincz-Csiri",
+        "ko": "dr. Anna Lőrincz-Csiri"
       },
       "title": {
         "hu": "ügyvéd",
         "en": "attorney at law",
-        "zh": "律师"
+        "zh": "律师",
+        "ko": "변호사"
       },
       "email": "anna.lorincz@drczudar.hu",
       "mobile": "+36 20 228 1985"
