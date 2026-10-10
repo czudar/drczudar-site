@@ -1,11 +1,11 @@
 import { defineCollection, z } from 'astro:content';
 
-// Blog / szakmai publikációk. Fájlnév-konvenció: <slug>.<lang>.md (lang: hu|en|zh)
+// Blog / szakmai publikációk. Fájlnév-konvenció: <slug>.<lang>.md (lang: hu|en|zh|ko)
 const blog = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
-    lang: z.enum(['hu', 'en', 'zh']),
+    lang: z.enum(['hu', 'en', 'zh', 'ko']),
     key: z.string(),
     date: z.coerce.date(),
     author: z.string().default('Czudar DHH'),

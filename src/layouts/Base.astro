@@ -11,8 +11,8 @@ const base = locale === 'hu' ? '' : `/${locale}`;
 const privHref = `${base}/adatvedelmi-tajekoztato`;
 const BP_BAR = 'https://bpugyvedikamara.hu/';
 const MU_BAR = 'https://www.magyarugyvedikamara.hu/';
-const privLabel = { hu: 'Adatvédelmi tájékoztató', en: 'Privacy notice', zh: '隐私声明' }[locale];
-const langHrefs = { hu: '/', en: '/en/', zh: '/zh/' };
+const privLabel = { hu: 'Adatvédelmi tájékoztató', en: 'Privacy notice', zh: '隐私声明', ko: '개인정보 처리방침' }[locale];
+const langHrefs = { hu: '/', en: '/en/', zh: '/zh/', ko: '/ko/' };
 const navItems = [
   [`${homeHref}#about`, t.nav.about], [`${homeHref}#practice`, t.nav.practice],
   [`${homeHref}#team`, t.nav.team], [`${base}/blog`, t.nav.blog], [`${homeHref}#contact`, t.nav.contact],
@@ -32,6 +32,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
   <link rel="alternate" hreflang="hu" href={new URL('/', Astro.site).href} />
   <link rel="alternate" hreflang="en" href={new URL('/en/', Astro.site).href} />
   <link rel="alternate" hreflang="zh" href={new URL('/zh/', Astro.site).href} />
+  <link rel="alternate" hreflang="ko" href={new URL('/ko/', Astro.site).href} />
   <link rel="alternate" hreflang="x-default" href={new URL('/', Astro.site).href} />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content={brand.name[locale]} />
@@ -44,7 +45,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
   <link rel="apple-touch-icon" href="/dhh-mark.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Libre+Franklin:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@500;700&family=Noto+Sans+SC:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Libre+Franklin:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@500;700&family=Noto+Sans+SC:wght@400;500&family=Noto+Serif+KR:wght@500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" />
 </head>
 <body>
   <a class="skip" href="#main">{t.skipToContent}</a>
@@ -83,6 +84,9 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
         </Fragment>)}
         {locale === 'zh' && (<Fragment>
           本网站由 {brand.name[locale]} 维护，该所是在<a href={BP_BAR} target="_blank" rel="noopener">布达佩斯律师公会</a>注册的律师事务所，并遵守适用于律师的法律法规及内部规章；上述规定连同有关客户权利的信息，可在<a href={MU_BAR} target="_blank" rel="noopener">匈牙利全国律师公会</a>网站查阅。有关律师网站内容与呈现的规定，载于匈牙利全国律师公会制定的关于律师职业道德规则与要求的规章。本网站信息仅供一般参考，不构成要约或法律意见。
+        </Fragment>)}
+        {locale === 'ko' && (<Fragment>
+          본 웹사이트는 <a href={BP_BAR} target="_blank" rel="noopener">부다페스트 변호사회</a>(Budapesti Ügyvédi Kamara)에 등록된 법률사무소인 {brand.name[locale]}가 변호사에게 적용되는 법령 및 내부 규정에 따라 운영합니다. 해당 법령과 규정은 의뢰인의 권리에 관한 안내와 함께 <a href={MU_BAR} target="_blank" rel="noopener">헝가리 변호사협회</a>(Magyar Ügyvédi Kamara) 웹사이트에서 확인하실 수 있습니다. 변호사 웹사이트의 내용 및 표현 방식에 관한 사항은 헝가리 변호사협회가 제정한 변호사 직업윤리 규칙 및 요구사항에 관한 규정에서 정하고 있습니다. 본 웹사이트에 게재된 정보는 일반적인 정보 제공만을 목적으로 하며, 청약이나 법률 자문에 해당하지 않습니다.
         </Fragment>)}
       </p>
       <p style="margin-top:8px"><a href={privHref} style="color:var(--gold-soft)">{privLabel}</a> · <button type="button" id="cookie-settings" class="foot-cookie">{cookie.settings[locale]}</button></p>

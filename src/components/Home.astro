@@ -16,8 +16,8 @@ let posts = await getCollection('blog', (p) => p.data.lang === locale && !p.data
 posts = posts.sort((a, b) => b.data.date - a.data.date).slice(0, 4).map((p) => ({
   key: p.data.key, date: p.data.date, title: p.data.title, excerpt: p.data.excerpt,
 }));
-const viewAll = { hu: 'Összes cikk →', en: 'All insights →', zh: '查看全部 →' }[locale];
-const dateFmt = (d) => new Date(d).toLocaleDateString(locale === 'zh' ? 'zh-CN' : locale === 'en' ? 'en-GB' : 'hu-HU', { year: 'numeric', month: 'long', day: 'numeric' });
+const viewAll = { hu: 'Összes cikk →', en: 'All insights →', zh: '查看全部 →', ko: '전체 글 보기 →' }[locale];
+const dateFmt = (d) => new Date(d).toLocaleDateString(locale === 'zh' ? 'zh-CN' : locale === 'ko' ? 'ko-KR' : locale === 'en' ? 'en-GB' : 'hu-HU', { year: 'numeric', month: 'long', day: 'numeric' });
 const initials = (n) => n.replace('dr. ', '').split(' ').map(w => w[0]).join('').slice(0,2).toUpperCase();
 ---
 <!-- HERO -->
@@ -53,7 +53,7 @@ const initials = (n) => n.replace('dr. ', '').split(' ').map(w => w[0]).join('')
 <!-- TEAM PHOTO BAND -->
 <section class="teamband">
   <div class="teamband-frame">
-    <img src="/team.jpg" alt={locale==='hu' ? 'A Czudar DHH Ügyvédi Iroda csapata — Budapest' : locale==='en' ? 'The Czudar DHH Law Firm team — Budapest' : '德和衡（匈牙利）律师事务所团队 — 布达佩斯'} />
+    <img src="/team.jpg" alt={{ hu: 'A Czudar DHH Ügyvédi Iroda csapata — Budapest', en: 'The Czudar DHH Law Firm team — Budapest', zh: '德和衡（匈牙利）律师事务所团队 — 布达佩斯', ko: 'Czudar DHH 법률사무소 구성원 — 부다페스트' }[locale]} />
   </div>
 </section>
 

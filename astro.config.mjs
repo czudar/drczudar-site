@@ -2,15 +2,15 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 // drczudar.hu — Czudar DHH Ügyvédi Iroda
-// Statikus, háromnyelvű (HU alap, EN, 中文). Token-vezérelt (brand-tokens.yaml).
+// Statikus, négynyelvű (HU alap, EN, 中文, 한국어). Token-vezérelt (brand-tokens.yaml).
 export default defineConfig({
   site: 'https://www.drczudar.hu',
   trailingSlash: 'ignore',
   i18n: {
     defaultLocale: 'hu',
-    locales: ['hu', 'en', 'zh'],
+    locales: ['hu', 'en', 'zh', 'ko'],
     routing: {
-      prefixDefaultLocale: false, // HU: /, EN: /en/, ZH: /zh/
+      prefixDefaultLocale: false, // HU: /, EN: /en/, ZH: /zh/, KO: /ko/
     },
   },
   build: { format: 'directory', assets: 'assets' },

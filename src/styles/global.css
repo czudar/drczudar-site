@@ -5,6 +5,7 @@ html{scroll-behavior:smooth}
 [id]{scroll-margin-top:88px} /* a sticky fejléc ne takarja el a horgonyra ugró szakaszcímeket */
 body{margin:0;font-family:var(--sans);color:var(--ink);background:var(--ivory);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
 :lang(zh){font-family:var(--cjks),var(--sans)}
+:lang(ko){font-family:var(--sans),var(--krs);word-break:keep-all;overflow-wrap:anywhere} /* 한국어: latin betűk a márkabetűvel, hangul Noto Sans KR; szó közben nem tör */
 img{max-width:100%;display:block}
 a{color:var(--navy);text-decoration:none}
 a:hover{text-decoration:underline}
@@ -15,6 +16,10 @@ h1{font-size:clamp(32px,5vw,52px)}
 h2{font-size:clamp(26px,3.4vw,38px)}
 h3{font-size:20px}
 :lang(zh) h1,:lang(zh) h2,:lang(zh) h3{font-family:var(--cjk),var(--display)}
+:lang(ko) h1,:lang(ko) h2,:lang(ko) h3{font-family:var(--display),var(--kr);line-height:1.28}
+:lang(ko) .eyebrow{letter-spacing:.12em}
+:lang(ko) .article .lead{font-family:var(--display),var(--kr)}
+:lang(ko) .article .body h3{font-family:var(--sans),var(--krs)}
 p{margin:0 0 1em}
 .skip{position:absolute;left:-9999px}
 .skip:focus{left:16px;top:12px;background:var(--navy);color:#fff;padding:8px 14px;border-radius:6px;z-index:200}
@@ -159,6 +164,7 @@ section.alt .post{background:#fff}
 .net-n{font-family:var(--display);font-size:clamp(34px,4vw,44px);font-weight:600;color:var(--gold-soft);line-height:1}
 .net-l{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#cdd6e6}
 :lang(zh) .net-l{letter-spacing:.06em;text-transform:none}
+:lang(ko) .net-l{letter-spacing:.04em;text-transform:none}
 @media(max-width:820px){
   .net-grid{grid-template-columns:1fr;gap:30px}
 }
