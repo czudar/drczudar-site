@@ -143,6 +143,12 @@ section.alt .post{background:#fff}
 .article .body p{margin:0 0 1.05em}
 .article .body ul,.article .body ol{margin:0 0 1.05em 1.2em}
 .article .body li{margin:.3em 0}
+.article .body h4{font-family:var(--sans);font-size:16px;color:var(--navy);margin:1.1em 0 .3em}
+:lang(ko) .article .body h4{font-family:var(--sans),var(--krs)}
+.article .body li>ul{margin:.3em 0 .3em 1.2em}
+.article .body ul.alpha{list-style:none;margin-left:0}
+.article .body h2[id],.article .body h3[id],.article .body h4[id]{scroll-margin-top:90px}
+.article.notice .meta{margin-bottom:18px}
 .article .backlink{display:inline-block;margin-bottom:24px;color:var(--navy);font-size:14px;font-weight:600}
 /* Blogcikk táblázatok — mobilon vízszintesen görgethető, nem törik szét */
 .article .body table{display:block;width:100%;max-width:100%;overflow-x:auto;border-collapse:collapse;font-size:14.5px;-webkit-overflow-scrolling:touch}
