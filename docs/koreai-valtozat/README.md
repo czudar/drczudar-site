@@ -1,5 +1,7 @@
 # Koreai (한국어) nyelvi változat — dokumentáció · 2026-10-11
 
+> Az adatkezelési tájékoztató (2026/2) külön dokumentációja: `docs/adatkezelesi-tajekoztato/README.md`. A lektori napló és a szószedet a régi `ko/adatvedelmi-tajekoztato.astro` fájlra hivatkozik; az oldal új helye `src/pages/ko/data-processing-notice.astro`.
+
 A `/ko/` nyelvi változat háttéranyaga jövőbeli munkamenetekhez. A honlapra nem kerül ki (az Astro csak a `src/` és `public/` tartalmát építi).
 
 - `szoszedet.md` — magyar–koreai szószedet és konvenciók (hatóságok, jogszabályok, nevek, összegek). Minden sor jelölve: A = koreai forrásból igazolt, R = átírási szabály szerinti, B = legjobb megfeleltetés.
@@ -20,7 +22,11 @@ A `/ko/` nyelvi változat háttéranyaga jövőbeli munkamenetekhez. A honlapra 
 | Ügyvédi titok | (변호사의) 직무상 비밀 | a szószedet 10. részének „변호사 비밀” sora elavult |
 | NAIH | 헝가리 국가 개인정보보호·정보자유청(NAIH) | a szószedet 2. részének sora elavult |
 | fellebbezés (Ákr.) | 행정상 불복신청(fellebbezés) | a szószedet „이의신청” sora elavult |
-| GDPR | 컨트롤러(개인정보처리자), 프로세서(수탁자), 정보주체, 감독기관; cím: 개인정보 처리방침 | a koreai adatvédelmi hatóság fordítása |
+| GDPR | 컨트롤러(개인정보처리자), 프로세서(수탁자), 정보주체, 감독기관 | a koreai adatvédelmi hatóság fordítása |
+| Tájékoztató címe | **개인정보 처리 안내** (önhivatkozás: 본 안내); a korábbi „개인정보 처리방침” elavult | MP-döntés, 2026-10-11 (2026/2-es Adatkezelési tájékoztató) |
+| Jogszabályhely | 「변호사 업무에 관한 2017년 법률 제LXXVIII호」(Üttv.) 제53조 제(3)항; GDPR 제6조 제(1)항 (b)호 | MP-döntés, 2026-10-11; a szószedet korábbi „변호사 활동에 관한 법률” sora elavult |
+| Belső utalás a tájékoztatóban | „위 4.1.”, „아래 9.” (nem 제…항) | ne keveredjen a jogszabályi 항-nal |
+| Címzettnek átadás / harmadik országba továbbítás | 제공 / 이전 | koreai adatvédelmi szóhasználat |
 | Bírság | közigazgatási = 과징금; eljárási = 절차 과태료; 벌금 csak büntetőjogi | |
 | Összegek | millió = 100만, milliárd = 10억; „포린트”, „유로” | |
 | Cikkek célközönsége | marad az eredeti | fordítás, nem átírás |

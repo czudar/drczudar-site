@@ -13,6 +13,14 @@ export default defineConfig({
       prefixDefaultLocale: false, // HU: /, EN: /en/, ZH: /zh/, KO: /ko/
     },
   },
+  // Az „Adatvédelmi tájékoztató” 2026/2-től „Adatkezelési tájékoztató”; a régi címek
+  // átirányítanak (statikus buildben: meta-refresh + canonical az új címre).
+  redirects: {
+    '/adatvedelmi-tajekoztato': '/adatkezelesi-tajekoztato/',
+    '/en/adatvedelmi-tajekoztato': '/en/data-processing-notice/',
+    '/zh/adatvedelmi-tajekoztato': '/zh/data-processing-notice/',
+    '/ko/adatvedelmi-tajekoztato': '/ko/data-processing-notice/',
+  },
   build: { format: 'directory', assets: 'assets' },
   integrations: [sitemap()],
 });

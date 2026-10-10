@@ -2,17 +2,19 @@
 import '../styles/brand.generated.css';
 import '../styles/global.css';
 import { brand, office } from '../data/brand.js';
-import { ui, network, cookie } from '../data/content.js';
+import { ui, network, cookie, notice } from '../data/content.js';
 
-const { locale = 'hu', title, description, path = '' } = Astro.props;
+// alternates: nyelvenkénti útvonal-térkép a hreflang-hoz (alapértelmezés: a nyelvi főoldalak).
+const { locale = 'hu', title, description, path = '', alternates } = Astro.props;
 const t = ui[locale];
 const homeHref = locale === 'hu' ? '/' : `/${locale}/`;
 const base = locale === 'hu' ? '' : `/${locale}`;
-const privHref = `${base}/adatvedelmi-tajekoztato`;
+const privHref = notice.path[locale];
 const BP_BAR = 'https://bpugyvedikamara.hu/';
 const MU_BAR = 'https://www.magyarugyvedikamara.hu/';
-const privLabel = { hu: 'Adatvédelmi tájékoztató', en: 'Privacy notice', zh: '隐私声明', ko: '개인정보 처리방침' }[locale];
+const privLabel = notice.title[locale];
 const langHrefs = { hu: '/', en: '/en/', zh: '/zh/', ko: '/ko/' };
+const alt = alternates || langHrefs;
 const navItems = [
   [`${homeHref}#about`, t.nav.about], [`${homeHref}#practice`, t.nav.practice],
   [`${homeHref}#team`, t.nav.team], [`${base}/blog`, t.nav.blog], [`${homeHref}#contact`, t.nav.contact],
@@ -29,11 +31,10 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
   <title>{fullTitle}</title>
   <meta name="description" content={desc} />
   <link rel="canonical" href={canonical} />
-  <link rel="alternate" hreflang="hu" href={new URL('/', Astro.site).href} />
-  <link rel="alternate" hreflang="en" href={new URL('/en/', Astro.site).href} />
-  <link rel="alternate" hreflang="zh" href={new URL('/zh/', Astro.site).href} />
-  <link rel="alternate" hreflang="ko" href={new URL('/ko/', Astro.site).href} />
-  <link rel="alternate" hreflang="x-default" href={new URL('/', Astro.site).href} />
+  {Object.entries(alt).map(([lc, href]) => (
+    <link rel="alternate" hreflang={lc} href={new URL(href, Astro.site).href} />
+  ))}
+  <link rel="alternate" hreflang="x-default" href={new URL(alt.hu, Astro.site).href} />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content={brand.name[locale]} />
   <meta property="og:title" content={fullTitle} />
@@ -58,7 +59,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
       <nav class="nav" id="nav">
         {navItems.map(([href, label]) => <a href={href}>{label}</a>)}
         <span class="langs">
-          {Object.entries(langHrefs).map(([lc, href]) => (
+          {Object.entries(alt).map(([lc, href]) => (
             <a href={href} aria-current={lc === locale ? 'true' : undefined} hreflang={lc}>{lc.toUpperCase()}</a>
           ))}
         </span>
