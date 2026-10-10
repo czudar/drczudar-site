@@ -131,13 +131,15 @@ export const home = {
 };
 
 // DHH nemzetközi hálózat — szerkesztői/brand blokk.
-// Forrás: DeHeng hivatalos angol portál (dehenglaw.com/EN) + központi honlap (deheheng.com).
-// Adatok (2026): alapítva 1993, 49 belföldi + 18 tengerentúli iroda (60+); az ügyvédszám a honlapon MP-döntés szerint 4000+.
+// Forrás: KIZÁRÓLAG a DHH saját honlapja (deheheng.com) — MP-döntés, 2026-10-11.
+// Adatok (lekérdezve 2026-10-11): alapítva 2010 (enUS/about/jianjie); „50+ iroda”, „2000+ ügyvéd” (főoldal és about);
+// 41 kínai + 16 tengerentúli iroda Ázsiában, Európában, Észak-Amerikában és Óceániában = 4 kontinens (enUS/organization).
+// FIGYELEM: a dehenglaw.com NEM a DHH, hanem a 德恒 (DeHeng Law Offices) — másik iroda; oda link nem mutathat.
 // MEGJEGYZÉS (VIS-D15, tenant-ready): a hálózati hovatartozás iroda-specifikus brand-adat;
 // éles brand-tokens.yaml frissítéskor ez a blokk promótálható a tokenekbe.
 export const network = {
-  // A központi DHH-honlapok: EN → nemzetközi angol portál, ZH → kínai központi honlap.
-  url: { hu: 'https://www.dehenglaw.com/en/', en: 'https://www.dehenglaw.com/en/', zh: 'https://www.deheheng.com/', ko: 'https://www.deheheng.com/enUS/about/jianjie' },
+  // A DHH saját honlapja: ZH → kínai főoldal; HU/EN/KO → ugyanennek az angol nyelvű bemutatkozó oldala (a főoldal csak kínaiul érhető el).
+  url: { hu: 'https://www.deheheng.com/enUS/about/jianjie', en: 'https://www.deheheng.com/enUS/about/jianjie', zh: 'https://www.deheheng.com/', ko: 'https://www.deheheng.com/enUS/about/jianjie' },
   parentName: { hu: 'Beijing DHH Law Firm', en: 'Beijing DHH Law Firm', zh: '北京德和衡律师事务所', ko: '베이징 DHH 법률사무소' },
   hu: {
     eyebrow: 'Nemzetközi háló',
@@ -145,9 +147,9 @@ export const network = {
     tagline: 'Helyi jelenlét. Globális kapcsolatok.',
     body: 'Irodánk átfogó jogi támogatást nyújt hazai vállalatoknak, állami és önkormányzati szervezeteknek, valamint nemzetközi ügyfeleknek — magyar és angol nyelven. Kínai és tágabb ázsiai vonatkozású ügyekben a Beijing DHH Law Firm (北京德和衡) hálózatának ügyvédeivel együttműködve kínai nyelvi és nemzetközi szakmai támogatást biztosítunk. A Beijing DHH Law Firm (北京德和衡) budapesti irodájaként egyaránt segítjük az ázsiai piacra lépő hazai cégeket és a Magyarországon keresztül az Európai Unióba terjeszkedő ázsiai befektetőket.',
     stats: [
-      { n: '1993', l: 'alapítva' },
-      { n: '60+', l: 'iroda világszerte' },
-      { n: '4000+', l: 'ügyvéd' },
+      { n: '2010', l: 'alapítva' },
+      { n: '50+', l: 'iroda világszerte' },
+      { n: '2000+', l: 'ügyvéd' },
       { n: '4', l: 'kontinens' },
     ],
     cta: 'A DHH nemzetközi hálózata',
@@ -158,9 +160,9 @@ export const network = {
     tagline: 'Local presence. Global connections.',
     body: 'Our firm provides comprehensive legal support to domestic companies, state and municipal bodies, and international clients — in Hungarian and English. On China- and wider Asia-related matters, we work with lawyers across the Beijing DHH Law Firm (北京德和衡) network to provide Chinese-language and international expertise. As the Budapest office of the Beijing DHH Law Firm, we support both domestic companies entering Asian markets and Asian investors expanding into the European Union through Hungary.',
     stats: [
-      { n: '1993', l: 'founded' },
-      { n: '60+', l: 'offices worldwide' },
-      { n: '4,000+', l: 'lawyers' },
+      { n: '2010', l: 'founded' },
+      { n: '50+', l: 'offices worldwide' },
+      { n: '2,000+', l: 'lawyers' },
       { n: '4', l: 'continents' },
     ],
     cta: 'Explore the DHH network',
@@ -171,9 +173,9 @@ export const network = {
     tagline: '立足本地，联通全球。',
     body: '我们为匈牙利本地企业、国家与地方公共机构以及国际客户提供全面的法律服务——以匈牙利语和英语沟通。涉及中国及更广泛亚洲事务时，我们与北京德和衡律师事务所网络的律师协作，提供中文及国际专业支持。作为北京德和衡律师事务所的布达佩斯办公室，我们既协助进入亚洲市场的匈牙利本地企业，也协助经由匈牙利进入欧盟的亚洲投资者。',
     stats: [
-      { n: '1993', l: '成立' },
-      { n: '60+', l: '全球办公室' },
-      { n: '4000+', l: '名律师' },
+      { n: '2010', l: '成立' },
+      { n: '50+', l: '全球办公室' },
+      { n: '2000+', l: '名律师' },
       { n: '4', l: '大洲' },
     ],
     cta: '了解德和衡全球网络',
@@ -184,9 +186,9 @@ export const network = {
     tagline: '현지에 뿌리내리고, 세계와 연결됩니다.',
     body: '저희 사무소는 헝가리 국내 기업, 국가기관 및 지방자치단체, 그리고 해외 고객에게 헝가리어와 영어로 종합적인 법률 지원을 제공합니다. 중국 및 아시아 전반과 관련된 사안에서는 베이징 DHH 법률사무소(北京德和衡) 네트워크 소속 변호사들과 협력하여 중국어 지원과 국제적 전문성을 제공합니다. 베이징 DHH 법률사무소(北京德和衡)의 부다페스트 사무소로서, 아시아 시장에 진출하는 헝가리 기업과 헝가리를 거점으로 유럽연합(EU)에 진출하는 아시아 투자자를 모두 지원합니다.',
     stats: [
-      { n: '1993', l: '설립 연도' },
-      { n: '60+', l: '전 세계 사무소' },
-      { n: '4,000+', l: '소속 변호사' },
+      { n: '2010', l: '설립 연도' },
+      { n: '50+', l: '전 세계 사무소' },
+      { n: '2,000+', l: '소속 변호사' },
       { n: '4', l: '대륙' },
     ],
     cta: 'DHH 글로벌 네트워크 살펴보기',
