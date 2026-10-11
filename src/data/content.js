@@ -216,6 +216,19 @@ export const contact = {
   followUs: { hu: 'Kövessen minket', en: 'Follow us', zh: '关注我们', ko: '소셜 미디어' },
 };
 
+// Adatkezelési tájékoztató — a dokumentum neve és útvonala nyelvenként (egyetlen forrás:
+// lábléc, cookie-sáv, hreflang, nyelvváltó). A régi /…/adatvedelmi-tajekoztato címek
+// átirányítása az astro.config.mjs `redirects` blokkjában van.
+export const notice = {
+  title: { hu: 'Adatkezelési tájékoztató', en: 'Data Processing Notice', zh: '数据处理告知书', ko: '개인정보 처리 안내' },
+  path: {
+    hu: '/adatkezelesi-tajekoztato/',
+    en: '/en/data-processing-notice/',
+    zh: '/zh/data-processing-notice/',
+    ko: '/ko/data-processing-notice/',
+  },
+};
+
 // Cookie-hozzájárulás — a honlap maga nem tesz le cookie-t; a beágyazott Google Térkép
 // hozzájárulás nélkül nem töltődik be (adatvédő alapértelmezés). A döntés a böngésző
 // helyi tárolójában marad, nem kerül harmadik félhez.
@@ -229,7 +242,7 @@ export const cookie = {
   accept: { hu: 'Elfogadom', en: 'Accept', zh: '接受', ko: '동의' },
   reject: { hu: 'Elutasítom', en: 'Decline', zh: '拒绝', ko: '거부' },
   settings: { hu: 'Cookie-beállítások', en: 'Cookie settings', zh: 'Cookie 设置', ko: '쿠키 설정' },
-  more: { hu: 'Adatvédelmi tájékoztató', en: 'Privacy notice', zh: '隐私声明', ko: '개인정보 처리방침' },
+  more: notice.title,
   mapNotice: {
     hu: 'A térkép a Google-tól töltődik be, amely cookie-kat helyezhet el.',
     en: 'The map loads from Google, which may set cookies.',

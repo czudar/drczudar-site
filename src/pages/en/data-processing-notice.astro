@@ -1,0 +1,341 @@
+---
+import Base from '../../layouts/Base.astro';
+import { brand, office } from '../../data/brand.js';
+import { notice } from '../../data/content.js';
+// Data Processing Notice — 2026/2 (effective: 2026-10-12). English translation of the final Hungarian
+// text approved by the MP (src/pages/adatkezelesi-tajekoztato.astro), which it follows VERBATIM in
+// structure and content; substantive changes may only be made on the basis of a newly approved text.
+const locale = 'en';
+const name = brand.name[locale];
+const mail = `mailto:${office.email}`;
+---
+<Base locale={locale} alternates={notice.path} title={`${notice.title[locale]} | ${name}`} description={`Data processing notice of ${name} (2026/2): the personal data processed, the purposes and legal bases of processing, the retention periods, the processors, the rights of data subjects and the remedies available.`}>
+  <article class="article notice">
+    <a class="backlink" href="/en/">← Back to home</a>
+    <h1>Data Processing Notice</h1>
+    <p class="meta"><em>Effective from 12 October 2026 · Version: 2026/2 · The previous version was effective from 20 September 2026.</em></p>
+    <div class="body">
+
+      <h2 id="s1">1. The controller</h2>
+      <p><strong>{brand.name.hu}</strong> ({name}; hereinafter: the “Firm”)</p>
+      <ul>
+        <li>Registered seat: 1054 Budapest, Szemere utca 23. I/1.</li>
+        <li>Branch office: {office.branchAddress}</li>
+        <li>Bar registration: {office.bar} (Budapest Bar Association), {office.barRegNo}</li>
+        <li>Tax number: 19322016-2-41</li>
+        <li>E-mail: <a href={mail}>{office.email}</a></li>
+        <li>Telephone: {office.phone}</li>
+        <li>Company Gate (Cégkapu): 19322016#cegkapu</li>
+      </ul>
+      <p><strong>Data protection officer.</strong> Under Article 37 of the General Data Protection Regulation (Regulation (EU) 2016/679 of the European Parliament and of the Council; “GDPR”), the Firm is not required to designate a data protection officer and does not designate one. In data protection matters the Firm may be contacted using the contact details above.</p>
+
+      <h2 id="s2">2. Scope of the notice</h2>
+      <p>This notice applies to the personal data processed by the Firm, in particular</p>
+      <ul class="alpha">
+        <li><strong>(a)</strong> the data of visitors to the website and of persons contacting the Firm (enquiry, appointment booking);</li>
+        <li><strong>(b)</strong> the data of the Firm’s clients and of their representatives and contact persons;</li>
+        <li><strong>(c)</strong> the data of other persons that become known in the course of performing an engagement, in particular those of the opposing party, witnesses, contracting partners, beneficial owners and authorised representatives.</li>
+      </ul>
+      <p>The provision of information to the data subjects referred to in points (a)–(b) is governed by Article 13 GDPR, and to those referred to in point (c) by Article 14 GDPR; the limits on the provision of information are set out in Section 9.</p>
+
+      <h2 id="s3">3. Legal professional privilege</h2>
+      <p>Legal professional privilege (ügyvédi titok) covers every fact, item of information and data of which the Firm has become aware in the course of practising the activities of an attorney-at-law. The duty of confidentiality continues to apply without limitation in time after the activities of an attorney-at-law have ended and the engagement has terminated (Section 9(1), (2) and (4) of Act LXXVIII of 2017 on Attorneys-at-Law (Üttv.)).</p>
+
+      <h2 id="s4">4. The individual processing operations</h2>
+
+      <h3 id="s4-1">4.1. Enquiries (e-mail, telephone)</h3>
+      <ul>
+        <li><strong>Data processed:</strong> name, e-mail address, telephone number, content of the message.</li>
+        <li><strong>Purpose:</strong> responding to the enquiry, preparing the engagement.</li>
+        <li><strong>Legal basis:</strong> taking steps at the request of the data subject prior to entering into a contract (Article 6(1)(b) GDPR).</li>
+        <li><strong>Retention:</strong>
+          <ul>
+            <li>if no engagement is established, for one year from the closing of the enquiry;</li>
+            <li>if an engagement is established, in accordance with Section 4.5.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3 id="s4-2">4.2. Online appointment booking</h3>
+      <ul>
+        <li><strong>Data processed:</strong> name, contact details, date, time and subject of the booking.</li>
+        <li><strong>Tool:</strong> the booking is made through the Google Calendar service; Google acts as a processor.</li>
+        <li><strong>Legal basis:</strong> Article 6(1)(b) GDPR.</li>
+        <li><strong>Retention:</strong> in accordance with Section 4.1.</li>
+      </ul>
+
+      <h3 id="s4-3">4.3. Client identification</h3>
+      <p><strong>Identification before the engagement.</strong> Except in the case of an engagement for legal advice, the Firm identifies the client and the person acting on the client’s behalf before the engagement agreement is concluded. A natural person whom the Firm does not know, or as to whose identity a doubt arises, is identified by one of the following (Section 32(1)–(2) Üttv.):</p>
+      <ul>
+        <li>by inspecting that person’s document suitable for personal identification; or</li>
+        <li>by electronic identification as specified by law.</li>
+      </ul>
+      <p><strong>Identification before countersignature.</strong> Before countersigning a document serving as the basis for an entry in an authentic public register, the Firm identifies every person or organisation making a legal declaration, and their representatives (Section 32(7) Üttv.).</p>
+      <p><strong>Verification from the registers.</strong> In order to verify the validity of the documents and the conformity of the data, the Firm may request data by electronic means from the authentic public registers specified by law (Section 32(3) Üttv.). Such data may be:</p>
+      <ul>
+        <li>natural person identification data;</li>
+        <li>nationality;</li>
+        <li>address;</li>
+        <li>facial image;</li>
+        <li>signature;</li>
+        <li>document data.</li>
+      </ul>
+      <p><strong>Legal basis:</strong> compliance with a legal obligation (Article 6(1)(c) GDPR; Section 32 Üttv.).</p>
+
+      <h3 id="s4-4">4.4. Client register and customer due diligence</h3>
+      <p><strong>Client register.</strong> In matters in which legal representation is mandatory, the Firm keeps a register of the natural persons, legal persons and other organisations identified (Section 33(1) Üttv.). The data in the register (Section 33(2) and (4) Üttv.):</p>
+      <ul>
+        <li><strong>in the case of a natural person:</strong>
+          <ul>
+            <li>natural person identification data;</li>
+            <li>address;</li>
+            <li>nationality or legal status;</li>
+            <li>type and number of the identification document;</li>
+            <li>identifier of the electronic data request;</li>
+            <li>the matter identifier;</li>
+          </ul>
+        </li>
+        <li><strong>in the case of an organisation:</strong>
+          <ul>
+            <li>name and registered seat;</li>
+            <li>company registration number or registration number;</li>
+            <li>identification data of the representative;</li>
+            <li>the matter identifier;</li>
+          </ul>
+        </li>
+        <li><strong>in both cases:</strong> the data specified in the act on the prevention of money laundering.</li>
+      </ul>
+      <p><strong>Customer due diligence.</strong> In matters falling within the scope of Act LIII of 2017 on the Prevention and Combating of Money Laundering and Terrorist Financing (Pmt.), the Firm carries out customer due diligence. This includes:</p>
+      <ul>
+        <li>establishing the beneficial owner;</li>
+        <li>examining politically exposed person status;</li>
+        <li>checking the sanctions lists.</li>
+      </ul>
+      <p>The declarations made by the client in the course of the due diligence are recorded by the Firm on a separate data sheet.</p>
+      <p><strong>Legal basis:</strong> compliance with a legal obligation (Article 6(1)(c) GDPR; Section 33 Üttv.; Pmt.).</p>
+      <p><strong>Retention:</strong></p>
+      <ul>
+        <li><strong>eight years</strong> from the termination of the business relationship or from the execution of the transaction order (Sections 56(2) and 57(2) Pmt.; Section 33(7) Üttv.);</li>
+        <li>at the request of the bodies entitled to make such a request, for a maximum of <strong>ten years</strong> (Section 58(1) Pmt.).</li>
+      </ul>
+      <p>Upon expiry of the retention period, the Firm erases the data and destroys the documents without delay (Section 57(4) Pmt.).</p>
+
+      <h3 id="s4-5">4.5. Register of matters, performance of the engagement and retention of documents</h3>
+
+      <h4 id="s4-5-a">Register of matters</h4>
+      <p>The Firm keeps a register of the matters handled on the basis of an engagement (Section 53(1) Üttv.). The data in the register:</p>
+      <ul>
+        <li>the matter identifier;</li>
+        <li>the name of the client;</li>
+        <li>the subject of the matter;</li>
+        <li>the date on which the engagement agreement was concluded;</li>
+        <li>the case number or file reference number of the related proceedings.</li>
+      </ul>
+      <p>The Firm processes the data in the register for the following periods (Section 53(3) Üttv.):</p>
+      <ul>
+        <li>for <strong>five years</strong> following the termination of the engagement;</li>
+        <li>where a document has been countersigned, for <strong>ten years</strong> following the countersignature;</li>
+        <li>in a matter concerning the entry of a right relating to real estate in an authentic public register, for <strong>ten years</strong> from the entry of the right.</li>
+      </ul>
+      <p>The register may be inspected by the person or body carrying out the regulatory inspection by the bar association, by the substitute attorney and by the practice custodian (irodagondnok).</p>
+
+      <h4 id="s4-5-b">Performance of the engagement</h4>
+      <p>This includes the handling of matters, representation, the drafting of documents and the provision of advice.</p>
+      <ul>
+        <li><strong>Data processed:</strong> identification and contact data, and all data necessary for the performance of the engagement which the client hands over or which appear in the documents of the matter.</li>
+        <li><strong>Legal basis:</strong>
+          <ul>
+            <li>in the case of a natural person client, performance of the contract (Article 6(1)(b) GDPR);</li>
+            <li>in the case of the representatives and contact persons of a client that is a legal person or other organisation, the legitimate interest of the Firm and of the client in the communication necessary for the performance of the engagement (Article 6(1)(f) GDPR);</li>
+            <li>in respect of the document management and record-keeping prescribed by law, compliance with a legal obligation (Article 6(1)(c) GDPR).</li>
+          </ul>
+        </li>
+        <li><strong>Special categories of personal data</strong> (for example, health data): the Firm processes these to the extent necessary for the establishment, exercise or defence of legal claims (Article 9(2)(f) GDPR).</li>
+        <li><strong>Personal data relating to criminal convictions and offences:</strong> the Firm processes these exclusively within the scope of its activities as defence counsel or legal representative. The processing is carried out under the authorisation of Act XC of 2017 on Criminal Procedure and of the Üttv., subject to the safeguards of the attorney’s duty of confidentiality (Article 10 GDPR).</li>
+      </ul>
+
+      <h4 id="s4-5-c">Retention of documents</h4>
+      <p>The Firm retains the countersigned document, and the other documents created in the matter involving the countersignature of the document, for <strong>ten years</strong> from the countersignature (Section 53(5) Üttv.).</p>
+      <p>In other respects, the Firm retains the documents of the matter – in line with the document management rules of the Magyar Ügyvédi Kamara (Hungarian Bar Association) – in accordance with the disposal schedule laid down in the engagement agreement:</p>
+      <ul>
+        <li>where a document serving as the basis for an entry in an authentic public register was countersigned in the matter: until <strong>31 March of the 11th year</strong> from the termination of the engagement;</li>
+        <li>in the case of representation in litigation: until <strong>31 March of the 6th year</strong> from the termination of the engagement;</li>
+        <li>in other matters, in particular in the case of advice or the giving of a legal opinion: until <strong>31 March of the 2nd year</strong> from the termination of the engagement;</li>
+        <li>in the case of a testamentary disposition: until <strong>31 March of the 6th year</strong> following the date on which the order transferring the estate becomes final.</li>
+      </ul>
+      <p>Upon expiry of the retention period, the Firm erases or destroys the documents and the personal data. An exception applies where further processing is justified by law, by the keeping of a register prescribed by law, or by the exercise or defence of a legal claim.</p>
+
+      <h3 id="s4-6">4.6. Data of third persons that become known in the course of the engagement</h3>
+      <ul>
+        <li><strong>Data subjects:</strong> the opposing party, witnesses, contracting partners, beneficial owners, authorised representatives, and other persons appearing in the documents of the matter.</li>
+        <li><strong>Source of the data:</strong>
+          <ul>
+            <li>the client;</li>
+            <li>documents of authorities and courts;</li>
+            <li>the authentic public registers.</li>
+          </ul>
+        </li>
+        <li><strong>Legal basis:</strong>
+          <ul>
+            <li>the legitimate interest of the client and of the Firm in the exercise and protection of the client’s rights (Article 6(1)(f) GDPR);</li>
+            <li>in the case of a statutory obligation, Article 6(1)(c) GDPR;</li>
+            <li>in the case of special categories of personal data, Article 9(2)(f) GDPR.</li>
+          </ul>
+        </li>
+        <li><strong>Retention:</strong> in accordance with Section 4.5.</li>
+        <li><strong>Provision of information:</strong> the Firm does not inform these persons individually, as their data are confidential on the basis of the attorney’s duty of confidentiality (Article 14(5)(d) GDPR).</li>
+      </ul>
+
+      <h3 id="s4-7">4.7. Security documents</h3>
+      <p>The Firm keeps the register prescribed by law of the security documents used for the countersignature of documents.</p>
+      <ul>
+        <li><strong>Legal basis:</strong> compliance with a legal obligation (Article 6(1)(c) GDPR).</li>
+        <li><strong>Retention:</strong> for the period specified by law.</li>
+      </ul>
+
+      <h3 id="s4-8">4.8. Attorney escrow deposit</h3>
+      <p>Where the Firm manages an attorney escrow deposit (ügyvédi letét), it processes the deposit agreement, the identification data of the depositor and of the beneficiary, and the data relating to the deposit in accordance with the following:</p>
+      <ul>
+        <li>in the register prescribed by the Üttv. and by the deposit management regulations of the Magyar Ügyvédi Kamara;</li>
+        <li>by complying with the notification obligation prescribed by law.</li>
+      </ul>
+      <p>The management of deposits is inspected by the regional bar association, which may, in that context, inspect the data of the deposit account (Section 187(2) Üttv.).</p>
+      <ul>
+        <li><strong>Legal basis:</strong> compliance with a legal obligation and performance of the deposit agreement (Article 6(1)(b) and (c) GDPR).</li>
+        <li><strong>Retention:</strong>
+          <ul>
+            <li>the deposit agreement, for <strong>ten years</strong> from the termination of the agreement;</li>
+            <li>a document taken into deposit, until the termination of the deposit.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3 id="s4-9">4.9. Invoicing and bookkeeping</h3>
+      <ul>
+        <li><strong>Data processed:</strong> invoicing name and address, tax number, data relating to the fee.</li>
+        <li><strong>Legal basis:</strong> compliance with a legal obligation (Article 6(1)(c) GDPR; Act C of 2000 on Accounting; Act CXXVII of 2007 on Value Added Tax).</li>
+        <li><strong>Retention:</strong> for at least <strong>eight years</strong> (Section 169(2) of the Act on Accounting).</li>
+      </ul>
+
+      <h3 id="s4-10">4.10. Operation of the website</h3>
+      <p><strong>Hosting and server logs.</strong> The website is served by GitHub, Inc. (USA) by means of the GitHub Pages service and its content delivery network. The usual server logs are processed by GitHub in accordance with its own privacy statement; the Firm has no access to them. The data in the logs:</p>
+      <ul>
+        <li>IP address;</li>
+        <li>time;</li>
+        <li>the page requested;</li>
+        <li>browser data.</li>
+      </ul>
+      <p>Legal basis: legitimate interest in the secure operation of the website (Article 6(1)(f) GDPR).</p>
+      <p><strong>Embedded map.</strong> Google Maps loads only after the visitor has given consent (Article 6(1)(a) GDPR). Consent may be withdrawn at any time.</p>
+      <p><strong>Cookies.</strong> The Firm does not place any cookies of its own; it only stores the visitor’s cookie choice in the browser. The choice may be changed under “Cookie settings” in the footer.</p>
+      <p><strong>Social media sites.</strong> In the case of links to social media sites, the data processing rules of the provider concerned apply.</p>
+
+      <h2 id="s5">5. Tools based on artificial intelligence</h2>
+      <p>In the course of handling engagements, the Firm uses software tools based on artificial intelligence to prepare and support its work.</p>
+      <ul>
+        <li>These tools do not make any decision based solely on automated processing which produces legal effects concerning the data subject or similarly significantly affects the data subject (Article 22 GDPR).</li>
+        <li>Every substantive decision and every attorney work product is approved by an attorney.</li>
+        <li>Professional and legal liability, and the obligation to preserve legal professional privilege, rest exclusively with the Firm.</li>
+      </ul>
+      <p><strong>Areas of use:</strong></p>
+      <ul>
+        <li>organising and recording documents and matter data;</li>
+        <li>preparing deadlines (these are confirmed by two attorneys);</li>
+        <li>preparing internal summaries and draft texts.</li>
+      </ul>
+      <p><strong>Safeguards:</strong></p>
+      <ul>
+        <li>the Firm makes data covered by legal professional privilege accessible only to a provider with which it has concluded a data processing agreement and whose contractual terms restrict the use of the data to the provision of the service and exclude their use for model training;</li>
+        <li>the providers may engage a further processor only under conditions laid down in a contract and under the Firm’s control;</li>
+        <li>the Firm does not use public artificial intelligence services that learn from the data entered for data covered by legal professional privilege;</li>
+        <li>no client name, content of correspondence, personal data or amount is entered in the logs of the Firm’s systems.</li>
+      </ul>
+      <p>The Firm is not bound by the duty of confidentiality vis-à-vis a contributor engaged as a processor, to the extent necessary for the provision of the service provided by that contributor (Section 10(4)(a) Üttv.).</p>
+      <p><strong>Audio recording.</strong> An audio recording of a conversation with a client, or a machine transcript of such a recording, is made only if the data subject has been informed in advance and expressly, and has given documented consent to it (Article 6(1)(a) GDPR). In the absence of consent, no recording is made.</p>
+      <p><strong>Dispensing with AI.</strong> The client may request in writing (<a href={mail}>{office.email}</a>) that the Firm does not use any tool based on artificial intelligence in the client’s matter.</p>
+
+      <h2 id="s6">6. Processors</h2>
+      <table>
+        <thead>
+          <tr><th>Processor</th><th>Activity</th><th>Place of processing, transfer</th><th>Safeguard</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Google Ireland Ltd.</td><td>e-mail, document storage, calendar, appointment booking, map (Google Workspace)</td><td>EU; transfer to a third country is possible</td><td>data processing addendum (Cloud Data Processing Addendum); standard data protection clauses, EU–US Data Privacy Framework</td></tr>
+          <tr><td>Formagrid, Inc. (Airtable)</td><td>register of matters and deadlines</td><td>USA</td><td>signed data processing agreement; standard data protection clauses</td></tr>
+          <tr><td>GitHub, Inc.</td><td>hosting of the website, running of automated processes</td><td>USA</td><td>data processing agreement; EU–US Data Privacy Framework, standard data protection clauses</td></tr>
+          <tr><td>Anthropic Ireland, Limited</td><td>artificial intelligence service (API)</td><td>USA</td><td>data processing addendum; standard data protection clauses</td></tr>
+          <tr><td>OpenAI Ireland Ltd.</td><td>artificial intelligence service (API)</td><td>USA</td><td>signed data processing agreement; standard data protection clauses</td></tr>
+          <tr><td>Celonis, Inc. (Make)</td><td>workflow automation</td><td>EU (Ireland); the contracting party is based in the USA</td><td>data processing agreement; EU–US Data Privacy Framework, standard data protection clauses</td></tr>
+          <tr><td>Profixco Kft.</td><td>bookkeeping</td><td>Hungary</td><td>data processing agreement</td></tr>
+        </tbody>
+      </table>
+
+      <h2 id="s7">7. Recipients and data transfers</h2>
+      <p><strong>Authorities and other bodies.</strong> To the extent necessary for the performance of the engagement, the Firm may transfer data to the following:</p>
+      <ul>
+        <li>courts and authorities;</li>
+        <li>notaries;</li>
+        <li>bodies keeping authentic public registers;</li>
+        <li>the legal representative of the opposing party;</li>
+        <li>other bodies specified by law;</li>
+        <li>the bar association, in the context of a regulatory inspection by the bar association.</li>
+      </ul>
+      <p><strong>DHH network.</strong> The Firm does not transfer data collected through the website to the DHH network. In a specific engagement, a transfer within the network may take place only if two conditions are both met:</p>
+      <ul>
+        <li>the express authorisation of the client; and</li>
+        <li>a confidentiality declaration by the receiving party.</li>
+      </ul>
+      <p><strong>Transfers to third countries.</strong> A transfer of data to a country outside the European Economic Area (such as the United States of America or China) is based on one of the following:</p>
+      <ul>
+        <li>an adequacy decision under Article 45 GDPR (in the case of the United States of America, the EU–US Data Privacy Framework);</li>
+        <li>an appropriate safeguard under Article 46 GDPR, in particular the standard data protection clauses adopted by the European Commission;</li>
+        <li>in the absence of these, a derogation under Article 49 GDPR, in particular the explicit consent of the data subject or the establishment, exercise or defence of legal claims.</li>
+      </ul>
+
+      <h2 id="s8">8. Rights of data subjects</h2>
+      <p>The data subject is entitled:</p>
+      <ul>
+        <li>to request information and to access his or her personal data (Article 15 GDPR);</li>
+        <li>to request the rectification of his or her data (Article 16);</li>
+        <li>to request the erasure of his or her data (Article 17);</li>
+        <li>to request the restriction of processing (Article 18);</li>
+        <li>to data portability, in the case of processing based on a contract or on consent (Article 20);</li>
+        <li>to object to processing based on legitimate interest (Article 21);</li>
+        <li>to withdraw his or her consent at any time; the withdrawal does not affect the lawfulness of the earlier processing.</li>
+      </ul>
+      <p>The Firm responds to the request without undue delay and at the latest within one month (Article 12(3) GDPR). If it refuses the request, it also provides information on the reasons for the refusal.</p>
+
+      <h2 id="s9">9. Limits on the rights</h2>
+      <ul>
+        <li><strong>Legal professional privilege.</strong> The right to information, the right of access and the right to erasure may be restricted in order to protect legal professional privilege (Article 14(5)(d), Article 17(3) and Article 23(1) GDPR; Section 9 Üttv.). The Firm decides on the restriction individually in the case of each request.</li>
+        <li><strong>Mandatory retention.</strong> During the mandatory retention period indicated in Section 4, the data may not be erased.</li>
+        <li><strong>Prevention of money laundering.</strong> Owing to a statutory prohibition, the Firm may not provide information on certain processing operations connected with the obligations under the Pmt.</li>
+      </ul>
+
+      <h2 id="s10">10. Data security and personal data breaches</h2>
+      <p>The Firm processes personal data in systems with restricted access. Its security measures:</p>
+      <ul>
+        <li>access rights management;</li>
+        <li>two-step authentication;</li>
+        <li>encrypted data transmission.</li>
+      </ul>
+      <p>The Firm’s staff are bound by a duty of confidentiality.</p>
+      <p>The Firm records personal data breaches in a register. If the breach involves a risk, the Firm notifies it without undue delay, and at the latest within 72 hours, to the Nemzeti Adatvédelmi és Információszabadság Hatóság (the Hungarian National Authority for Data Protection and Freedom of Information) (Article 33 GDPR). If the breach involves a high risk, the Firm also notifies the data subjects (Article 34 GDPR).</p>
+
+      <h2 id="s11">11. Remedies</h2>
+      <p>The data subject may lodge a complaint with the <strong>Nemzeti Adatvédelmi és Információszabadság Hatóság</strong> (NAIH):</p>
+      <ul>
+        <li>address: 1055 Budapest, Falk Miksa utca 9–11.;</li>
+        <li>postal address: 1363 Budapest, Pf. 9.;</li>
+        <li>e-mail: <a href="mailto:ugyfelszolgalat@naih.hu">ugyfelszolgalat@naih.hu</a>;</li>
+        <li>website: <a href="https://www.naih.hu" target="_blank" rel="noopener noreferrer">www.naih.hu</a>.</li>
+      </ul>
+      <p>The data subject may also bring the matter before a court (Articles 77 and 79 GDPR). The data subject may – at his or her choice – also bring the action before the regional court (törvényszék) of his or her place of residence or place of stay.</p>
+      <p>It is recommended that, in the event of a complaint, the data subject first contact the Firm.</p>
+
+      <h2 id="s12">12. Amendment of the notice</h2>
+      <p>The Firm amends this notice in line with changes in the law and in its data processing practice. The version in force is always available on this page; the Firm retains the previous versions. In the case of ongoing engagements, the Firm informs the clients of any material change.</p>
+
+    </div>
+  </article>
+</Base>

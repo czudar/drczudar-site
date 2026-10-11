@@ -1,0 +1,340 @@
+---
+import Base from '../layouts/Base.astro';
+import { brand, office } from '../data/brand.js';
+import { notice } from '../data/content.js';
+// Adatkezelési tájékoztató — 2026/2 (hatályos: 2026-10-12). A szöveg az MP által jóváhagyott
+// végleges változat SZÓ SZERINTI átvétele; tartalmi módosítás csak új jóváhagyott szöveg alapján.
+const locale = 'hu';
+const name = brand.name[locale];
+const mail = `mailto:${office.email}`;
+---
+<Base locale={locale} alternates={notice.path} title={`${notice.title[locale]} | ${name}`} description={`A ${name} adatkezelési tájékoztatója (2026/2): a kezelt személyes adatok, az adatkezelés céljai és jogalapjai, a megőrzési idők, az adatfeldolgozók, az érintettek jogai és a jogorvoslat.`}>
+  <article class="article notice">
+    <a class="backlink" href="/">← Vissza a főoldalra</a>
+    <h1>Adatkezelési tájékoztató</h1>
+    <p class="meta"><em>Hatályos: 2026. október 12-től · Verzió: 2026/2 · Az előző változat 2026. szeptember 20-tól volt hatályos.</em></p>
+    <div class="body">
+
+      <h2 id="s1">1. Az adatkezelő</h2>
+      <p><strong>{name}</strong> (a továbbiakban: Iroda)</p>
+      <ul>
+        <li>Székhely: 1054 Budapest, Szemere utca 23. I/1.</li>
+        <li>Aliroda: {office.branchAddress}</li>
+        <li>Kamarai nyilvántartás: {office.bar}, {office.barRegNo}</li>
+        <li>Adószám: 19322016-2-41</li>
+        <li>E-mail: <a href={mail}>{office.email}</a></li>
+        <li>Telefon: {office.phone}</li>
+        <li>Cégkapu: 19322016#cegkapu</li>
+      </ul>
+      <p><strong>Adatvédelmi tisztviselő.</strong> Az Iroda az általános adatvédelmi rendelet (az Európai Parlament és a Tanács (EU) 2016/679 rendelete, a továbbiakban: GDPR) 37. cikke alapján nem köteles adatvédelmi tisztviselőt kijelölni, és nem is jelöl ki. Adatvédelmi ügyben a fenti elérhetőségeken lehet az Irodához fordulni.</p>
+
+      <h2 id="s2">2. A tájékoztató hatálya</h2>
+      <p>E tájékoztató az Iroda által kezelt személyes adatokra vonatkozik, így különösen</p>
+      <ul class="alpha">
+        <li><strong>a)</strong> a honlap látogatóinak és az Irodával kapcsolatba lépőknek (megkeresés, időpontfoglalás) az adataira;</li>
+        <li><strong>b)</strong> az Iroda ügyfeleinek, valamint képviselőiknek és kapcsolattartóiknak az adataira;</li>
+        <li><strong>c)</strong> a megbízás teljesítése során megismert más személyek adataira, így különösen az ellenérdekű félére, a tanúkéra, a szerződő partnerekére, a tényleges tulajdonosokéra és a meghatalmazottakéra.</li>
+      </ul>
+      <p>Az a)–b) pontban megjelölt érintettek tájékoztatására a GDPR 13. cikke, a c) pontban megjelöltekére a GDPR 14. cikke irányadó; a tájékoztatás korlátait a 9. pont tartalmazza.</p>
+
+      <h2 id="s3">3. Ügyvédi titok</h2>
+      <p>Ügyvédi titoknak minősül minden tény, információ és adat, amelyről az Iroda az ügyvédi tevékenység gyakorlása során tudomást szerzett. A titoktartási kötelezettség az ügyvédi tevékenység befejezése és a megbízás megszűnése után is határidő nélkül fennáll (az ügyvédi tevékenységről szóló 2017. évi LXXVIII. törvény – a továbbiakban: Üttv. – 9. § (1), (2) és (4) bekezdés).</p>
+
+      <h2 id="s4">4. Az egyes adatkezelések</h2>
+
+      <h3 id="s4-1">4.1. Megkeresés (e-mail, telefon)</h3>
+      <ul>
+        <li><strong>Kezelt adatok:</strong> név, e-mail-cím, telefonszám, az üzenet tartalma.</li>
+        <li><strong>Cél:</strong> a megkeresés megválaszolása, a megbízás előkészítése.</li>
+        <li><strong>Jogalap:</strong> az érintett kérésére a szerződés megkötését megelőzően történő lépések megtétele (GDPR 6. cikk (1) bekezdés b) pont).</li>
+        <li><strong>Megőrzés:</strong>
+          <ul>
+            <li>ha megbízás nem jön létre, a megkeresés lezárásától számított egy évig;</li>
+            <li>ha megbízás jön létre, a 4.5. pont szerint.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3 id="s4-2">4.2. Online időpontfoglalás</h3>
+      <ul>
+        <li><strong>Kezelt adatok:</strong> név, elérhetőség, a foglalás időpontja és tárgya.</li>
+        <li><strong>Eszköz:</strong> a foglalás a Google Naptár szolgáltatásán keresztül történik; a Google adatfeldolgozóként jár el.</li>
+        <li><strong>Jogalap:</strong> GDPR 6. cikk (1) bekezdés b) pont.</li>
+        <li><strong>Megőrzés:</strong> a 4.1. pont szerint.</li>
+      </ul>
+
+      <h3 id="s4-3">4.3. Ügyfél-azonosítás</h3>
+      <p><strong>Azonosítás a megbízás előtt.</strong> Az Iroda – a jogi tanácsadásra adott megbízás kivételével – a megbízási szerződés megkötése előtt azonosítja az ügyfelet és a képviseletében eljáró személyt. A természetes személyt, akit nem ismer, vagy akinek személyazonosságát illetően kétsége merül fel, a következők valamelyikével azonosítja (Üttv. 32. § (1)–(2) bekezdés):</p>
+      <ul>
+        <li>személyazonosításra alkalmas okmánya megtekintésével; vagy</li>
+        <li>jogszabályban meghatározott elektronikus azonosítással.</li>
+      </ul>
+      <p><strong>Azonosítás ellenjegyzés előtt.</strong> Közhiteles nyilvántartásba való bejegyzés alapjául szolgáló okirat ellenjegyzése előtt az Iroda minden jognyilatkozatot tevő személyt, illetve szervezetet és azok képviselőit azonosítja (Üttv. 32. § (7) bekezdés).</p>
+      <p><strong>Ellenőrzés a nyilvántartásokból.</strong> Az okmányok érvényességének és az adatok egyezőségének ellenőrzése érdekében az Iroda elektronikus úton adatot igényelhet a jogszabályban meghatározott közhiteles nyilvántartásokból (Üttv. 32. § (3) bekezdés). Ilyen adat lehet:</p>
+      <ul>
+        <li>természetes személyazonosító adat;</li>
+        <li>állampolgárság;</li>
+        <li>lakcím;</li>
+        <li>arcképmás;</li>
+        <li>aláírás;</li>
+        <li>okmányadat.</li>
+      </ul>
+      <p><strong>Jogalap:</strong> jogi kötelezettség teljesítése (GDPR 6. cikk (1) bekezdés c) pont; Üttv. 32. §).</p>
+
+      <h3 id="s4-4">4.4. Ügyfél-nyilvántartás és ügyfél-átvilágítás</h3>
+      <p><strong>Ügyfél-nyilvántartás.</strong> Azokban az ügyekben, amelyekben a jogi képviselet kötelező, az Iroda nyilvántartást vezet az azonosított természetes személyekről, jogi személyekről és más szervezetekről (Üttv. 33. § (1) bekezdés). A nyilvántartás adatai (Üttv. 33. § (2) és (4) bekezdés):</p>
+      <ul>
+        <li><strong>természetes személy esetén:</strong>
+          <ul>
+            <li>természetes személyazonosító adatok;</li>
+            <li>lakcím;</li>
+            <li>állampolgárság, illetve jogállás;</li>
+            <li>az azonosító okmány típusa és száma;</li>
+            <li>az elektronikus adatigénylés azonosítója;</li>
+            <li>az ügyazonosító;</li>
+          </ul>
+        </li>
+        <li><strong>szervezet esetén:</strong>
+          <ul>
+            <li>név és székhely;</li>
+            <li>cégjegyzékszám vagy nyilvántartási szám;</li>
+            <li>a képviselő azonosító adatai;</li>
+            <li>az ügyazonosító;</li>
+          </ul>
+        </li>
+        <li><strong>mindkét esetben:</strong> a pénzmosás megelőzéséről szóló törvényben meghatározott adatok.</li>
+      </ul>
+      <p><strong>Ügyfél-átvilágítás.</strong> A pénzmosás és a terrorizmus finanszírozása megelőzéséről és megakadályozásáról szóló 2017. évi LIII. törvény (a továbbiakban: Pmt.) hatálya alá tartozó ügyekben az Iroda ügyfél-átvilágítást végez. Ennek része:</p>
+      <ul>
+        <li>a tényleges tulajdonos megállapítása;</li>
+        <li>a kiemelt közszereplői minőség vizsgálata;</li>
+        <li>a szankciós listák ellenőrzése.</li>
+      </ul>
+      <p>Az átvilágítás során tett ügyféli nyilatkozatokat az Iroda külön adatlapon rögzíti.</p>
+      <p><strong>Jogalap:</strong> jogi kötelezettség teljesítése (GDPR 6. cikk (1) bekezdés c) pont; Üttv. 33. §; Pmt.).</p>
+      <p><strong>Megőrzés:</strong></p>
+      <ul>
+        <li>az üzleti kapcsolat megszűnésétől, illetve az ügyleti megbízás teljesítésétől számított <strong>nyolc év</strong> (Pmt. 56. § (2) bekezdés, 57. § (2) bekezdés; Üttv. 33. § (7) bekezdés);</li>
+        <li>az arra jogosult szervek megkeresésére legfeljebb <strong>tíz év</strong> (Pmt. 58. § (1) bekezdés).</li>
+      </ul>
+      <p>A megőrzési idő leteltével az Iroda az adatokat haladéktalanul törli, illetve az okiratokat megsemmisíti (Pmt. 57. § (4) bekezdés).</p>
+
+      <h3 id="s4-5">4.5. Az ügyek nyilvántartása, a megbízás teljesítése és az iratok megőrzése</h3>
+
+      <h4 id="s4-5-a">Ügynyilvántartás</h4>
+      <p>Az Iroda a megbízás alapján ellátott ügyekről nyilvántartást vezet (Üttv. 53. § (1) bekezdés). A nyilvántartás adatai:</p>
+      <ul>
+        <li>az ügyazonosító;</li>
+        <li>az ügyfél neve;</li>
+        <li>az ügy tárgya;</li>
+        <li>a megbízási szerződés létrejöttének időpontja;</li>
+        <li>a kapcsolódó eljárások lajstrom-, illetve iktatószáma.</li>
+      </ul>
+      <p>A nyilvántartás adatait az Iroda a következő ideig kezeli (Üttv. 53. § (3) bekezdés):</p>
+      <ul>
+        <li>a megbízás megszűnését követő <strong>öt évig</strong>;</li>
+        <li>okirat ellenjegyzése esetén az ellenjegyzést követő <strong>tíz évig</strong>;</li>
+        <li>ingatlanra vonatkozó jog közhiteles nyilvántartásba való bejegyzését érintő ügyben a jog bejegyzésétől számított <strong>tíz évig</strong>.</li>
+      </ul>
+      <p>A nyilvántartásba a kamarai hatósági ellenőrzést végző személy vagy szerv, a helyettes ügyvéd és az irodagondnok tekinthet be.</p>
+
+      <h4 id="s4-5-b">A megbízás teljesítése</h4>
+      <p>Ide tartozik az ügyintézés, a képviselet, az okiratszerkesztés és a tanácsadás.</p>
+      <ul>
+        <li><strong>Kezelt adatok:</strong> azonosító és elérhetőségi adatok, valamint a megbízás teljesítéséhez szükséges minden adat, amelyet az ügyfél átad, vagy amely az ügy irataiban szerepel.</li>
+        <li><strong>Jogalap:</strong>
+          <ul>
+            <li>természetes személy ügyfél esetén a szerződés teljesítése (GDPR 6. cikk (1) bekezdés b) pont);</li>
+            <li>jogi személy vagy más szervezet ügyfél képviselői és kapcsolattartói esetén az Iroda és az ügyfél jogos érdeke a megbízás teljesítéséhez szükséges kapcsolattartásban (GDPR 6. cikk (1) bekezdés f) pont);</li>
+            <li>a jogszabályban előírt iratkezelés és nyilvántartás körében jogi kötelezettség teljesítése (GDPR 6. cikk (1) bekezdés c) pont).</li>
+          </ul>
+        </li>
+        <li><strong>Különleges adatok</strong> (például egészségügyi adat): az Iroda ezeket jogi igények előterjesztéséhez, érvényesítéséhez, illetve védelméhez szükséges mértékben kezeli (GDPR 9. cikk (2) bekezdés f) pont).</li>
+        <li><strong>Bűnügyi személyes adatok:</strong> az Iroda ezeket kizárólag védői, illetve jogi képviselői tevékenysége körében kezeli. A kezelés a büntetőeljárásról szóló 2017. évi XC. törvény és az Üttv. felhatalmazása alapján, az ügyvédi titoktartás garanciái mellett történik (GDPR 10. cikk).</li>
+      </ul>
+
+      <h4 id="s4-5-c">Az iratok megőrzése</h4>
+      <p>Az ellenjegyzett okiratot és az okirat ellenjegyzésével járó ügyben keletkezett más iratokat az Iroda az ellenjegyzéstől számított <strong>tíz évig</strong> őrzi meg (Üttv. 53. § (5) bekezdés).</p>
+      <p>Egyebekben az ügy iratait – a Magyar Ügyvédi Kamara iratkezelési szabályaival összhangban – a megbízási szerződésben rögzített selejtezési rend szerint őrzi meg:</p>
+      <ul>
+        <li>ha az ügyben közhiteles nyilvántartásba történő bejegyzés alapjául szolgáló okirat ellenjegyzésére került sor: a megbízás megszűnésétől számított <strong>11. év március 31. napjáig</strong>;</li>
+        <li>peres eljárásban való képviselet esetén: a megbízás megszűnésétől számított <strong>6. év március 31. napjáig</strong>;</li>
+        <li>egyéb ügyekben, így különösen tanácsadás vagy jogi véleményadás esetén: a megbízás megszűnésétől számított <strong>2. év március 31. napjáig</strong>;</li>
+        <li>végintézkedés esetén: a hagyatékátadó végzés jogerőre emelkedését követő <strong>6. év március 31. napjáig</strong>.</li>
+      </ul>
+      <p>A megőrzési idő leteltével az Iroda az iratokat és a személyes adatokat törli, illetve megsemmisíti. Ez alól kivétel, ha a további kezelést jogszabály, jogszabályban előírt nyilvántartás vezetése, vagy jogi igény érvényesítése, illetve védelme indokolja.</p>
+
+      <h3 id="s4-6">4.6. A megbízás során megismert harmadik személyek adatai</h3>
+      <ul>
+        <li><strong>Érintettek:</strong> az ellenérdekű fél, a tanúk, a szerződő partnerek, a tényleges tulajdonosok, a meghatalmazottak, valamint az ügy irataiban szereplő más személyek.</li>
+        <li><strong>Az adatok forrása:</strong>
+          <ul>
+            <li>az ügyfél;</li>
+            <li>a hatósági és bírósági iratok;</li>
+            <li>a közhiteles nyilvántartások.</li>
+          </ul>
+        </li>
+        <li><strong>Jogalap:</strong>
+          <ul>
+            <li>az ügyfél és az Iroda jogos érdeke az ügyfél jogainak érvényesítésében és védelmében (GDPR 6. cikk (1) bekezdés f) pont);</li>
+            <li>jogszabályi kötelezettség esetén a GDPR 6. cikk (1) bekezdés c) pontja;</li>
+            <li>különleges adat esetén a GDPR 9. cikk (2) bekezdés f) pontja.</li>
+          </ul>
+        </li>
+        <li><strong>Megőrzés:</strong> a 4.5. pont szerint.</li>
+        <li><strong>Tájékoztatás:</strong> e személyeket az Iroda egyedileg nem tájékoztatja, mivel adataik az ügyvédi titoktartási kötelezettség alapján bizalmasak (GDPR 14. cikk (5) bekezdés d) pont).</li>
+      </ul>
+
+      <h3 id="s4-7">4.7. Biztonsági okmányok</h3>
+      <p>Az Iroda az okirat-ellenjegyzéshez felhasznált biztonsági okmányokról jogszabályban előírt nyilvántartást vezet.</p>
+      <ul>
+        <li><strong>Jogalap:</strong> jogi kötelezettség teljesítése (GDPR 6. cikk (1) bekezdés c) pont).</li>
+        <li><strong>Megőrzés:</strong> a jogszabályban meghatározott ideig.</li>
+      </ul>
+
+      <h3 id="s4-8">4.8. Ügyvédi letét</h3>
+      <p>Ha az Iroda ügyvédi letétet kezel, a letéti szerződést, a letevő, illetve a kedvezményezett azonosító adatait és a letéttel kapcsolatos adatokat a következőknek megfelelően kezeli:</p>
+      <ul>
+        <li>az Üttv.-ben és a Magyar Ügyvédi Kamara letétkezelési szabályzatában előírt nyilvántartásban;</li>
+        <li>a jogszabályban előírt bejelentési kötelezettség teljesítésével.</li>
+      </ul>
+      <p>A letétkezelést a területi kamara ellenőrzi, és ennek keretében a letéti számla adataiba betekinthet (Üttv. 187. § (2) bekezdés).</p>
+      <ul>
+        <li><strong>Jogalap:</strong> jogi kötelezettség teljesítése és a letéti szerződés teljesítése (GDPR 6. cikk (1) bekezdés b) és c) pont).</li>
+        <li><strong>Megőrzés:</strong>
+          <ul>
+            <li>a letéti szerződést a szerződés megszűnésétől számított <strong>tíz évig</strong>;</li>
+            <li>a letétbe vett iratot a letét megszűnéséig.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3 id="s4-9">4.9. Számlázás és könyvelés</h3>
+      <ul>
+        <li><strong>Kezelt adatok:</strong> számlázási név és cím, adószám, a díjjal kapcsolatos adatok.</li>
+        <li><strong>Jogalap:</strong> jogi kötelezettség teljesítése (GDPR 6. cikk (1) bekezdés c) pont; a számvitelről szóló 2000. évi C. törvény; az általános forgalmi adóról szóló 2007. évi CXXVII. törvény).</li>
+        <li><strong>Megőrzés:</strong> legalább <strong>nyolc évig</strong> (a számvitelről szóló törvény 169. § (2) bekezdése).</li>
+      </ul>
+
+      <h3 id="s4-10">4.10. A honlap működése</h3>
+      <p><strong>Tárhely és szervernaplók.</strong> A honlapot a GitHub, Inc. (USA) szolgálja ki a GitHub Pages szolgáltatás és tartalomkézbesítő hálózata útján. A szokásos szervernaplókat a GitHub a saját adatkezelési nyilatkozata szerint kezeli; az Iroda ezekhez nem fér hozzá. A naplók adatai:</p>
+      <ul>
+        <li>IP-cím;</li>
+        <li>időpont;</li>
+        <li>a lekért oldal;</li>
+        <li>a böngésző adatai.</li>
+      </ul>
+      <p>Jogalap: jogos érdek a honlap biztonságos működtetésében (GDPR 6. cikk (1) bekezdés f) pont).</p>
+      <p><strong>Beágyazott térkép.</strong> A Google Térkép csak a látogató hozzájárulása után töltődik be (GDPR 6. cikk (1) bekezdés a) pont). A hozzájárulás bármikor visszavonható.</p>
+      <p><strong>Sütik (cookie-k).</strong> Az Iroda saját sütit nem helyez el, csak a látogató süti-választását tárolja a böngészőben. A választás a lábléc „Cookie-beállítások” pontjában módosítható.</p>
+      <p><strong>Közösségi oldalak.</strong> A közösségi oldalakra mutató hivatkozások esetén az adott szolgáltató adatkezelési szabályai irányadók.</p>
+
+      <h2 id="s5">5. Mesterséges intelligencián alapuló eszközök</h2>
+      <p>Az Iroda a megbízások ellátása során a munka előkészítésére és támogatására mesterséges intelligencián alapuló szoftvereszközöket alkalmaz.</p>
+      <ul>
+        <li>Ezek az eszközök nem hoznak az érintettre joghatással járó vagy őt hasonlóan jelentős mértékben érintő, kizárólag automatizált döntést (GDPR 22. cikk).</li>
+        <li>Minden érdemi döntést és ügyvédi munkaterméket ügyvéd hagy jóvá.</li>
+        <li>A szakmai és jogi felelősség, valamint az ügyvédi titok megőrzésének kötelezettsége kizárólag az Irodát terheli.</li>
+      </ul>
+      <p><strong>Alkalmazási körök:</strong></p>
+      <ul>
+        <li>iratok és ügyadatok rendszerezése és nyilvántartása;</li>
+        <li>határidők előkészítése (ezeket két ügyvéd erősíti meg);</li>
+        <li>belső összefoglalók és szövegtervezetek előkészítése.</li>
+      </ul>
+      <p><strong>Garanciák:</strong></p>
+      <ul>
+        <li>ügyvédi titkot képező adatot az Iroda csak olyan szolgáltató részére tesz hozzáférhetővé, amellyel adatfeldolgozói szerződést kötött, és amelynek szerződéses feltételei az adatok felhasználását a szolgáltatás nyújtására korlátozzák, és kizárják a modelltanításra történő felhasználást;</li>
+        <li>a szolgáltatók további adatfeldolgozót csak szerződésben rögzített feltételek mellett és az Iroda ellenőrzése alatt vehetnek igénybe;</li>
+        <li>nyilvános, a bevitt adatokból tanuló mesterségesintelligencia-szolgáltatást az Iroda ügyvédi titkot képező adatra nem használ;</li>
+        <li>az Iroda rendszereinek naplóiba ügyfélnév, levéltartalom, személyes adat és összeg nem kerül.</li>
+      </ul>
+      <p>Az adatfeldolgozóként igénybe vett közreműködővel szemben az Irodát – az általa nyújtott szolgáltatás nyújtásához szükséges mértékben – nem terheli titoktartási kötelezettség (Üttv. 10. § (4) bekezdés a) pont).</p>
+      <p><strong>Hangfelvétel.</strong> Ügyfélbeszélgetésről hangfelvétel, illetve abból gépi átirat kizárólag akkor készül, ha az érintettet előzetesen és kifejezetten tájékoztatták, és ő ehhez dokumentáltan hozzájárult (GDPR 6. cikk (1) bekezdés a) pont). Hozzájárulás hiányában felvétel nem készül.</p>
+      <p><strong>Az MI mellőzése.</strong> Az ügyfél írásban (<a href={mail}>{office.email}</a>) kérheti, hogy ügyében az Iroda mesterséges intelligencián alapuló eszközt ne alkalmazzon.</p>
+
+      <h2 id="s6">6. Adatfeldolgozók</h2>
+      <table>
+        <thead>
+          <tr><th>Adatfeldolgozó</th><th>Tevékenység</th><th>Az adatkezelés helye, továbbítás</th><th>Garancia</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Google Ireland Ltd.</td><td>e-mail, dokumentumtárolás, naptár, időpontfoglalás, térkép (Google Workspace)</td><td>EU; harmadik országba továbbítás lehetséges</td><td>adatfeldolgozói kiegészítés (Cloud Data Processing Addendum); általános adatvédelmi kikötések, EU–USA adatvédelmi keretrendszer</td></tr>
+          <tr><td>Formagrid, Inc. (Airtable)</td><td>ügy- és határidő-nyilvántartás</td><td>USA</td><td>aláírt adatfeldolgozói szerződés; általános adatvédelmi kikötések</td></tr>
+          <tr><td>GitHub, Inc.</td><td>a honlap tárhelye, automatizált folyamatok futtatása</td><td>USA</td><td>adatfeldolgozói szerződés; EU–USA adatvédelmi keretrendszer, általános adatvédelmi kikötések</td></tr>
+          <tr><td>Anthropic Ireland, Limited</td><td>mesterségesintelligencia-szolgáltatás (API)</td><td>USA</td><td>adatfeldolgozói kiegészítés; általános adatvédelmi kikötések</td></tr>
+          <tr><td>OpenAI Ireland Ltd.</td><td>mesterségesintelligencia-szolgáltatás (API)</td><td>USA</td><td>aláírt adatfeldolgozói szerződés; általános adatvédelmi kikötések</td></tr>
+          <tr><td>Celonis, Inc. (Make)</td><td>munkafolyamat-automatizálás</td><td>EU (Írország); a szerződő fél USA-beli</td><td>adatfeldolgozói szerződés; EU–USA adatvédelmi keretrendszer, általános adatvédelmi kikötések</td></tr>
+          <tr><td>Profixco Kft.</td><td>könyvelés</td><td>Magyarország</td><td>adatfeldolgozói szerződés</td></tr>
+        </tbody>
+      </table>
+
+      <h2 id="s7">7. Címzettek és adattovábbítás</h2>
+      <p><strong>Hatóságok és más szervek.</strong> A megbízás teljesítéséhez szükséges mértékben az Iroda adatot továbbíthat a következőknek:</p>
+      <ul>
+        <li>bíróságok és hatóságok;</li>
+        <li>közjegyzők;</li>
+        <li>közhiteles nyilvántartást vezető szervek;</li>
+        <li>az ellenérdekű fél jogi képviselője;</li>
+        <li>jogszabályban meghatározott más szervek;</li>
+        <li>a kamarai hatósági ellenőrzés körében az ügyvédi kamara.</li>
+      </ul>
+      <p><strong>DHH-hálózat.</strong> A honlapon keresztül gyűjtött adatot az Iroda a DHH-hálózatnak nem továbbítja. Konkrét megbízásban a hálózaton belüli továbbítás kizárólag két feltétel együttes teljesülése esetén történhet:</p>
+      <ul>
+        <li>az ügyfél kifejezett felhatalmazása; és</li>
+        <li>a fogadó fél titoktartási nyilatkozata.</li>
+      </ul>
+      <p><strong>Harmadik országba történő továbbítás.</strong> Az Európai Gazdasági Térségen kívüli országba (így az Amerikai Egyesült Államokba vagy Kínába) történő adattovábbítás a következők valamelyikén alapul:</p>
+      <ul>
+        <li>a GDPR 45. cikke szerinti megfelelőségi határozat (az Amerikai Egyesült Államok esetében az EU–USA adatvédelmi keretrendszer);</li>
+        <li>a GDPR 46. cikke szerinti megfelelő garancia, különösen az Európai Bizottság által elfogadott általános adatvédelmi kikötések;</li>
+        <li>ezek hiányában a GDPR 49. cikke szerinti kivétel, így különösen az érintett kifejezett hozzájárulása vagy jogi igények előterjesztése, érvényesítése, illetve védelme.</li>
+      </ul>
+
+      <h2 id="s8">8. Az érintettek jogai</h2>
+      <p>Az érintett jogosult:</p>
+      <ul>
+        <li>tájékoztatást kérni, és a személyes adataihoz hozzáférni (GDPR 15. cikk);</li>
+        <li>adatai helyesbítését kérni (16. cikk);</li>
+        <li>adatai törlését kérni (17. cikk);</li>
+        <li>az adatkezelés korlátozását kérni (18. cikk);</li>
+        <li>adathordozhatóságra, szerződésen vagy hozzájáruláson alapuló adatkezelés esetén (20. cikk);</li>
+        <li>tiltakozni a jogos érdeken alapuló adatkezelés ellen (21. cikk);</li>
+        <li>a hozzájárulását bármikor visszavonni; a visszavonás a korábbi adatkezelés jogszerűségét nem érinti.</li>
+      </ul>
+      <p>A kérelmet az Iroda indokolatlan késedelem nélkül, legfeljebb egy hónapon belül megválaszolja (GDPR 12. cikk (3) bekezdés). Ha a kérelmet elutasítja, az elutasítás indokairól is tájékoztatást ad.</p>
+
+      <h2 id="s9">9. A jogok korlátai</h2>
+      <ul>
+        <li><strong>Ügyvédi titok.</strong> A tájékoztatáshoz, a hozzáféréshez és a törléshez való jog az ügyvédi titok védelme érdekében korlátozható (GDPR 14. cikk (5) bekezdés d) pont, 17. cikk (3) bekezdés, 23. cikk (1) bekezdés; Üttv. 9. §). A korlátozásról az Iroda minden kérelem esetén egyedileg dönt.</li>
+        <li><strong>Kötelező megőrzés.</strong> A 4. pontban megjelölt kötelező megőrzési idő alatt az adat nem törölhető.</li>
+        <li><strong>Pénzmosás megelőzése.</strong> A Pmt. szerinti kötelezettségekkel összefüggő egyes adatkezelésekről az Iroda jogszabályi tilalom miatt nem adhat tájékoztatást.</li>
+      </ul>
+
+      <h2 id="s10">10. Adatbiztonság és adatvédelmi incidens</h2>
+      <p>Az Iroda a személyes adatokat hozzáférés-korlátozott rendszerekben kezeli. Biztonsági intézkedései:</p>
+      <ul>
+        <li>jogosultságkezelés;</li>
+        <li>kétlépcsős azonosítás;</li>
+        <li>titkosított adatátvitel.</li>
+      </ul>
+      <p>Az Iroda munkatársait titoktartási kötelezettség terheli.</p>
+      <p>Az adatvédelmi incidenst az Iroda nyilvántartásba veszi. Ha az incidens kockázattal jár, azt indokolatlan késedelem nélkül, legkésőbb 72 órán belül bejelenti a Nemzeti Adatvédelmi és Információszabadság Hatóságnak (GDPR 33. cikk). Ha az incidens magas kockázattal jár, az érintetteket is értesíti (GDPR 34. cikk).</p>
+
+      <h2 id="s11">11. Jogorvoslat</h2>
+      <p>Az érintett panaszt tehet a <strong>Nemzeti Adatvédelmi és Információszabadság Hatóságnál</strong> (NAIH):</p>
+      <ul>
+        <li>cím: 1055 Budapest, Falk Miksa utca 9–11.;</li>
+        <li>postacím: 1363 Budapest, Pf. 9.;</li>
+        <li>e-mail: <a href="mailto:ugyfelszolgalat@naih.hu">ugyfelszolgalat@naih.hu</a>;</li>
+        <li>honlap: <a href="https://www.naih.hu" target="_blank" rel="noopener noreferrer">www.naih.hu</a>.</li>
+      </ul>
+      <p>Az érintett bírósághoz is fordulhat (GDPR 77. és 79. cikk). A pert – választása szerint – a lakóhelye vagy tartózkodási helye szerinti törvényszék előtt is megindíthatja.</p>
+      <p>Javasoljuk, hogy panasz esetén előbb az Irodát keresse meg.</p>
+
+      <h2 id="s12">12. A tájékoztató módosítása</h2>
+      <p>Az Iroda e tájékoztatót a jogszabályok és az adatkezelési gyakorlat változásával összhangban módosítja. A hatályos változat mindig ezen az oldalon érhető el; az előző változatokat az Iroda megőrzi. Folyamatban lévő megbízások esetén a lényeges változásról az Iroda az ügyfeleket tájékoztatja.</p>
+
+    </div>
+  </article>
+</Base>
