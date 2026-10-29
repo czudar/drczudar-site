@@ -1,149 +1,230 @@
 ---
-title: "Five Months of Enforcement: Continuity in Law, a Turn in Visibility"
+title: "Hungary’s Investment Policy under the Magyar Government: Analysis and Practical Compliance Guide (Part II)"
 lang: "en"
 key: "2026-09-hatosagi-szigor"
-date: 2026-09-16
+date: 2026-10-29
 author: "dr. Czudar Balázs"
 coauthor: "Cheng Tao (DHH Qingdao)"
-excerpt: "Five months after Hungary's change of government the balance is clear: in every known case the authorities acted on a documented breach. What has changed is not the law but the visibility of enforcement — and what Chinese investors should expect in 2026–2027."
+excerpt: "Five months after Hungary’s change of government, enforcement against battery and heavy-industry plants has become more visible, not more arbitrary. Since 25 October 2026, fines for operating without or outside an environmental permit can reach 5% of the previous year’s net turnover for larger companies, capped at HUF 5 billion, with a floor of 0.5% of turnover for repeat or serious offenders. A ten-point compliance checklist for Chinese investors."
+source: "the official WeChat channel of DHH (德和衡律师), 29 October 2026 (in Chinese)"
 draft: false
+reviewNote: "Updated on 29 October 2026: this article replaces the September 2026 version. The fine rules previously described as planned for 2027 entered into force on 25 October 2026 (Government Decree 280/2026 (X. 9.))."
 ---
 
-*What Chinese investors in Hungary should expect in 2026–2027, and how sanctions can be avoided – Part II*
+*How Chinese companies in Hungary can prevent the risk of administrative sanctions today – Part II*
 
-Dr. Balázs Czudar (Czudar DHH Law Firm – Hungary / DHH Budapest Office) – Cheng Tao 成焘 (北京德和衡（青岛）律师事务所 / DHH Qingdao) · Professional article, September 2026
+Dr. Balázs Czudar, DHH Budapest Office (Czudar DHH Law Firm – Hungary); Cheng Tao 成焘, Shandong Deheng Law Firm (DHH Qingdao) · October 2026
 
-## EXECUTIVE SUMMARY
 
-Our study published in July 2026 described what the change of government altered for Chinese investors and which legal response strategy follows from it. Five months after the election, a balance sheet can be drawn rather than a forecast. The balance is unambiguous: in every known case the Hungarian authorities acted on a documented breach of law; the target of the sanctions was the battery industry and heavy industry, not the nationality of the investor; and the amounts of the fines stayed within the frameworks created by the previous government between 2011 and 2025. What has changed is the visibility and consistency of enforcement: decisions are now announced by ministers rather than uncovered through freedom-of-information requests; suspension has moved alongside – indeed ahead of – the fine; and since 1 August 2026 a nationwide inspection programme has been running that extends to the supply chain. The genuine regime change will come with the sanctions regime announced by the government and planned from 1 January 2027 – a HUF 5 billion cap and a "third strike" set at half a percent of turnover. On the basis of the announcement it cannot be excluded that the authority will count this year's infringements within the five-year window; the lawfulness of that (retroactivity) depends on the text of the bill. The five steps of the July article – compliance self-audit, realistic planning, local embeddedness, EU documentation readiness, a permanent legal partner – have therefore not eased but become more urgent.
+## SUMMARY
 
-## I. FIVE MONTHS IN REVIEW: WHAT HAS HAPPENED SINCE APRIL 2026
+In July 2026 we published the first article of this series, analysing how the change of government in Hungary altered the business environment for Chinese investors and outlining an initial legal response. Five months into the new government’s term, the enforcement cases and materials published by the authorities allow a clear conclusion: every known sanction imposed by the Hungarian authorities rests on an established breach of law; enforcement targets violations in the battery industry and heavy industry, not the nationality of the investor; and the fines imposed so far remain within the statutory ranges set by the previous government between 2011 and 2025.
 
-Part of the Chinese business press writes of a "trap": the previous government let Chinese factories in, and the new government is now moving against them. That narrative is not supported by the facts. The overview below draws exclusively on authority press releases, government communications and verified press sources; where the company concerned disputes the authority's findings, this is indicated separately.
+What has changed structurally is the transparency and firmness of enforcement. Administrative decisions that previously could only be obtained through freedom-of-information requests are now announced publicly by government ministers; suspension of operations has become a measure applied alongside – and sometimes ahead of – fines; and since 1 August 2026 a nationwide inspection programme covering the entire supply chain has been running.
 
-Semcorp Hungary Kft. (恩捷股份, Debrecen). A pipeline was damaged at the separator-film plant in February 2026. The water authority of the Hajdú-Bihar County Government Office (hereinafter "Hajdú-Bihar CGO") found exceedances of the limit values for several metals and metalloids in groundwater samples – according to the government office, roughly 13,000 times the limit value in the case of aluminium – and on 24 June 2026 imposed a procedural fine of HUF 1 million (for late submission of monitoring results), a water-management fine of HUF 1 million and procedural costs of more than HUF 2 million, while ordering the construction of a watertight stormwater reservoir and quarterly monitoring. The environmental authority suspended the activity and ordered remediation and fact-finding. On 3 July the fire authority – citing an inoperable foam-extinguishing pump and irregularities around the acetone and oxygen sensors – imposed a fine of HUF 3 million and prohibited all activities at the site with immediate effect. The police are investigating on suspicion of environmental damage. The company has challenged the procedural fine in court and, relying on independent laboratory tests, disputes that the plant caused any pollution – a position the Chinese ambassador also set out publicly in a September interview.
+A more fundamental change has already taken effect. Government Decree 280/2026 (X. 9.) entered into force on 25 October 2026. Under Section 26(4a) of Government Decree 314/2005 (XII. 25.) as now in force, for companies with an annual net turnover above HUF 100 million the fine for operating without a unified environmental permit or in deviation from it may range from HUF 500,000 up to 5% of the previous year’s net turnover, capped at HUF 5 billion (previously HUF 2 billion). Under Section 26(4b), the fine must be at least 0.5% of the previous year’s net turnover, and no less than HUF 5 million, if within the preceding five years the company was fined by final decision for environmental pollution at least twice, or if a final decision established that it had committed a breach causing environmental endangerment or damage – in the latter case a single earlier decision is enough. An earlier decision may be taken into account only once (Section 26(4c)), and the minimum fine may not exceed the cap (Section 26(4d)). Whether fines imposed before 25 October 2026 count towards the five-year period remains to be clarified by the authorities’ practice; as a precaution, companies should assess their risk on the assumption that they do.
 
-CATL (宁德时代, Debrecen). After the incident of 5 May involving a metal-containing "green liquid", the water authority withdrew its consent for the industrial wastewater pre-treatment system, ordered the cleaning of the public sewer and applied the statutory maximum fine of HUF 1 million. On 31 May the state secretary of the competent ministry declared that the government "will not be a partner" in building further plant units in Debrecen. On 5 June the company itself acknowledged that its subcontractors had unlawfully discharged pressure-test fluid into the sewer, and accepted responsibility. On 24 August a HUF 10 million environmental fine for breach of the integrated environmental permit became public: hazardous-waste containers lacked Hungarian-language labelling, the on-site collection point was unmarked, the operating log was missing and the collection point was unattended. The repeat inspection of 9 July found the deficiencies remedied; CATL is paying the fine. On 25 August the occupational-safety authority prohibited work in three plant sections after the company itself reported elevated nickel exposure of nine workers and the inspection found protective equipment inadequately provided; on the same day the government office granted the occupancy permit for the first phase but refused the one for the second phase because of a site-plan error.
+Accordingly, the five measures proposed in our July article – a compliance self-review, realistic project planning, local integration, EU-level legal documentation kept ready, and a standing local legal partner – have not become less demanding. They have become more urgent, and they remain the most reliable way for Chinese companies to manage the legal risks of investing in Hungary.
 
-BYD Auto Hungary Kft. (比亚迪, Szeged). On 16 June 2026 the Csongrád-Csanád County Government Office (hereinafter "Csongrád-Csanád CGO") imposed a HUF 10 million environmental fine because topsoil had been removed from the construction site without measurement or notification and the alkylbenzene content of the March samples exceeded the limit value; the authority filed a criminal complaint and ordered the destruction of crops grown on the affected land. The May survey covering 101 sampling points no longer showed any exceedance. The police are conducting several proceedings over two fatal accidents on the site and over working conditions. An important clarification: the HUF 100 million occupational-safety fine announced on 7 August was imposed not on BYD but on the contractor AE Industry Hungary Kft., as the employer of the victim of the February fatal accident; another subcontractor was fined HUF 34.5 million in June. BYD is the subject of the subsidy review announced by the government on 20 July; according to the Hungarian Investment Promotion Agency (HIPA), no signed and effective subsidy agreement exists.
 
-Temu (Whaleco Technology Ltd.). The Hungarian Competition Authority (GVH) – an autonomous authority, in proceedings opened before the election – imposed on 28 April 2026 a fine of HUF 437 million and consumer compensation of at least HUF 882 million for misleading commercial practices; in the same period it fined Romania's eMAG HUF 225 million and Poland's Allegro HUF 42.5 million.
+## I. ENFORCEMENT CASES UNDER THE NEW GOVERNMENT
 
-Plants not in Chinese ownership. Of the two largest occupational-safety fines of the period, each of HUF 100 million, one was imposed on 13 August on the Iváncsa plant of South Korea's SK On (no workplace air measurements since August 2024, unreported nickel exposure of 59 workers, inadequate protective equipment), the other on the Szeged contractor. At the Debrecen cathode plant of South Korea's EcoPro, the industrial-safety authority on 11 September imposed a HUF 2 million fine and suspended the hazardous activity of the NCA building; the company disputes the decision as disproportionate. The tax and environmental package announced by the government on 17 July 2026 defined its addressees generically – polluting companies, large water users, multinationals – and Minister Dávid Vitézy told Bloomberg that the aim is not to dismantle Hungarian–Chinese cooperation but to ensure that everyone fully complies with Hungarian and EU rules.
+Parts of the Chinese financial press have reported that the Magyar government is “cracking down” on Chinese plants brought to Hungary under the Orbán government. Whether the new government enforces the law in a discriminatory way against Chinese companies, and whether the investment climate has turned against them, is examined below on the basis of official authority announcements, government communications and cross-checked press reports.
 
-| Company (owner) | Authority | Measure | Amount | Date |
-|---|---|---|---|---|
-| Semcorp (CN) | Hajdú-Bihar CGO – water, environment, fire; police | fines; suspension; prohibition of all activities; criminal investigation | HUF 1 + 1 + 3 M, >HUF 2 M costs | 24 Jun – 6 Jul 2026 |
-| CATL (CN) | Hajdú-Bihar CGO – water, environment, occupational safety, construction | withdrawal of consent; fine; work prohibition in 3 sections; refusal of occupancy permit | HUF 1 M + 10 M | 28 May – 25 Aug 2026 |
-| BYD (CN) | Csongrád-Csanád CGO; police; government | environmental fine; criminal complaint; subsidy review | HUF 10 M | 1 Jun – 20 Jul 2026 |
-| AE Industry Hungary (contractor, BYD site) | Csongrád-Csanád CGO – occupational safety | fine (statutory maximum) | HUF 100 M | 7 Aug 2026 |
-| Temu (CN) | GVH | fine + mandatory compensation | HUF 437 M + ≥882 M | 28 Apr 2026 |
-| SK On (KR) | Fejér CGO – occupational safety | fine (statutory maximum) | HUF 100 M | 13 Aug 2026 |
-| EcoPro (KR) | Hajdú-Bihar CGO – industrial safety | fine + suspension of building's activity | HUF 2 M | 11 Sep 2026 |
+### 1. Semcorp, Debrecen
 
-## II. NOT WITHOUT PRECEDENT: A CHRONICLE OF FINES, 2018–2026
+In February 2026 a pipe ruptured at the plant. The water authority of the Hajdú-Bihar County Government Office found several metals and metalloids above the limit values in groundwater samples, and the company received fines totalling more than HUF 4 million. In July 2026 the fire authority imposed a further HUF 3 million fine for safety breaches and prohibited all activity on site. The plant has been at a standstill since 24 June 2026, for more than four months. The company has appealed the decisions and has brought an action before the Debrecen court concerning its remediation obligation; it disputes the authority’s sampling methodology (arguing that total rather than dissolved metal content was measured) and states that four subsequent tests showed no exceedance. These disputes are pending, and this article expresses no view on them.
 
-The appearance of a "radical change" is most easily dispelled by the numbers. According to documents released by the Pest County Government Office on 30 June 2026 under a court order, the authority fined the Göd battery plant of South Korea's Samsung SDI in 61 decisions between 2018 and 2025, for a total of HUF 405.3 million, on construction, environmental, disaster-management, occupational-safety and labour grounds. The then government itself acknowledged this order of magnitude on 23 February 2026 (more than HUF 400 million, of which HUF 146 million occupational safety and HUF 31 million environmental), and as early as the beginning of 2023 a state secretary's answer to a written parliamentary question reported 39 fire-safety and industrial-safety fines totalling HUF 101 million (2019 – January 2023).
+### 2. CATL, Debrecen
 
-The statutory maxima, too, were first applied by the authorities of the previous government. The HUF 100 million occupational-safety cap was introduced by Government Decree 25/2024 (II. 14.) with effect from 1 March 2024 and was imposed on Samsung SDI in March 2025 for the serious and direct endangerment of 66 workers. In Göd, a construction fine of HUF 91.4 million had been imposed by 2022 for a hall built without a permit; the Bátonyterenye battery-recycling plant of Korea's SungEel HiTech was suspended indefinitely in August 2023, and the operator of the associated Abasár waste store received a HUF 103 million waste-management fine; SK On's Iváncsa plant was fined about HUF 14 million in August 2023 on chemical-safety and occupational-safety grounds; and against SK Battery in Komárom the disaster-management authority applied 35 sanctions (21 warnings and 14 fines) in the three years preceding the May 2025 fine. The Chinese plants in Debrecen were also fined before the election: HALMS Hungary in May 2024, Semcorp in August and November 2025 (HUF 1.5 million and HUF 4.5 million), and then in March 2026 – still under the previous government – with a maximum fire-safety fine of HUF 10 million and an equipment prohibition.
+On 5 May 2026 a metal-containing liquid escaped at the CATL site in Debrecen; the company’s pre-treatment permit for industrial wastewater was revoked and a HUF 1 million fine was imposed. On 24 August a further HUF 10 million fine was published for, among other things, hazardous-waste containers lacking Hungarian-language labels. A follow-up inspection on 9 July had confirmed that all deficiencies were remedied, and CATL paid the fine. On 25 August the first phase received its operating permit, limited to trial operation until the remaining deficiencies are cured; trial production of battery cells started on 22 September.
 
-Neither criminal proceedings nor judicial limits appeared for the first time in 2026. Four criminal proceedings have been opened against Samsung SDI since 2023, one with an indictment; on the action of a local association, the Budapest Environs Regional Court suspended the environmental permit of the Göd plant by way of interim relief in 2024 and annulled it by judgment in October 2025; on 3 February 2026 the Curia (Supreme Court) set that judgment aside and ordered a new procedure; and in 2023 the Budapest Court of Appeal, in the CATL permit litigation, remitted the question of interim relief to the first-instance court for a new decision.
+### 3. BYD, Szeged
 
-The difference, then, lies neither in the legal toolkit nor in the level of the fines. The 2026 fines of HUF 1–10 million fall within the frameworks of the sectoral fine decrees in force – fire safety (Government Decree 259/2011 (XII. 7.), up to HUF 10 million), disaster management (Government Decree 208/2011 (X. 12.)), waste management (Government Decree 271/2001 (XII. 21.)) and air quality (Government Decree 306/2010 (XII. 23.), whose rates the previous government tripled from 1 May 2025) – and the procedural fine against a legal person is capped at HUF 1 million under Section 77 of the General Public Administration Procedure Act. The difference lies in publicity: between 2018 and 2025 the decisions became known almost exclusively through freedom-of-information requests and litigation, the authorities routinely refusing to release them; in 2026 the sanctions are announced immediately by members of the government and governing-party MPs. The difference lies in consistency: suspension and activity prohibitions used to be exceptional, and production not infrequently continued despite a prohibition; today this is the first instrument. And the difference lies in systemic inspection: since 1 August 2026 a nationwide programme has been comparing permits with actual operations, extending to suppliers. The number of proceedings per company, however, has not risen: the seven investigations and four fines counted by G7 in the battery industry up to 26 August 2026 do not exceed the frequency represented by the roughly eight decisions a year that a single plant in Göd attracted on average in recent years.
+On 16 June 2026 the Csongrád-Csanád County Government Office imposed an environmental fine of HUF 10 million because topsoil had been removed from the construction site without measurement or notification.
 
-## III. THE NEW REGULATORY ARCHITECTURE
+### 4. Temu (PDD Holdings)
 
-Behind the turn in the visibility of enforcement stands a rearrangement of the regulatory framework, whose elements can be identified by legal reference.
+The Hungarian Competition Authority (GVH), in proceedings opened before the election, fined Temu HUF 437 million on 28 April 2026 for misleading commercial practices and ordered consumer compensation of more than HUF 882 million.
 
-- Government Resolution 1144/2026 (V. 14.): comprehensive, accelerated review of investments of national economic priority; termination of priority status where maintaining it entails significant social, infrastructural or environmental risk; linked to this, the Prime Minister's announcement of 20 July 2026 that all earlier government decisions, negotiations and state commitments relating to BYD – subsidies, tax allowances, fast-track permitting, infrastructure – would be reviewed. Government Decree 140/2026 (IX. 1.) has already terminated the priority status of several – so far non-battery – investments, providing that the repealed special rules may not be applied even in pending administrative cases.
-- Government Decree 92/2026 (VI. 5.) (in force from 6 June 2026): no country is designated for new employment under the guest-worker residence permit; the residence permit for employment purposes remains available; existing permits, extensions and pending applications enjoy transitional protection. The decree does not directly affect Chinese and Korean parent-company assignees, who typically do not work under guest-worker permits; the correct choice of permit title is, however, a subject of immigration inspection.
-- Government Resolution 1181/2026 (VI. 5.): preparation of an independent national environmental authority and a nationwide inspection programme covering the entire battery chain – anode, cathode, electrolyte, separator film, cell and module manufacturing – with a deadline of 30 September 2026 for the inspections. Government Resolution 1182/2026 (VI. 5.) calls for proposals to strengthen the environmental liability regime and sanctions by 1 October 2026; Government Resolution 1184/2026 (VI. 5.) abolished the minister's power to designate sites and ordered a technology-neutral regulatory concept for the battery industry.
-- Act XXXV of 2026: by amending Act LXXXIX of 2003 on environmental load charges, the air-load charge rates for sulphur dioxide, nitrogen oxides and non-toxic particulate matter double from 1 October 2026; the government package announced on 17 July also foreshadowed the phasing-out of tax allowances for multinationals and further rules for large water users.
-- Nationwide battery-industry inspection programme (from 1 August 2026): on-site comparison of permit data with actual capacity, raw-material and solvent use, emissions, water use and waste management; inspections may be extended to suppliers and related facilities, with sampling and, in serious cases, immediate measures.
-- Bill submitted to amend Act C of 2023 on Hungarian architecture: where the environmental or nature-conservation authority establishes an infringement, no further administrative permit may be issued for the priority investment until the unlawful situation is remedied, and for at least six months.
-- National Environmental Supervisory Authority (according to the government's announcement of 3–5 September 2026, from 1 January 2027): nationwide environmental permitting, inspection and sanctioning powers, with battery manufacturing as a priority area; under the announced sanctions regime, a HUF 5 billion cap for the most serious infringements, a "three strikes" principle – on the third infringement within five years, at least 0.5 percent of annual net turnover and no less than HUF 5 million – and abolition of the HUF 500 million ceiling for serious waste infringements. No bill had been submitted at the time of writing. The announced turnover-based rate is expected to apply to the annual net turnover of the Hungarian subsidiary rather than the group; whether the turnover of affiliated undertakings counts will be decided by the text of the bill – something the Chinese parent must also take into account in the capital and invoicing structure of its Hungarian subsidiary.
+Alongside the sanctions on Chinese companies, non-Chinese companies have been sanctioned under the new government on the same legal grounds and by the same standards: Korea’s SK On and EcoPro, Romania’s eMAG and Poland’s Allegro were fined for environmental, labour or competition breaches. SK On received the maximum HUF 100 million fine twice – in August (occupational safety) and on 29 September (environment: operation in deviation from its permit causing groundwater contamination); Samsung SDI was fined a further HUF 5 million on 9 October for deviating from its unified environmental permit; eMAG was fined HUF 225 million. The new government’s sanctions therefore show no discrimination by nationality.
 
-## IV. POLITICAL CONFRONTATION OR LAWFUL SANCTION? – THE FIRM'S ASSESSMENT
 
-Subject matter. We found no case in which an authority sanctioned a Chinese company without an established infringement. In the Semcorp case the factual basis is the authority's measurements, in the CATL cases the company's own admission, in the BYD case the sampling results and the fatal accidents. The target of the sanctions is the sector: the battery value chain and industries classed as major polluters, whose operators in Hungary are predominantly Korean- and Chinese-owned. The two maximum fines of the period hit a Korean plant and a Hungarian contractor; the Chinese companies' own fines remained between HUF 1 million and HUF 10 million.
+## II. STRICT ENFORCEMENT DID NOT BEGIN WITH THE MAGYAR GOVERNMENT
 
-Severity. The fines fall within the frameworks in force – those created by the previous government. The real sanction is not the fine but the collateral consequence: withdrawal of consent, suspension of activity, work prohibition, refusal of the occupancy permit, political rejection of expansion, review of the subsidy agreement, criminal proceedings – and the market effect: CATL's Hong Kong shares fell 4.65 percent on 2 September 2026 after the international press reported the Debrecen work prohibition. Hungarian authority findings can also be used at EU level: the European Commission is examining BYD's Szeged investment under the Foreign Subsidies Regulation (FSR), and the review of Hungarian subsidy agreements is also linked to EU state-aid rules.
+The record shows that strict regulation of the battery industry predates the current government. According to records of the Pest County Government Office, between 2018 and 2025 the authorities issued 61 sanctions against Samsung SDI’s battery plant in Göd, totalling HUF 405.3 million, covering construction, environmental protection, disaster management, occupational safety and labour inspection.
 
-Communication. Political motivation can be detected in timing and communication: sanctions are announced by governing-party politicians on social media, CATL's expansion was rejected by political statement, and the Szeged investment has drawn particular attention because of the former foreign-trade minister's position at BYD. That motivation has nonetheless remained within the bounds of law enforcement: the decisions rest on statute and are open to legal remedy – Semcorp has filed an action, EcoPro contests proportionality – and the courts demonstrated their independence from the authorities in previous years as well.
+Maximum fines were also first applied under the Orbán government. The HUF 100 million cap for occupational-safety fines was introduced by Government Decree 25/2024, effective 1 March 2024, and was first applied to Samsung SDI in March 2025. Chinese companies were subject to the same level of scrutiny under the previous government: in March 2026 Semcorp received the maximum HUF 10 million fire-safety fine.
 
-The official Chinese position draws the same distinction. Ambassador Gong Tao, in an interview with Daily News Hungary published on 9 September 2026, said that the Chinese government has always expected Chinese companies – BYD included – to comply strictly with Hungarian and EU law; that it takes note of the investigations conducted by the Hungarian government in accordance with the law; and that it expects a fair, transparent, predictable and non-discriminatory business environment for all Chinese and foreign investors. An analysis published by the Peking University Institute for Cultural Exchange between China and Foreign Countries (北京大学中外人文交流研究基地; Zhu Zhaoyi 朱兆一, 29 April 2026) holds that the new government's starting point is pragmatic cooperation, not confrontation – at the price of alignment with EU standards. Péter Magyar, on the day after the election, 13 April 2026 – as prime minister-designate – called China one of the most important, largest and strongest countries in the world, open to foreign capital under "clear conditions": environmental protection, health, workplace safety.
+Judicial proceedings, including criminal ones, are not a new tool of the current government either. Since 2023 four criminal proceedings have been opened in connection with Samsung SDI, one of which has reached indictment. In a public-interest action brought by a civil organisation, the court granted interim protection in 2024 and annulled the environmental permit by judgment in 2025; however, the Kúria (Supreme Court) set that judgment aside on 3 February 2026 and remitted the case, and the permit remains in force.
 
-> The assessment in one sentence: continuity in law, a turn in visibility. Whoever operated without sanction until now was protected not by the absence of law but by the absence of publicity – and that period is over.
+In short, until September 2026 the change lay not in legislation, enforcement or the courts, but in the transparency of enforcement, the choice of measures and systematic, chain-wide inspections; since 25 October 2026, the fining regime itself has also changed substantively (see Section III, point 7).
 
-## V. MAP OF THE AUTHORITIES: WHO, WHAT, IN WHICH PROCEDURE
+1. Transparency: between 2018 and 2025 sanctioning decisions often had to be obtained through freedom-of-information requests or even litigation; in 2026 major sanctions are announced immediately by senior officials, making them far more visible.
 
-For decision-makers at Chinese parent companies the greatest uncertainty stems from the fact that the Hungarian administrative system consists of several independent actors that examine the same site in separate proceedings. The specialised departments of the county government office – environment and nature conservation, water, occupational safety, industrial safety and disaster management, fire safety, construction – issue independent decisions with independent fine ranges. The police act under the Criminal Code (Act C of 2012) on the offences of environmental damage (Section 241), violation of the waste-management order (Section 248) and endangerment in the course of an occupation (Section 165), typically on a complaint by the authority or the municipality. Criminal proceedings are conducted against natural persons – typically the Hungarian managing director, the site manager, the HSE officer; measures under Act CIV of 2001 (fine, restriction of activity) may also be applied against the legal person, so the Chinese parent must prepare for the personal liability of its assigned managers as well (defence counsel, D&O insurance). The National Directorate-General for Aliens Policing examines the residence titles of third-country workers; the labour authority examines working time and pay. The Competition Authority and the National Tax and Customs Administration, as autonomous and central authorities respectively, supervise commercial practices and taxation. The fate of subsidy agreements and priority status is decided by the government and the Hungarian Investment Promotion Agency.
+2. Measures: suspension of operations and activity bans used to be exceptional, and fines rarely affected production; today suspension and bans are a preferred tool.
 
-The procedural framework is Act CL of 2016 on General Public Administration Procedure (Ákr.) and Act I of 2017 on the Code of Administrative Court Procedure (Kp.). Four rules deserve emphasis. First: suspension and prohibition decisions are usually declared immediately enforceable by the authority (Ákr. Section 84); no administrative appeal lies against a government-office decision, an administrative action may be brought within 30 days of service (Kp. Section 39), and filing the action has no suspensive effect (Kp. Section 39(6)), so interim relief must be requested together with the action (Kp. Section 50). Second: a statement recorded in the minutes of an on-site inspection is later evidence – in the administrative and the criminal procedure alike. Third: where the circle of affected persons cannot be precisely determined, the authority publishes the decision in addition to serving it on the addressee (Ákr. Section 89), as happened in the EcoPro case – the company's time limit for remedy runs from its own service, while the local public learns of it from the authority's website. Fourth: the language of the procedure is Hungarian (Ákr. Section 20); the authority does not accept foreign-language documentation, operating logs or safety reports, statements are recorded in Hungarian, and arranging interpretation is the company's responsibility.
+3. Systematic inspection: on 1 August 2026 the government launched a nationwide inspection programme, strictly based on existing law, which extends to upstream and downstream suppliers.
 
-## VI. WHERE COMPANIES FAIL: EIGHT TYPICAL AREAS OF INFRINGEMENT
+As of 26 August 2026, taking the battery industry as an example, the government had opened seven investigations and imposed four fines – not exceeding the previous intensity of about eight decisions per year at the Samsung SDI Göd plant alone, and within the legal framework adopted by the previous government.
 
-From the cases of the past five months – and the experience of earlier years in Göd, Komárom and Bátonyterenye – eight recurring types of error emerge.
 
-- Hazardous-waste management: missing Hungarian-language labelling, unmarked on-site collection point, missing operating log, unattended collection point, open or damaged containers (CATL 2026; SK Battery 2025; Samsung SDI 2020–2021).
-- Stormwater and wastewater management: operation deviating from the conditions of the pre-treatment consent, discharge of pressure-test or washing water into the sewer (CATL; HALMS 2024).
-- Soil and groundwater monitoring: missing sampling and reporting deadlines attracts a fine in itself, irrespective of whether pollution occurred (Semcorp: HUF 1 million procedural fine for delay).
-- Workplace exposure: omitted air measurements, unreported nickel and cobalt exposure, inadequate protective equipment, omitted occupational-health examinations (SK On, CATL, Samsung SDI, SK Battery).
-- Construction phase: earthworks, removal of topsoil, waste transport, crane and loading safety, fatal accidents (BYD site 2026; Iváncsa 2023).
-- Third-country workers: documentation of residence title, working time, pay and the subcontracting chain; contractors' failures burden the investor's reputation (AE Industry on the BYD site).
-- Fire and industrial safety: operation deviating from the safety report, inoperable extinguishing system, dust emissions, unsealed pipe penetrations (Semcorp, EcoPro).
-- Communication with the authority and the local community: foreign-language documentation, refusal to admit inspectors, mishandled public hearings, deteriorated relations with the municipality (EcoPro 2025–2026; Samsung SDI 2024; Semcorp–Debrecen).
+## III. THE NEW GOVERNMENT’S REGULATORY MEASURES
 
-## VII. THREE LESSONS FROM THE SUMMER CASES
+The government has begun to restructure the regulatory system. So far, the change mainly concerns the openness of enforcement, while the legal basis largely remains that of the previous government:
 
-Self-reporting – with an action plan. CATL, in line with its statutory duty, itself reported the elevated nickel exposure of nine workers; the authority responded with a work prohibition in three plant sections because it found protective equipment missing on site. Self-reporting is correct and mandatory, but it should be made only with a ready action plan – a new protective-equipment matrix, medical follow-up, technological modification and its documentation. Otherwise the content of the action plan will be dictated by the authority's prohibition.
+1. Government Resolution 1144/2026 (V. 14.): a comprehensive, accelerated review of “projects of national economic priority”; priority status is revoked where retaining it would pose significant social, infrastructural or environmental risk. On 20 July 2026 the Prime Minister announced a review of all previous government decisions, negotiations and state commitments (subsidies, tax incentives, accelerated permitting, infrastructure) relating to an individual Chinese-invested project. The first batch of priority statuses revoked by Government Decree 140/2026 (IX. 1.) did not include Chinese battery projects.
 
-The subcontracting chain. The pressure-test fluid CATL discharged into the sewer was the subcontractor's responsibility, yet the subject of the administrative procedure was CATL; on the Szeged site the contractor's HUF 100 million fine went through the press as a "BYD fine"; the inspection programme of 1 August expressly extends to suppliers. BYD introduced a subcontractor compliance declaration on pay, working time, visas and health insurance as early as May 2026 – that is the minimum. The contractual compliance chain must include entry controls, documentation and reporting duties, audit rights, a ground for extraordinary termination and an indemnity chain. Under Hungarian law the subject of the administrative procedure is the permit holder of the site, i.e. the investor: it bears the fine for the subcontractor's failure and can pass it on only through civil law – without a contractual indemnity chain and security elements (bank guarantee, retention), a compliance declaration alone offers no protection.
+2. Government Decree 92/2026 (VI. 5.), in force since 6 June 2026: for new employment on the basis of a “guest worker” residence permit, no source country is designated any longer – in effect, new guest-worker permits are suspended; residence permits for employment purposes remain available; existing permits, extensions and pending applications enjoy transitional protection. The decree generally does not affect expatriates of Chinese or Korean parent companies, but the correct choice of permit category is subject to review by the immigration authority.
 
-Permitting precision. The occupancy permit for CATL's second phase was refused not on environmental grounds but because of a site-plan error; Government Decree 140/2026 (IX. 1.) terminated priority statuses; under the submitted bill, no further administrative permit may be issued for a priority investment for at least six months after an environmental infringement. Permitting documentation today is not administration but a scheduling and financing risk.
+3. Government Resolutions 1181/2026 (VI. 5.), 1182/2026 and 1184/2026: preparation of a new, independent national environmental authority; a nationwide inspection of the entire battery value chain (anode, cathode, electrolyte, separator, cells, modules) with a deadline of 30 September 2026 (now passed; at the time of writing no consolidated results have been published); a proposal to strengthen environmental liability and sanctions by 1 October; abolition of the minister’s power to designate project sites; and technology-neutral rules for the battery industry.
 
-## VIII. HOW TO AVOID SANCTIONS: A TEN-POINT PROTOCOL
+4. Act XXXV of 2026: amending the Environmental Load Fee Act, the air-emission fee rates for sulphur dioxide, nitrogen oxides and non-toxic particulate matter doubled from 1 October 2026. The accompanying package announced the gradual phase-out of tax incentives for multinational companies and special rules for large water users.
 
-- Preventive enforcement audit against the criteria of the nationwide inspection programme: environment, water, waste, occupational safety, industrial safety, fire safety, immigration.
-- Line-by-line re-reading of permit conditions and comparison with actual operation: capacity, raw materials and solvents, water use, emissions.
-- Hungarian-language documentation regime: labelling, operating logs, safety report, internal rules.
-- Monitoring and reporting calendar with authority deadlines and responsible persons; delay is an infringement in its own right.
-- Subcontractor compliance package: declaration, entry permit, audit right, termination ground, indemnity chain.
-- Workplace-exposure management: measurement plan, protective-equipment matrix, biological monitoring, occupational-health reporting.
-- Inspection protocol: who receives the inspector, who makes statements, what is handed over, handling of statements in the minutes, presence of counsel.
-- Self-reporting and incident-management procedure with a ready action plan.
-- Remedy strategy: when to pay and close (the CATL model), when to contest (Semcorp; EcoPro proportionality); interim relief for every suspension.
-- Legal review of subsidy agreements and priority status ahead of the review; continuous, documented relations with the municipality and the local community.
+5. National battery-industry inspection programme (from 1 August 2026): on-site comparison of permits with actual capacity, raw materials, solvent consumption, emissions, water use and hazardous-waste handling; inspections may extend to suppliers and related facilities, with environmental sampling; serious breaches may lead directly to enforcement measures.
 
-## IX. THE ROLE OF LEGAL COUNSEL
+6. Draft amendment to the Construction Act (submitted to Parliament): where an environmental breach is established at a priority project, no further permits may be issued for at least six months after the breach has ended.
 
-Internal compliance is necessary but not sufficient. The administrative procedure is conducted in Hungarian and against deadlines; a statement in the minutes is later evidence; a suspension decision is immediately enforceable; under the announced 2027 regime the number of infringements – not only their amount – may count; and permitting and the subsidy review are a negotiating situation in which the investor's position is decided by the quality of its documentation. DHH Budapest Office (Czudar DHH Law Firm – Hungary), as the Hungarian and EU strategic partner of DHH Beijing, offers Chinese investors the following standardised service packages:
+7. Substantive reform of the fining regime (in force) and the National Living Environment Supervisory Authority (in preparation): Government Decree 280/2026 (X. 9.), amending Government Decrees 314/2005 and 156/2025, entered into force on 25 October 2026. For companies with annual net turnover above HUF 100 million, the fine for operating without or in deviation from a unified environmental permit may reach 5% of the previous year’s net turnover, capped at HUF 5 billion (previously HUF 2 billion); the fine is at least 0.5% of the previous year’s net turnover, and no less than HUF 5 million, where within five years the company was fined at least twice by final decision for environmental pollution, or a final decision established a breach causing environmental endangerment or damage (Government Decree 314/2005, Section 26(4a)–(4d)); the fixed HUF 500 million cap on waste-management fines for legal persons has been abolished, the amount now being determined by the statutory calculation rules. The ministry has stated that the aim is to prevent companies in high-impact industries such as battery manufacturing from treating fines as a predictable cost of doing business. The basis is the net turnover of the sanctioned company – i.e. the Hungarian subsidiary – not consolidated group figures; Chinese parent companies should factor this into the capital and settlement structure of their Hungarian subsidiaries. In parallel, public consultation on the draft government decree establishing the National Living Environment Supervisory Authority (Országos Élőkörnyezet-felügyeleti Főhatóság) closed on 30 September 2026. The authority is planned to operate from 1 January 2027, exercising permitting, inspection and sanctioning powers nationwide, with battery manufacturing as a priority area; under the draft, its decisions cannot be appealed administratively and can only be challenged in court.
 
-- Enforcement audit: full legal due diligence of the site following the logic of the nationwide inspection programme, with a written gap analysis and action plan.
-- Inspection readiness under a standing mandate: presence and representation at inspections, professional handling of the minutes and statements, Chinese-language liaison with the parent company.
-- Representation in fine, suspension and prohibition cases: administrative remedies, administrative litigation with interim relief, an agreed restoration programme for supervised restart; coordination of criminal defence where needed.
-- Permitting and subsidy representation: occupancy and environmental permits, priority status, review of subsidy agreements.
-- Subcontractor and workforce compliance package: contractual compliance chain, immigration and labour-law due diligence, restructuring of the employment structure.
 
-Our firm has represented Asian manufacturers operating in Hungary for more than ten years; our references include a successful remedy against a site-closure order, a legal opinion against a municipal environmental decree, the notification and permitting of industrial activities, and continuous immigration and corporate representation of Chinese and Korean companies. Fees are quoted individually.
+## IV. WHO SUPERVISES: THE HUNGARIAN AUTHORITIES
 
-## X. CALENDAR: Q4 2026 – 2027
+As in other countries, companies operating in Hungary are supervised in parallel by several independent authorities, each of which takes its own decisions and has its own sanctioning powers.
 
-- 30 September 2026: deadline of the nationwide battery-industry inspection programme (Government Resolution 1181/2026 (VI. 5.)).
-- 1 October 2026: doubling of air-load charge rates (Act XXXV of 2026); deadline for the proposal on strengthening the environmental liability regime (Government Resolution 1182/2026 (VI. 5.)).
-- Autumn 2026: parliamentary debate of the architecture-act amendment and the announced bill on the national authority; results of the review of priority investments.
-- 1 January 2027: planned start of the National Environmental Supervisory Authority and the announced sanctions regime.
+1. The government offices have separate, mutually independent departments for environmental protection, labour, occupational safety, fire protection and construction permitting.
 
-Hungary is not closing the gate to Chinese capital – the government and the Chinese ambassador alike name lawful, non-discriminatory operation as the condition. But from now on the key to that gate is compliance: demonstrable, documented, in Hungarian, and with legal representation present from the first minute of the administrative procedure.
+2. The police conduct criminal investigations. Criminal offences relevant to industrial operations mainly concern damage to the environment, breaches of waste-management rules and negligent endangerment under the Criminal Code; legal entities can also be subject to criminal fines and restrictions on their activities. Chinese parent companies should prepare criminal-compliance and defence plans for their expatriate managers in advance.
+
+3. Other bodies: the National Directorate-General for Aliens Policing reviews residence permits; the labour inspectorate checks working time and pay; the Competition Authority supervises market conduct; the National Tax and Customs Administration handles tax matters; and the Hungarian Investment Promotion Agency decides on subsidies and priority status.
+
+
+## V. PROCEDURAL RISKS IN HUNGARIAN ENFORCEMENT
+
+Enforcement procedures are mainly governed by the Act on General Administrative Procedure and the Code of Administrative Litigation. Four procedural points carry particularly high risk for companies:
+
+1. A suspension or prohibition decision is, as a rule, enforceable upon service. There is no administrative appeal against decisions of the county government offices; an action must be filed in court within 30 days of receipt. Filing does not suspend enforcement – the company must apply for interim legal protection at the same time to have any chance of suspending the measure.
+
+2. Records of interviews taken during on-site inspections are admissible evidence in both administrative and criminal proceedings. What on-site staff say fixes the facts of the case; a lawyer should therefore be involved from the outset, or the consequences may be irreversible and costly.
+
+3. In cases affecting an indeterminate number of interested parties, authorities also publish their decisions on their websites; the company’s deadline for legal remedy runs from actual receipt of the decision, not from the date of online publication.
+
+4. Hungarian is the official language of all administrative proceedings. Authorities do not accept logs, reports or signage in other languages; interview records are kept in Hungarian, and translation is at the company’s cost and risk. Hungarian is a small language and the law is written in it; the application of Hungarian law should therefore be entrusted to Hungarian lawyers to protect Chinese investors’ interests effectively.
+
+
+## VI. THE MOST FREQUENT BREACHES IN THE HUNGARIAN BATTERY INDUSTRY
+
+Recent enforcement cases show the following recurring compliance gaps in the battery industry:
+
+1. Hazardous-waste management: containers without Hungarian labels, unmarked collection points, missing logs, unattended points, damaged or open containers (e.g. SK Battery, Samsung SDI).
+
+2. Stormwater and industrial wastewater handled in deviation from the permit: operation contrary to the pre-treatment permit, test liquids or wash water discharged into the public sewer (e.g. HALMS Hungary / Huashuo Technology).
+
+3. Procedural defects in soil and groundwater monitoring: even where no contamination is ultimately found, late sampling or late submission of monitoring reports is an independent breach and may be fined (e.g. Semcorp’s procedural fine).
+
+4. Workplace exposure to hazardous substances: no air measurements, unreported nickel and cobalt exposure, inadequate protective equipment, missing occupational health examinations (e.g. SK On, Samsung SDI).
+
+5. Construction-phase risks: earthworks, topsoil removal, waste transport, lifting safety, fatal accidents (e.g. the BYD site).
+
+6. Third-country workers and the subcontracting chain: incomplete records of residence status, working time and pay; a subcontractor’s breach directly damages the investor’s reputation and may create liability.
+
+7. Fire and industrial safety deviating from approved documents: operation inconsistent with the safety report, faulty extinguishing systems, defective pipe seals (e.g. EcoPro).
+
+8. External communication and community relations: submitting documents in foreign languages, obstructing inspections, mishandling public hearings, poorly documented communication with local government.
+
+
+## VII. THREE PRACTICAL LESSONS FROM RECENT CASES
+
+### Lesson 1: Voluntary reporting must come with a complete remediation plan
+
+A Chinese company lawfully reported elevated nickel levels among its employees – the report itself met its legal obligation. However, the on-site inspection found inadequate protective equipment, and the authority immediately prohibited work in the affected workshops.
+
+Practical note: where a company must report a safety or environmental incident, it should not only disclose the problem but submit a complete set of remediation documents at the same time – a protective-equipment plan, medical follow-up of employees, process adjustments and supporting documentation. Without a remediation plan, the authority will replace the company’s own remediation with an administrative ban.
+
+### Lesson 2: A subcontractor’s fault does not relieve the permit holder of administrative liability
+
+Although the wastewater in question was discharged by a subcontractor, the sanction was imposed on the Chinese company as the permit holder; and when a subcontractor receives a large fine, the media point to the investor. The nationwide inspection programme expressly covers suppliers. A Chinese company introduced a subcontractor compliance declaration in May 2026 – a minimum standard that cannot by itself ring-fence administrative risk. The permit holder always remains the party to the administrative proceedings; the owner can seek recourse against the subcontractor only afterwards, under the subcontract – so recourse and security arrangements must be agreed in advance.
+
+Recommendation: subcontracts should build a complete compliance chain – onboarding review, reporting obligations, the right to inspect, special termination rights and indemnities – backed by bank guarantees and payment retentions, not merely a signed compliance declaration.
+
+### Lesson 3: The quality of permitting documents determines schedule and financing security
+
+A Chinese company’s application for its second phase was rejected not for environmental reasons but because of errors in the site plan. Under the draft amendment to the Construction Act submitted to Parliament, no new permits will be issued for at least six months after an environmental breach at a priority project, and the government may revoke priority status. Permitting documents are no longer an administrative formality but a core risk to schedule and financing. Another example: on 18 October 2026 the second-instance environmental authority annulled the unified environmental permit of a Korean-owned electrolyte plant in Sóskút, because electrolyte production requires its own environmental impact assessment and could not be “bundled” into an amendment of a hazardous-waste permit. If the wrong permitting route is chosen, the project must re-apply and re-plan.
+
+Recommendation: set up a dual review by the Chinese technical team and licensed Hungarian advisers, checking drawings and submissions item by item, with informal pre-consultation with the authority before filing. Control document versions strictly and update the environmental assessment whenever layout or process changes, with a full record. Split phased projects into separate filing units so that one defect does not hold up everything. Include provisions in financing agreements on disbursement and risk sharing if permits are delayed, and in service contracts on liability for defects and delay, linking final payments to permits obtained. Track new local rules, keep a list of errors encountered and turn it into an internal filing SOP to avoid six-month permitting freezes and loss of priority status.
+
+
+## VIII. TEN-POINT CHECKLIST FOR PREVENTING ADMINISTRATIVE SANCTIONS
+
+In light of the current rules, the new fining regime in force since 25 October 2026 and the new authority planned for 2027, Chinese companies should take the following ten measures:
+
+1. Conduct an enforcement-oriented compliance audit against the criteria of the national battery inspection programme, covering environment, water, hazardous waste, occupational and industrial safety, fire protection and the immigration and employment model.
+
+2. Compare every permit, line by line, with actual operations: capacity, raw materials, solvent consumption, water use and emissions.
+
+3. Complete the full set of Hungarian-language documentation: on-site signage, operating logs, safety reports and internal rules.
+
+4. Keep a monitoring and reporting calendar with every deadline and the responsible person; note that late reporting is a breach in itself.
+
+5. Implement a standard subcontractor compliance toolkit: compliance declaration, site-access approval, the owner’s inspection rights, special termination rights, indemnities and security.
+
+6. Introduce end-to-end management of workplace exposure to hazardous substances: measurement plan, protective-equipment system, biomonitoring of employees and occupational health records.
+
+7. Adopt an internal protocol for responding to inspections: who receives inspectors, who may speak, what documents may be handed over, how interview records are reviewed, and how a lawyer is brought on site.
+
+8. Set up a procedure for voluntary reporting of incidents and hazards, requiring every report to the authorities to be accompanied by a complete remediation plan.
+
+9. Plan legal remedies in advance: decide case by case between “accept the sanction, remediate and close” and “challenge in court”; upon receiving a suspension or prohibition, as a rule apply for interim legal protection at the same time.
+
+10. Complete legal due diligence and a self-review before any review of subsidies or priority status begins; maintain continuous, documented communication with local government and the surrounding community. Note that subsidy agreements may become public: in October 2026, the subsidy agreement of a large battery manufacturer was disclosed following a freedom-of-information request – HUF 129 billion in non-repayable aid, an 11-year operating obligation, a state mortgage, and the right to suspend payments in case of environmental, occupational-safety or employment breaches.
+
+
+## IX. WHY LOCAL LEGAL SUPPORT IS INDISPENSABLE
+
+An internal compliance team is necessary but not sufficient to manage Hungarian regulatory risk: proceedings are conducted in Hungarian under strict deadlines; interview records become evidence; suspension orders are enforceable at once; under the new fining regime in force since 25 October 2026, the number and nature of earlier final decisions matter as much as the size of the fine; and reviews of subsidies and priority status are in substance negotiations, in which leverage depends on the quality of written evidence.
+
+The team of DHH Budapest Office (Czudar DHH Law Firm – Hungary) has long served Asian manufacturers in Hungary, with core lawyers practising for more than ten years, and offers the following defined legal services:
+
+1. Enforcement-oriented compliance audit: legal due diligence of the site against the national inspection criteria, with a risk report and an actionable remediation plan.
+
+2. Inspection response on call: a local lawyer on site upon notice of an inspection, handling interviews and statements of fact, working with DHH’s teams in China to keep the Chinese headquarters informed in Chinese in real time.
+
+3. Disputes over sanctions and suspensions: administrative remedies and litigation with interim legal protection, negotiation of conditions for restarting operations; criminal defence in coordination where needed.
+
+4. Permitting and subsidies: operating and environmental permits, priority-status reviews and review of subsidy agreements.
+
+5. Subcontractor and employment compliance: contractual ring-fencing of subcontractor risk, immigration and labour-law due diligence, and optimisation of the workforce structure.
+
+
+## KEY DATES
+
+1. 30 September 2026: deadline of the national battery-industry inspection programme (Government Resolution 1181/2026) – passed; consolidated results pending.
+
+2. 1 October 2026: air-emission fee rates doubled; deadline for the proposal on stronger environmental liability (Government Resolution 1182/2026).
+
+3. 25 October 2026: Government Decree 280/2026 (X. 9.) in force – fine cap of 5% of the previous year’s net turnover, up to HUF 5 billion; a minimum of 0.5% of turnover after repeated or serious earlier breaches established by final decision.
+
+4. Autumn 2026: Parliament to debate the Construction Act amendment and legislation on the new environmental authority; results of priority-project reviews expected.
+
+5. 1 January 2027: the National Living Environment Supervisory Authority is planned to start operating, concentrating environmental permitting, inspection and sanctioning powers.
+
+
+## CONCLUSION
+
+Hungary has not closed its doors to Chinese capital. Both the Hungarian government and the Chinese Ambassador to Hungary have made clear that lawful operation is the precondition and non-discrimination the principle. The key to investment security today is compliance – verifiable, fully documented, in Hungarian, and supported by local lawyers from the very first moment of any proceeding. DHH remains committed to accompanying Chinese companies abroad, and stands ready to support them in operating compliantly and growing steadily in Hungary as they seize the opportunities of this new phase.
+
 
 ## Sources
 
-- Csongrád-Csanád County Government Office releases, 1 and 16 June 2026 (BYD)
-- Hajdú-Bihar County Government Office releases, 24 June and 3 July 2026 (Semcorp), 25 August 2026 (CATL), 11 September 2026 (EcoPro, HB/21-TIO/00613-2/2026)
-- kormany.hu: HUF 100 million fine on the Iváncsa battery plant, 21 August 2026; statement by László Gajdos, 21 June 2026; tax and environmental package, 17 July 2026; announcement of the national authority, 5 September 2026
-- Magyar Közlöny (Official Gazette) 2026/64 (Government Decree 92/2026; Government Resolutions 1181–1184/2026); Government Decree 140/2026 (IX. 1.); Act XXXV of 2026 and its explanatory memorandum (njt.hu)
-- GVH releases: Temu, 28 April and 20 July 2026; eMAG, 13 August 2026; Allegro, 30 June 2026
-- Telex, 28 May, 5 June, 6 July, 24 August, 26 August 2026 (CATL, Semcorp; G7: seven investigations and four fines); G7, 19 August 2026 (HIPA statement to 24.hu); Portfolio, 25 August and 1 September 2026; Világgazdaság, 7 August 2026 (AE Industry correction), 2 September 2026 (CATL Hong Kong share price); 444, 7 August 2026; mfor.hu (architecture-act amendment); SCMP, 19 May 2026 (BYD subcontractor compliance declaration); Bloomberg, 18 July 2026 and Daily News Hungary, 19 July 2026 (statement by Dávid Vitézy)
-- Átlátszó, 14 July 2026: Samsung SDI Göd, 61 decisions, HUF 405.3 million (2018–2025); Telex, 23 February 2026 (Csaba Latorcai: >HUF 400 million); Telex, 2 July 2025 (HUF 100 million occupational-safety fine, March 2025); Átlátszó, 23 August 2023 (SungEel suspension) and 30 August 2023 (Abasár, HUF 103 million); Index/Telex, 4 August 2023 (SK On Iváncsa, ~HUF 14 million); Átlátszó/HVG, 12 June 2026 (SK Battery Komárom); Debreciner (HALMS, Semcorp 2025); Telex, 21 March 2026 (Semcorp fire-safety fine); police.hu, 27 February 2026
-- Daily News Hungary, 9 September 2026 (interview with Ambassador Gong Tao); Telex/Index, 13 September 2026; 北京大学中外人文交流研究基地 (朱兆一), 29 April 2026; Global Times (环球时报), 15 April 2026
-- Czudar DHH – Cheng Tao: Chinese Investment in Hungary under the New Government – A Practical Legal Guide to Compliance (Part I; Hungarian and Chinese full text) and the English interview "Chinese Companies in Hungary Under the New Government: What Has Changed, and How to Respond", July 2026
+- Csongrád-Csanád County Government Office announcements
+- Hajdú-Bihar County Government Office announcements
+- kormany.hu
+- Magyar Közlöny (Hungarian Official Gazette)
+- Hungarian Competition Authority (GVH) decisions
+- Telex, Portfolio and other leading media
+- Átlátszó public records
+- Daily News Hungary interview with the Chinese Ambassador
+- Peking University research base for Chinese-foreign cultural exchange, research report
+- Part I of this series (July 2026): “Chinese Investment in Hungary under the New Government: A Practical Legal Compliance Guide”
+- Government Decree 280/2026 (X. 9.) (njt.hu); draft government decree on the National Living Environment Supervisory Authority (public consultation, September 2026)
+- Portfolio, 29 September and 19 October 2026; Infostart, 25 October 2026; Economx and 444, 18 and 20 October 2026

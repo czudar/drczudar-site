@@ -11,7 +11,7 @@ const { Content } = await entry.render();
 const d = new Date(entry.data.date).toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' });
 const by = entry.data.coauthor ? `${entry.data.author} – ${entry.data.coauthor}` : entry.data.author;
 ---
-<Base locale={locale} title={`${entry.data.title} | 德和衡（匈牙利）律师事务所`} description={entry.data.excerpt}>
+<Base locale={locale} title={`${entry.data.title} | 德和衡布达佩斯办公室`} description={entry.data.excerpt}>
   <article class="article">
     <a class="backlink" href="/zh/blog">← 返回资讯</a>
     <div class="meta">{d} · {by}</div>
