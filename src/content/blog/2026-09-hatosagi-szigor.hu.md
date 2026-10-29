@@ -1,151 +1,285 @@
 ---
-title: "Öt hónap jogalkalmazás: folytonosság a jogban, fordulat a láthatóságban"
+title: "Magyarország befektetési politikája a Magyar-kormány alatt: elemzés és gyakorlati megfelelési útmutató (II. rész)"
 lang: "hu"
 key: "2026-09-hatosagi-szigor"
-date: 2026-09-16
+date: 2026-10-29
 author: "dr. Czudar Balázs"
 coauthor: "Cheng Tao (DHH Qingdao)"
-excerpt: "Öt hónappal a kormányváltás után a mérleg egyértelmű: a magyar hatóságok minden ügyben dokumentált jogsértés miatt jártak el – folytonosság a jogban, fordulat a láthatóságban. Mire számítsanak a kínai befektetők 2026–2027-ben."
+excerpt: "Öt hónappal a kormányváltás után a magyarországi akkumulátor- és nehézipari üzemekkel szembeni hatósági fellépés láthatóbb lett, de nem önkényesebb. 2026. október 25. óta a nagyobb vállalkozásoknál az engedély nélküli vagy engedélytől eltérő működés bírsága az előző évi nettó árbevétel 5%-áig, legfeljebb 5 milliárd forintig terjedhet, ismételt vagy súlyos jogsértésnél pedig legalább az árbevétel 0,5%-a. Tízpontos megfelelési lista kínai befektetőknek."
+source: "a DHH (德和衡律师) hivatalos WeChat-csatornája, 2026. október 29. (kínaiul)"
 draft: false
-reviewNote: "Frissítve 2026. október 29-én: a 2027-re jelzett bírságszabályok a 280/2026. (X. 9.) Korm. rendelettel 2026. október 25-én hatályba léptek; az érintett részeket a hatályos szöveg szerint javítottuk. A cikk teljes, októberi változata hamarosan itt olvasható."
+reviewNote: "Frissítve 2026. október 29-én: ez a cikk a 2026. szeptemberi változatot váltja fel. A korábban 2027-re tervezettként ismertetett bírságszabályok a 280/2026. (X. 9.) Korm. rendelettel 2026. október 25-én hatályba léptek."
 ---
 
-*Mire számítsanak a kínai befektetők Magyarországon 2026–2027-ben, és hogyan előzhető meg a közigazgatási szankciók kockázata – II. rész*
+*Hogyan előzhetik meg a kínai vállalatok a közigazgatási szankciók kockázatát Magyarországon – II. rész*
 
-dr. Czudar Balázs (Czudar DHH Ügyvédi Iroda / DHH Budapest Office) – Cheng Tao 成焘 (北京德和衡（青岛）律师事务所 / DHH Qingdao) · Szakcikk, 2026. szeptember
+dr. Czudar Balázs, DHH Budapest Office (Czudar DHH Ügyvédi Iroda); Cheng Tao 成焘, 山东德衡律师事务所 (DHH Qingdao) · 2026. október
 
-## VEZETŐI ÖSSZEFOGLALÓ
+## ÖSSZEFOGLALÓ
 
-2026 júliusában megjelent tanulmányunk azt írta le, mi változott a kormányváltással a kínai befektetők számára, és milyen jogi válaszstratégia következik ebből. Öt hónappal a választás után már nem előrejelzést, hanem mérleget lehet készíteni. A mérleg egyértelmű: a magyar hatóságok minden egyes ismert ügyben dokumentált jogsértés miatt jártak el, a szankciók tárgya az akkumulátoripar és a nagyipar volt, nem a befektető nemzetisége, és a bírságok összege az előző kormány által 2011 és 2025 között megalkotott keretek között maradt. Ami valóban megváltozott, az a jogalkalmazás láthatósága és következetessége: a határozatokat ma miniszterek jelentik be, nem közérdekű adatigénylések tárják fel; a felfüggesztés a bírság mellé, sőt elé lépett; és 2026. augusztus 1-jétől országos, a beszállítói láncra is kiterjedő ellenőrzési program fut. A valódi rendszerváltás 2026. október 25-én már bekövetkezett: a 280/2026. (X. 9.) Korm. rendelettel módosított 314/2005. (XII. 25.) Korm. rendelet 26. § (4a) bekezdése szerint a 100 millió forintot meghaladó éves nettó árbevételű vállalkozásnál az egységes környezethasználati engedély nélküli vagy attól eltérő tevékenység bírsága ötszázezer forinttól az előző évi nettó árbevétel 5%-áig, de legfeljebb ötmilliárd forintig terjedhet. A (4b) bekezdés szerint a bírság legalább az előző évi nettó árbevétel 0,5%-a, de legalább ötmillió forint, ha a hatóság a vállalkozást a megelőző öt éven belül végleges döntéssel környezetszennyezés miatt legalább két alkalommal bírságolta, vagy ha a vállalkozás ugyanebben az időszakban végleges döntéssel megállapított környezetveszélyeztetést vagy -károsítást okozó jogsértést követett el – ez utóbbi esetben tehát egyetlen korábbi döntés is elegendő. Egy korábbi döntés csak egyszer vehető figyelembe [(4c) bekezdés]. Hogy a 2026. október 25. előtti döntések beszámítanak-e, azt a jogalkalmazási gyakorlat tisztázza; óvatosságból a kockázatot úgy érdemes felmérni, mintha beszámítanának. A júliusi cikk öt lépése – megfelelési önvizsgálat, reális tervezés, helyi beágyazottság, uniós dokumentációs készenlét, állandó jogi partner – tehát nem enyhült, hanem sürgetőbbé vált.
+Sorozatunk első cikke 2026 júliusában jelent meg. Azt elemezte, hogyan változtatta meg a magyar kormányváltás a kínai befektetők üzleti környezetét, és milyen jogi válasz következik ebből. Öt hónappal az új kormány hivatalba lépése után a hatóságok által nyilvánosságra hozott ügyek és anyagok egyértelmű következtetést engednek. A magyar hatóságok minden ismert szankciója megállapított jogsértésen alapul. A fellépés az akkumulátoripar és a nehézipar jogsértéseit célozza, nem a befektető nemzetiségét. Az eddig kiszabott bírságok pedig az előző kormány által 2011 és 2025 között megállapított törvényi keretek között maradtak.
 
-## I. ÖT HÓNAP MÉRLEGE: MI TÖRTÉNT 2026 ÁPRILISA ÓTA
+Szerkezetileg a jogalkalmazás átláthatósága és határozottsága változott meg. A korábban csak közérdekű adatigényléssel megismerhető határozatokat ma miniszterek jelentik be nyilvánosan. A tevékenység felfüggesztése a bírság mellett, olykor előtte alkalmazott eszközzé vált. 2026. augusztus 1. óta pedig a teljes ellátási láncra kiterjedő országos ellenőrzési program fut.
 
-A kínai gazdasági sajtó egy része „csapdáról” ír: az előző kormány beengedte, az új kormány pedig fellép a kínai gyárakkal szemben. Ez a narratíva a tényekkel nem támasztható alá. Az alábbi áttekintés kizárólag hatósági közleményekből, kormányzati tájékoztatásokból és ellenőrzött sajtóforrásokból dolgozik; ahol az érintett vállalat a hatósági megállapítást vitatja, azt külön jelezzük.
+Egy ennél alapvetőbb változás már be is következett: 2026. október 25-én hatályba lépett a 280/2026. (X. 9.) Korm. rendelet. A 314/2005. (XII. 25.) Korm. rendelet ma hatályos 26. § (4a) bekezdése szerint a 100 millió forintot meghaladó éves nettó árbevételű vállalkozásnál az egységes környezethasználati engedély nélküli vagy attól eltérő tevékenység bírsága ötszázezer forinttól az előző évi nettó árbevétel 5%-áig terjedhet, legfeljebb ötmilliárd forintig (korábban kétmilliárd forintig).
 
-Semcorp Hungary Kft. (恩捷股份, Debrecen). A szeparátorfólia-gyárban 2026 februárjában csővezeték-sérülés történt. A Hajdú-Bihar Vármegyei Kormányhivatal (a továbbiakban: Hajdú-Bihar VKH) vízügyi és vízvédelmi hatósága a talajvízből vett mintákban több fém és félfém határértékének túllépését állapította meg – a kormányhivatal közlése szerint az alumínium esetében a határérték mintegy 13 000-szeresét –, és 2026. június 24-én egymillió forint eljárási bírságot (a monitoring-eredmények késedelmes benyújtása miatt), egymillió forint vízgazdálkodási bírságot és több mint kétmillió forint eljárási költséget állapított meg, egyúttal vízzáró csapadékvíz-tározó építését és negyedéves monitoringot rendelt el. A környezetvédelmi hatóság a tevékenységet felfüggesztette, kármentesítést és tényfeltárást rendelt el. Július 3-án a tűzvédelmi hatóság – az üzemképtelen habbaloltó-szivattyú és az aceton-, illetve oxigénérzékelők szabálytalan környezete miatt – hárommillió forint bírság mellett a telephely valamennyi tevékenységét azonnali hatállyal megtiltotta. A rendőrség környezetkárosítás gyanújával nyomoz. A vállalat az eljárási bírságot keresettel támadta meg, és független laboratóriumi vizsgálatra hivatkozva vitatja, hogy a gyár szennyezést okozott volna – ezt a kínai nagykövet szeptemberi interjújában nyilvánosan is ismertette.
+A (4b) bekezdés szerint a bírság legalább az előző évi nettó árbevétel 0,5%-a, de legalább ötmillió forint, ha a vállalkozás a megelőző öt évben
+- környezetszennyezés miatt legalább kétszer kapott végleges bírságot, vagy
+- végleges döntéssel megállapított környezetveszélyeztetést vagy -károsítást okozó jogsértést követett el. Ehhez egyetlen korábbi döntés is elég.
 
-CATL (宁德时代, Debrecen). A május 5-i, fémtartalmú „zöld folyadékkal” kapcsolatos incidens után a vízügyi hatóság visszavonta az ipari szennyvíz-előkezelő rendszerre adott hozzájárulást, elrendelte a közcsatorna tisztítását, és a jogszabály szerint kiszabható maximális, egymillió forintos bírságot alkalmazta. Május 31-én a szakminisztérium államtitkára kijelentette, hogy a kormány „nem lesz partner” a további debreceni gyáregységek megépítésében. Június 5-én a vállalat maga ismerte el, hogy a nyomáspróba-folyadékot alvállalkozói engedték szabálytalanul a csatornába, és vállalta a felelősséget. Augusztus 24-én vált ismertté a tízmillió forintos környezetvédelmi bírság az egységes környezethasználati engedély megsértése miatt: a hulladékgyűjtő edényeken hiányzott a magyar nyelvű jelölés, az üzemi gyűjtőhelyet nem jelölték, az üzemnapló hiányzott, a gyűjtőhely őrizetlen volt. A megismételt, július 9-i ellenőrzés a hiányosságokat pótolva találta; a CATL a bírságot befizeti. Augusztus 25-én a munkavédelmi hatóság három üzemrészben megtiltotta a munkavégzést, miután a vállalat maga jelentette be kilenc dolgozó fokozott nikkelterhelését, és az ellenőrzés a védőeszközök hiányos biztosítását állapította meg; ugyanezen a napon a kormányhivatal az első ütem használatbavételi engedélyét megadta, a második ütemre vonatkozót viszont – helyszínrajzi hiba miatt – elutasította.
+Egy korábbi döntés csak egyszer vehető figyelembe [(4c) bekezdés], és a minimumbírság sem lépheti túl a felső határt [(4d) bekezdés]. Nyitott kérdés, hogy a 2026. október 25. előtti döntések beszámítanak-e az ötéves időszakba. Ezt a hatósági gyakorlat fogja tisztázni; óvatosságból a vállalatoknak úgy érdemes felmérniük a kockázatukat, mintha beszámítanának.
 
-BYD Auto Hungary Kft. (比亚迪, Szeged). A Csongrád-Csanád Vármegyei Kormányhivatal (a továbbiakban: Csongrád-Csanád VKH) 2026. június 16-án tízmillió forint környezetvédelmi bírságot szabott ki, mert az építkezésről mérés és bejelentés nélkül szállítottak el humuszt, és a márciusi minták alkilbenzol-tartalma meghaladta a határértéket; a hatóság feljelentést tett, és elrendelte az érintett földeken termett növények megsemmisítését. A májusi, 101 mintavételi pontra kiterjedő vizsgálat már nem mutatott túllépést. A rendőrség több eljárást folytat az építkezésen történt két halálos baleset és a munkakörülmények miatt. Fontos pontosítás: az augusztus 7-én bejelentett százmillió forintos munkavédelmi bírságot nem a BYD, hanem a kivitelező AE Industry Hungary Kft. kapta, a februári halálos baleset áldozatának munkáltatójaként; egy másik alvállalkozót júniusban 34,5 millió forintra bírságoltak. A BYD a kormány által július 20-án bejelentett támogatás-felülvizsgálat alanya; a Nemzeti Befektetési Ügynökség (HIPA) közlése szerint aláírt, hatályos támogatási szerződés nincs.
+Júliusi cikkünk öt javaslata ezért nem vesztett a jelentőségéből, hanem sürgetőbbé vált:
+- megfelelési önvizsgálat;
+- reális projekttervezés;
+- helyi beágyazottság;
+- készenlétben tartott uniós szintű jogi dokumentáció;
+- állandó helyi jogi partner.
 
-Temu (Whaleco Technology Ltd.). A Gazdasági Versenyhivatal – autonóm hatóságként, a választás előtt indult eljárásban – 2026. április 28-án 437 millió forint bírságot és legalább 882 millió forint fogyasztói kompenzációt állapított meg megtévesztő kereskedelmi gyakorlat miatt; ugyanebben az időszakban a román eMAG-ot 225 millió, a lengyel Allegrót 42,5 millió forintra bírságolta.
+Továbbra is ezek jelentik a kínai vállalatok számára a magyarországi befektetés jogi kockázatainak legmegbízhatóbb kezelési módját.
 
-Nem kínai tulajdonú gyárak. Az időszak két legnagyobb, százmillió forintos munkavédelmi bírsága közül az egyiket a dél-koreai SK On iváncsai gyára kapta augusztus 13-án (2024 augusztusa óta elmaradt munkahelyi levegőmérés, 59 dolgozó nikkelexpozíciójának be nem jelentése, elégtelen védőeszközök), a másikat a szegedi kivitelező. A dél-koreai EcoPro debreceni katódgyárában szeptember 11-én az iparbiztonsági hatóság kétmillió forint bírság mellett az NCA-épület veszélyes tevékenységét függesztette fel; a vállalat aránytalanságra hivatkozva vitatja a döntést. A kormány 2026. július 17-én bejelentett adó- és környezetvédelmi csomagja az alanyi kört általánosan – szennyező vállalatok, nagy vízhasználók, multinacionális cégek – határozta meg, Vitézy Dávid miniszter pedig a Bloombergnek úgy fogalmazott: nem a magyar–kínai együttműködés leépítése a cél, hanem az, hogy mindenki maradéktalanul betartsa a magyar és az uniós szabályokat.
 
-| Cég (tulajdonos) | Hatóság | Intézkedés | Összeg | Dátum |
-|---|---|---|---|---|
-| Semcorp (CN) | Hajdú-Bihar VKH – vízügyi, környezetvédelmi, tűzvédelmi; rendőrség | bírságok; felfüggesztés; teljes tevékenységi tilalom; nyomozás | 1 + 1 + 3 M Ft, >2 M Ft költség | 2026. 06. 24. – 07. 06. |
-| CATL (CN) | Hajdú-Bihar VKH – vízügyi, környezetvédelmi, munkavédelmi, építésügyi | hozzájárulás visszavonása; bírság; munkavégzési tilalom 3 üzemrészben; használatbavételi engedély elutasítása | 1 M + 10 M Ft | 2026. 05. 28. – 08. 25. |
-| BYD (CN) | Csongrád-Csanád VKH; rendőrség; kormány | környezetvédelmi bírság; feljelentés; támogatás-felülvizsgálat | 10 M Ft | 2026. 06. 01. – 07. 20. |
-| AE Industry Hungary (kivitelező, BYD-építkezés) | Csongrád-Csanád VKH – munkavédelmi | bírság (jogszabályi maximum) | 100 M Ft | 2026. 08. 07. |
-| Temu (CN) | GVH | bírság + kötelező kompenzáció | 437 M + ≥882 M Ft | 2026. 04. 28. |
-| SK On (KR) | Fejér VKH – munkavédelmi | bírság (jogszabályi maximum) | 100 M Ft | 2026. 08. 13. |
-| EcoPro (KR) | Hajdú-Bihar VKH – iparbiztonsági | bírság + épület tevékenységének felfüggesztése | 2 M Ft | 2026. 09. 11. |
+## I. HATÓSÁGI ÜGYEK AZ ÚJ KORMÁNY ALATT
 
-## II. NEM ELŐZMÉNY NÉLKÜLI: A BÍRSÁGOLÁS KRÓNIKÁJA 2018–2026
+A kínai gazdasági sajtó egy része arról írt, hogy az új magyar kormány „lesújt” az Orbán-kormány idején Magyarországra hozott kínai üzemekre. Az alábbiakban hivatalos hatósági közlemények, kormányzati kommunikáció és egymással összevetett sajtóhírek alapján vizsgáljuk két kérdést. Diszkriminatív-e az új kormány jogalkalmazása a kínai vállalatokkal szemben? Fordult-e ellenük a befektetési környezet?
 
-A „gyökeres változás” látszatát a legegyszerűbben a számok oszlatják el. A dél-koreai Samsung SDI gödi akkumulátorgyárát a Pest Vármegyei Kormányhivatal – a hatóság által 2026. június 30-án, bírósági kötelezés nyomán kiadott iratok szerint – 2018 és 2025 között 61 határozatban, összesen 405,3 millió forintra bírságolta: építésügyi, környezetvédelmi, katasztrófavédelmi, munkavédelmi és munkaügyi jogcímen. Ezt a nagyságrendet az akkori kormány 2026. február 23-án maga is elismerte (több mint 400 millió forint, ebből 146 millió munkavédelmi és 31 millió környezetvédelmi), és már 2023 elején egy parlamenti írásbeli kérdésre adott államtitkári válasz 39 tűzvédelmi és iparbiztonsági bírságról, összesen 101 millió forintról számolt be (2019–2023. január).
+### 1. Semcorp, Debrecen
 
-A jogszabályi maximumokat is az előző kormány hatóságai alkalmazták először. A százmillió forintos munkavédelmi bírságplafont a 25/2024. (II. 14.) Korm. rendelet vezette be 2024. március 1-jétől, és 2025 márciusában a Samsung SDI-re szabták ki 66 dolgozó súlyos és közvetlen veszélyeztetése miatt. Gödön 2022-ig 91,4 millió forintos építésügyi bírság született engedély nélkül épült csarnok miatt; a koreai SungEel HiTech bátonyterenyei akkumulátor-feldolgozóját 2023 augusztusában határozatlan időre felfüggesztették, és a hozzá köthető abasári hulladékraktár üzemeltetője 103 millió forintos hulladékgazdálkodási bírságot kapott; az SK On iváncsai gyárára 2023 augusztusában mintegy 14 millió forint kémiai biztonsági és munkavédelmi bírságot szabtak ki; a komáromi SK Battery ellen a katasztrófavédelem a 2025. májusi bírságot megelőző három évben 35 szankciót (21 figyelmeztetést és 14 bírságot) alkalmazott. A debreceni kínai üzemeket is érte bírság a választás előtt: a HALMS Hungary 2024 májusában, a Semcorp 2025 augusztusában és novemberében (1,5, illetve 4,5 millió forint), majd 2026 márciusában – még az előző kormány idején – tízmillió forintos, maximális tűzvédelmi bírságot és berendezéstiltást kapott.
+2026 februárjában csőtörés történt az üzemben. A Hajdú-Bihar Vármegyei Kormányhivatal vízügyi hatósága a talajvízmintákban több fém és félfém határérték feletti koncentrációját mutatta ki, a vállalat összesen több mint 4 millió forint bírságot kapott. 2026 júliusában a tűzvédelmi hatóság biztonsági hiányosságok miatt további 3 millió forint bírságot szabott ki, és megtiltott minden tevékenységet a telephelyen. Az üzem 2026. június 24. óta, több mint négy hónapja áll.
 
-Büntetőeljárás és bírósági korlát sem 2026-ban jelent meg először. A Samsung SDI ellen 2023-tól négy büntetőeljárás indult, egyikben vádemeléssel; a Budapest Környéki Törvényszék egy helyi egyesület keresetére 2024-ben azonnali jogvédelem keretében felfüggesztette, 2025 októberében pedig ítéletével megsemmisítette a gödi gyár környezethasználati engedélyét; a Kúria 2026. február 3-án az ítéletet hatályon kívül helyezte és új eljárást rendelt el; a Fővárosi Ítélőtábla 2023-ban a CATL engedélyperében az azonnali jogvédelem kérdésében utasította új döntésre az elsőfokot.
+A vállalat fellebbezett a döntések ellen, és a kármentesítési kötelezettség miatt pert indított a Debreceni Törvényszéken. Vitatja a hatósági mintavételi módszertant (álláspontja szerint a teljes, nem az oldott fémtartalmat mérték), és közlése szerint négy későbbi mérés nem mutatott határérték-túllépést. A viták folyamatban vannak, a cikk ezekben nem foglal állást.
 
-A különbség tehát nem a jogi eszköztárban és nem a bírságok mértékében van. A 2026-os egy–tízmillió forintos bírságok a hatályos ágazati bírságrendeletek – a tűzvédelmi (259/2011. (XII. 7.) Korm. rendelet, legfeljebb tízmillió forint), a katasztrófavédelmi (208/2011. (X. 12.) Korm. rendelet), a hulladékgazdálkodási (271/2001. (XII. 21.) Korm. rendelet) és a levegőtisztaság-védelmi (306/2010. (XII. 23.) Korm. rendelet, tételeit az előző kormány 2025. május 1-jével háromszorozta) – keretei között mozognak; az eljárási bírság jogi személy esetén az Ákr. 77. §-a alapján legfeljebb egymillió forint. A különbség a nyilvánosságban van: 2018 és 2025 között a határozatok szinte kizárólag közérdekű adatigénylésekből és adatperekből váltak ismertté, a hatóságok a kiadásukat rendre megtagadták; 2026-ban a szankciókat kormánytagok és kormánypárti képviselők azonnal bejelentik. A különbség a következetességben van: a felfüggesztés és a tevékenységi tilalom korábban kivételes volt, és a tiltás ellenére nem egyszer folyt tovább a termelés; ma ez az első eszköz. És a különbség a rendszerszintű ellenőrzésben van: 2026. augusztus 1-je óta országos program veti össze az engedélyeket a tényleges üzemmel, a beszállítókra is kiterjedően. Az egyes cégekre jutó eljárások száma ugyanakkor nem nőtt: a G7 által az akkumulátoriparban 2026. augusztus 26-ig összeszámolt hét vizsgálat és négy bírság nem haladja meg azt a gyakoriságot, amelyet egyetlen gödi gyár évi átlagosan mintegy nyolc határozata jelentett az elmúlt években.
+### 2. CATL, Debrecen
 
-## III. AZ ÚJ SZABÁLYOZÁSI ARCHITEKTÚRA
+2026. május 5-én fémtartalmú folyadék került ki a CATL debreceni telephelyén. Visszavonták a vállalat ipari szennyvíz-előkezelési engedélyét, és 1 millió forint bírságot szabtak ki. Augusztus 24-én további 10 millió forintos bírság vált nyilvánossá, többek között magyar nyelvű címke nélküli veszélyeshulladék-tárolók miatt. Egy július 9-i utóellenőrzés már igazolta, hogy minden hiányosságot megszüntettek, és a CATL a bírságot megfizette.
 
-A jogalkalmazás láthatóságának fordulata mögött a szabályozás átrendezése áll, amelynek elemei jogszabályi hivatkozással azonosíthatók.
+Augusztus 25-én az első ütem működési engedélyt kapott, a fennmaradó hiányosságok pótlásáig próbaüzemre korlátozva. Az akkumulátorcellák próbagyártása szeptember 22-én indult.
 
-- 1144/2026. (V. 14.) Korm. határozat: a nemzetgazdasági szempontból kiemelt beruházások átfogó, gyorsított felülvizsgálata; a kiemelt státusz megszüntetése ott, ahol fenntartása jelentős társadalmi, infrastrukturális vagy környezeti kockázattal jár; ehhez kapcsolódik a miniszterelnök 2026. július 20-i bejelentése a BYD-hez kapcsolódó valamennyi korábbi kormányzati döntés, tárgyalás és állami vállalás – támogatás, adókedvezmény, gyorsított engedélyezés, infrastruktúra – felülvizsgálatáról. A 140/2026. (IX. 1.) Korm. rendelet több – eddig nem akkumulátoripari – beruházás kiemelt státuszát már megszüntette, azzal, hogy a megszűnt különös szabályok a folyamatban lévő hatósági ügyekben sem alkalmazhatók.
-- 92/2026. (VI. 5.) Korm. rendelet (hatályos 2026. június 6-tól): a vendégmunkás-tartózkodási engedély jogcímén új foglalkoztatásra egyetlen ország sincs kijelölve; a foglalkoztatási célú tartózkodási engedély jogcíme fennmaradt; a meglévő engedélyek, hosszabbítások és a folyamatban lévő kérelmek átmeneti védelmet élveznek. A rendelet a kínai és koreai anyavállalati kiküldötteket – akik jellemzően nem vendégmunkás-engedéllyel dolgoznak – közvetlenül nem érinti; a jogcím helyes megválasztása azonban idegenrendészeti ellenőrzés tárgya.
-- 1181/2026. (VI. 5.) Korm. határozat: önálló országos környezetvédelmi főhatóság előkészítése és országos ellenőrzési program az akkumulátoripar teljes láncára – anód, katód, elektrolit, szeparátorfólia, cella- és modulgyártás –, az ellenőrzések 2026. szeptember 30-i határidejével. Az 1182/2026. (VI. 5.) Korm. határozat a környezeti felelősségi rendszer és a szankciók megerősítésére 2026. október 1-jéig kér javaslatot; az 1184/2026. (VI. 5.) Korm. határozat a miniszteri helyszínkijelölési jogkör megszüntetéséről rendelkezett, és technológiasemleges akkumulátoripari szabályozási koncepciót rendelt el.
-- 2026. évi XXXV. törvény: a környezetterhelési díjról szóló 2003. évi LXXXIX. törvény módosításával a kén-dioxid, a nitrogén-oxidok és a nem toxikus szálló por levegőterhelési díjtételei 2026. október 1-jétől megkétszereződnek; a kormány július 17-én bejelentett csomagja emellett a multinacionális vállalatok adókedvezményeinek leépítését és a nagy vízhasználókra vonatkozó további szabályokat helyezett kilátásba.
-- Országos akkumulátoripari ellenőrzési program (2026. augusztus 1-jétől): az engedélyek adatainak helyszíni összevetése a tényleges kapacitással, alapanyag- és oldószer-felhasználással, kibocsátással, vízhasználattal és hulladékkezeléssel; az ellenőrzés a beszállítókra és kapcsolódó létesítményekre is kiterjeszthető, mintavétellel, súlyos esetben azonnali intézkedéssel.
-- A magyar építészetről szóló 2023. évi C. törvény módosításáról benyújtott törvényjavaslat: ha a környezet- vagy természetvédelmi hatóság jogsértést állapít meg, a kiemelt beruházásra a jogsértő állapot megszüntetéséig, de legalább hat hónapig további hatósági engedély nem adható ki.
-- Új bírságrezsim (hatályos 2026. október 25-től): a 280/2026. (X. 9.) Korm. rendelet módosította a 314/2005. (XII. 25.) Korm. rendeletet. A 26. § (4a)–(4d) bekezdés szerint a 100 millió forintot meghaladó éves nettó árbevételű vállalkozásnál a bírság az előző évi nettó árbevétel 5%-áig, de legfeljebb ötmilliárd forintig terjedhet; legalább az árbevétel 0,5%-a, de legalább ötmillió forint, ha öt éven belül legalább két végleges, környezetszennyezés miatti bírság, vagy egy végleges döntéssel megállapított környezetveszélyeztetés vagy -károsítás előzte meg; ez a bírság sem haladhatja meg a (4a) szerinti felső határt. Az árbevétel-arányos tétel a bírságolt vállalkozás – tehát a magyar leányvállalat – előző évi nettó árbevételéhez igazodik; ezt a kínai anyavállalatnak a magyar leányvállalat tőke- és számlázási struktúrájában is figyelembe kell vennie. Országos Élőkörnyezet-felügyeleti Főhatóság (tervezett működéskezdet: 2027. január 1.): a kormányrendelet-tervezet társadalmi egyeztetése 2026. szeptember 30-án zárult; országos hatáskörű környezetvédelmi engedélyezés, ellenőrzés és szankcionálás, az akkumulátorgyártás kiemelt területként.
+### 3. BYD, Szeged
 
-## IV. POLITIKAI SZEMBESZEGÜLÉS VAGY JOGSZERŰ SZANKCIÓ? – AZ IRODA ÉRTÉKELÉSE
+2026. június 16-án a Csongrád-Csanád Vármegyei Kormányhivatal 10 millió forint környezetvédelmi bírságot szabott ki, mert az építési területről mérés és bejelentés nélkül hordták el a termőföldet.
 
-Tárgy. Nem találtunk olyan ügyet, amelyben a hatóság kimutatott jogsértés nélkül szankcionált volna kínai vállalatot. A Semcorp-ügyben a hatósági mérések, a CATL-ügyekben a vállalat saját elismerése, a BYD-ügyben a mintavételi eredmények és a halálos balesetek adják a tényalapot. A szankciók tárgya a szektor: az akkumulátor-értéklánc és a nagy szennyezőnek minősülő ipar, amelynek magyarországi szereplői túlnyomórészt koreai és kínai tulajdonúak. Az időszak két maximális bírsága koreai gyárat és magyar kivitelezőt ért; a kínai cégek saját bírságai egy és tízmillió forint között maradtak.
+### 4. Temu (PDD Holdings)
 
-Mérték. A bírságok a hatályos – az előző kormány által alkotott – keretekben mozognak. A tényleges szankció nem a bírság, hanem a mellékkövetkezmény: a hozzájárulás visszavonása, a tevékenység felfüggesztése, a munkavégzési tilalom, a használatbavételi engedély elutasítása, a bővítés politikai elutasítása, a támogatási szerződés felülvizsgálata, a büntetőeljárás – és a tőzsdei hatás: a CATL hongkongi részvénye 2026. szeptember 2-án 4,65 százalékkal esett, miután a nemzetközi sajtó a debreceni munkavégzési tilalomról beszámolt. A magyar hatósági megállapítások uniós szinten is felhasználhatók: az Európai Bizottság a külföldi támogatásokról szóló rendelet (FSR) alapján vizsgálja a BYD szegedi beruházását, és a magyar támogatási szerződések felülvizsgálata az uniós állami támogatási szabályokkal is összefügg.
+A Gazdasági Versenyhivatal (GVH) még a választás előtt indított eljárásban 2026. április 28-án 437 millió forint bírságot szabott ki a Temura megtévesztő kereskedelmi gyakorlat miatt, és több mint 882 millió forint fogyasztói kompenzációra kötelezte.
 
-Kommunikáció. A politikai motiváció az ütemezésben és a kommunikációban érhető tetten: a szankciókat kormánypárti politikusok jelentik be közösségi médiában, a CATL bővítését politikai nyilatkozat utasította el, a szegedi beruházás pedig a korábbi külgazdasági miniszter BYD-nél vállalt pozíciója miatt is a figyelem középpontjába került. Ez a motiváció azonban a jogalkalmazás keretei között maradt: a határozatok jogszabályon alapulnak, jogorvoslattal támadhatók – a Semcorp keresetet nyújtott be, az EcoPro az arányosságot vitatja –, és a bíróságok az előző években is bizonyították függetlenségüket a hatóságokkal szemben.
+A kínai vállalatok mellett az új kormány alatt nem kínai vállalatokat is szankcionáltak, ugyanazon jogalapon és mércével. Környezetvédelmi, munkajogi vagy versenyjogi jogsértés miatt kapott bírságot a koreai SK On és EcoPro, a román eMAG és a lengyel Allegro:
+- Az SK On kétszer kapta meg a maximális, 100 millió forintos bírságot: augusztusban munkavédelmi okból, szeptember 29-én környezetvédelmi okból (engedélytől eltérő működés, talajvízszennyezés).
+- A Samsung SDI-t október 9-én további 5 millió forintra bírságolták, mert eltért az egységes környezethasználati engedélyétől.
+- Az eMAG bírsága 225 millió forint volt.
 
-A kínai hivatalos álláspont ugyanezt a különbségtételt alkalmazza. Gong Tao nagykövet a Daily News Hungarynek adott, 2026. szeptember 9-én közzétett interjújában úgy fogalmazott, hogy a kínai kormány mindig is elvárta a kínai vállalatoktól – köztük a BYD-től – a magyar és az uniós jogszabályok szigorú betartását; tudomásul veszi a magyar kormány által a törvényeknek megfelelően lefolytatott vizsgálatokat, és tisztességes, átlátható, kiszámítható, megkülönböztetésmentes üzleti környezetet vár minden kínai és külföldi befektető számára. A Pekingi Egyetem Kínai–Külföldi Humán Kapcsolatok Kutatóbázisa (北京大学中外人文交流研究基地) által közzétett elemzés (朱兆一, 2026. április 29.) szerint az új kormány kiindulópontja a gyakorlatias együttműködés, nem a szembefordulás – az uniós standardokhoz igazodás árán. Magyar Péter a választást követő napon, 2026. április 13-án – még leendő miniszterelnökként – Kínát a világ egyik legfontosabb, legnagyobb és legerősebb országának nevezte, a külföldi tőke előtt nyitott, „egyértelmű feltételekkel” – környezetvédelem, egészség, munkabiztonság.
+Az új kormány szankciói tehát nem mutatnak nemzetiség szerinti megkülönböztetést.
 
-> Az értékelés egy mondatban: folytonosság a jogban, fordulat a láthatóságban. Aki eddig szankció nélkül működött, azt nem a jog hiánya védte, hanem a nyilvánosság hiánya – ez az időszak lezárult.
 
-## V. HATÓSÁGI TÉRKÉP: KI, MIT, MILYEN ELJÁRÁSBAN
+## II. A SZIGORÚ JOGALKALMAZÁS NEM AZ ÚJ KORMÁNNYAL KEZDŐDÖTT
 
-A kínai anyavállalati döntéshozók számára a legnagyobb bizonytalanságot az okozza, hogy a magyar hatósági rendszer több, egymástól független szereplőből áll, amelyek ugyanazt a telephelyet külön eljárásokban vizsgálják. A vármegyei kormányhivatal szakigazgatási szervei – környezetvédelmi és természetvédelmi, vízügyi és vízvédelmi, munkavédelmi, iparbiztonsági és katasztrófavédelmi, tűzvédelmi, építésügyi osztályok – önálló határozatokat hoznak, önálló bírságkerettel. A rendőrség a Büntető Törvénykönyvről szóló 2012. évi C. törvény (Btk.) szerinti környezetkárosítás (241. §), a hulladékgazdálkodás rendjének megsértése (248. §) és a foglalkozás körében elkövetett veszélyeztetés (165. §) tényállásai alapján jár el, jellemzően a hatóság vagy az önkormányzat feljelentésére. A büntetőeljárás természetes személyek – jellemzően a magyar ügyvezető, a telephelyvezető, a HSE-felelős – ellen folyik; a jogi személlyel szemben a 2001. évi CIV. törvény szerinti intézkedés (pénzbírság, tevékenységkorlátozás) is alkalmazható, ezért a kínai anyavállalatnak a kiküldött vezetők személyes felelősségére is fel kell készülnie (védői képviselet, vezetői felelősségbiztosítás). Az Országos Idegenrendészeti Főigazgatóság a harmadik országbeli munkavállalók jogcímét, a munkaügyi hatóság a munkaidőt és a bérezést vizsgálja. A Gazdasági Versenyhivatal és a Nemzeti Adó- és Vámhivatal autonóm, illetve központi hatóságként a kereskedelmi gyakorlatot és az adózást ellenőrzi. A támogatási szerződések és a kiemelt státusz sorsáról a kormány, illetve a Nemzeti Befektetési Ügynökség dönt.
+A tények szerint az akkumulátoripar szigorú szabályozása a jelenlegi kormány előtt kezdődött. A Pest Vármegyei Kormányhivatal nyilvántartása szerint 2018 és 2025 között a hatóságok 61 szankciót alkalmaztak a gödi Samsung SDI akkumulátorgyárral szemben, összesen 405,3 millió forint értékben. Az ügyek az építésügyet, a környezetvédelmet, a katasztrófavédelmet, a munkavédelmet és a munkaügyi ellenőrzést érintették.
 
-Az eljárási keret az általános közigazgatási rendtartásról szóló 2016. évi CL. törvény (Ákr.) és a közigazgatási perrendtartásról szóló 2017. évi I. törvény (Kp.). Négy szabályt érdemes kiemelni. Először: a felfüggesztő és tiltó határozatokat a hatóság rendszerint azonnal végrehajthatónak nyilvánítja (Ákr. 84. §); a kormányhivatal határozata ellen fellebbezésnek nincs helye, a közléstől számított 30 napon belül közigazgatási per indítható (Kp. 39. §), és a keresetlevél benyújtásának nincs halasztó hatálya (Kp. 39. § (6) bekezdés), ezért a keresettel egyidejűleg azonnali jogvédelmet kell kérni (Kp. 50. §). Másodszor: a helyszíni ellenőrzés jegyzőkönyvébe tett nyilatkozat később bizonyíték – a közigazgatási és a büntetőeljárásban egyaránt. Harmadszor: a hatóság a határozatot a címzettnek való kézbesítés mellett közhírré is teszi, ha az érintettek köre pontosan nem állapítható meg (Ákr. 89. §), ahogyan az EcoPro-ügyben történt – a vállalat jogorvoslati határideje a saját kézbesítéstől számít, a helyi nyilvánosság viszont a hatóság honlapjáról értesül. Negyedszer: az eljárás nyelve a magyar (Ákr. 20. §); a hatóság idegen nyelvű dokumentációt, üzemnaplót, biztonsági jelentést nem fogad el, a jegyzőkönyvi nyilatkozatot magyarul rögzíti, a tolmácsolás megszervezése a vállalat felelőssége.
+A maximális bírságokat is az Orbán-kormány alatt alkalmazták először. A munkavédelmi bírság 100 millió forintos felső határát a 2024. március 1-jén hatályba lépett 25/2024. Korm. rendelet vezette be, és először 2025 márciusában alkalmazták a Samsung SDI-vel szemben. A kínai vállalatok az előző kormány alatt is ugyanilyen szoros felügyelet alatt álltak: a Semcorp 2026 márciusában megkapta a maximális, 10 millió forintos tűzvédelmi bírságot.
 
-## VI. HOL BUKNAK EL A CÉGEK: NYOLC TIPIKUS JOGSÉRTÉSI KÖR
+A bírósági, köztük a büntetőeljárások sem az új kormány eszközei. 2023 óta négy büntetőeljárás indult a Samsung SDI-vel összefüggésben, ezek egyikében vádat emeltek. Egy civil szervezet közérdekű perében a bíróság 2024-ben ideiglenes intézkedéssel élt, majd 2025-ben ítéletével megsemmisítette a környezetvédelmi engedélyt. A Kúria azonban 2026. február 3-án ezt az ítéletet hatályon kívül helyezte, és új eljárásra utasított; az engedély hatályos.
 
-Az elmúlt öt hónap ügyeiből – és az előző évek gödi, komáromi, bátonyterenyei tapasztalataiból – nyolc visszatérő hibatípus rajzolódik ki.
+Összegezve: 2026 szeptemberéig a változás nem a jogszabályokban, a jogalkalmazásban vagy a bíróságokon volt. A változás a jogalkalmazás átláthatóságában, az eszközök megválasztásában és a rendszerszerű, a teljes láncra kiterjedő ellenőrzésben jelent meg. 2026. október 25. óta azonban maga a bírságrendszer is érdemben megváltozott (lásd a III. fejezet 7. pontját). A három változás részletesen:
 
-- Veszélyes hulladék kezelése: hiányzó magyar nyelvű jelölés, jelöletlen üzemi gyűjtőhely, hiányzó üzemnapló, őrizetlen gyűjtőhely, nyitott vagy sérült konténerek (CATL 2026; SK Battery 2025; Samsung SDI 2020–2021).
-- Csapadékvíz- és szennyvízkezelés: az előkezelési engedély feltételeitől eltérő működés, nyomáspróba- vagy mosóvíz csatornába engedése (CATL; HALMS 2024).
-- Talaj- és talajvíz-monitoring: a mintavételi és jelentési határidők elmulasztása önmagában bírságot von maga után, függetlenül a szennyezés tényétől (Semcorp: egymillió forint eljárási bírság a késedelemért).
-- Munkahelyi expozíció: elmaradt levegőmérés, be nem jelentett nikkel- és kobaltterhelés, elégtelen védőeszköz, a foglalkozás-egészségügyi vizsgálatok elmaradása (SK On, CATL, Samsung SDI, SK Battery).
-- Építési fázis: földmunka, humusz elszállítása, hulladékszállítás, daruzás és rakodás biztonsága, halálos balesetek (BYD-építkezés 2026; Iváncsa 2023).
-- Harmadik országbeli munkavállalók: a jogcím, a munkaidő, a bérezés és az alvállalkozói lánc dokumentálása; a kivitelezők mulasztása a beruházó hírnevét terheli (AE Industry a BYD-építkezésen).
-- Tűz- és iparbiztonság: a biztonsági jelentéstől eltérő üzemeltetés, üzemképtelen oltórendszer, kiporzás, tömítetlen csőáttörés (Semcorp, EcoPro).
-- Hatósági kommunikáció és helyi közösség: idegen nyelvű dokumentáció, az ellenőrök beengedésének megtagadása, rosszul kezelt közmeghallgatás, az önkormányzattal megromlott viszony (EcoPro 2025–2026; Samsung SDI 2024; Semcorp–Debrecen).
+1. Átláthatóság: 2018 és 2025 között a szankciós határozatokat gyakran közérdekű adatigényléssel vagy akár perrel kellett megszerezni. 2026-ban a jelentős szankciókat vezető tisztségviselők azonnal bejelentik, így azok sokkal láthatóbbak.
 
-## VII. HÁROM TANULSÁG A NYÁR ÜGYEIBŐL
+2. Eszközök: a tevékenység felfüggesztése és a tevékenységi tilalom korábban kivételes volt, a bírság ritkán érintette a termelést. Ma a felfüggesztés és a tilalom kedvelt eszköz.
 
-Önbejelentés – intézkedési tervvel. A CATL a törvényi kötelezettségének megfelelően maga jelentette be kilenc dolgozó fokozott nikkelterhelését; a hatóság erre három üzemrészben munkavégzési tilalommal válaszolt, mert a helyszínen a védőeszközök hiányát állapította meg. Az önbejelentés helyes és kötelező, de csak kész intézkedési tervvel – új védőeszköz-mátrixszal, orvosi utánkövetéssel, technológiai módosítással és annak dokumentációjával – szabad megtenni. Ellenkező esetben az intézkedési terv tartalmát a hatósági tilalom határozza meg.
+3. Rendszerszerű ellenőrzés: a kormány 2026. augusztus 1-jén a hatályos jogon alapuló országos ellenőrzési programot indított, amely a beszállítókra és a vevőkre is kiterjed.
 
-Alvállalkozói lánc. A CATL csatornába engedett nyomáspróba-folyadékáért az alvállalkozó volt felelős, a hatósági eljárás alanya mégis a CATL; a szegedi beruházáson a kivitelező százmilliós bírsága „BYD-bírságként” járta be a sajtót; az augusztus 1-jei ellenőrzési program kifejezetten kiterjed a beszállítókra. A BYD már 2026 májusában alvállalkozói megfelelési nyilatkozatot vezetett be a bérezés, munkaidő, vízum és egészségbiztosítás tárgyában – ez a minimum. A szerződéses compliance-láncnak tartalmaznia kell a belépési kontrollt, a dokumentációs és adatszolgáltatási kötelezettséget, az ellenőrzési jogot, a rendkívüli felmondási okot és a kártérítési láncolatot. A magyar jog szerint a hatósági eljárás alanya a telephely engedélyese, vagyis a beruházó: az alvállalkozó mulasztásáért a bírságot ő viseli, és azt csak polgári jogi úton háríthatja tovább – szerződéses kártérítési láncolat és biztosítéki elemek (bankgarancia, visszatartás) nélkül a megfelelési nyilatkozat önmagában nem véd.
+2026. augusztus 26-ig az akkumulátoriparban a kormány hét vizsgálatot indított és négy bírságot szabott ki. Ez nem haladja meg a korábbi intenzitást: csak a gödi Samsung SDI-üzemnél évi mintegy nyolc döntés született. A bírságok az előző kormány által elfogadott jogi keretek között maradtak.
 
-Engedélyezési precizitás. A CATL második ütemének használatbavételi engedélyét nem környezetvédelmi, hanem helyszínrajzi hiba miatt utasították el; a 140/2026. (IX. 1.) Korm. rendelet kiemelt státuszokat szüntetett meg; a benyújtott törvényjavaslat szerint kiemelt beruházásnál környezetvédelmi jogsértés után legalább hat hónapig további hatósági engedély nem adható ki. Az engedélyezési dokumentáció ma nem adminisztráció, hanem ütemezési és finanszírozási kockázat.
 
-## VIII. HOGYAN KERÜLHETŐK EL A SZANKCIÓK: TÍZPONTOS PROTOKOLL
+## III. AZ ÚJ KORMÁNY SZABÁLYOZÁSI LÉPÉSEI
 
-- Preventív hatósági szigor-audit az országos ellenőrzési program szempontrendszere szerint: környezetvédelem, víz, hulladék, munkavédelem, iparbiztonság, tűzvédelem, idegenrendészet.
-- Az engedélyek feltételeinek tételes újraolvasása és összevetése a tényleges üzemmel: kapacitás, alapanyagok és oldószerek, vízhasználat, kibocsátás.
-- Magyar nyelvű dokumentációs rend: jelölések, üzemnaplók, biztonsági jelentés, belső szabályzatok.
-- Monitoring- és jelentési naptár hatósági határidőkkel és felelősökkel; a késedelem önálló jogsértés.
-- Alvállalkozói compliance-csomag: nyilatkozat, belépési engedély, ellenőrzési jog, felmondási ok, kártérítési lánc.
-- Munkahelyi expozíció-kezelés: mérési terv, védőeszköz-mátrix, biológiai monitoring, foglalkozás-egészségügyi jelentés.
-- Hatósági ellenőrzési protokoll: ki fogadja az ellenőrt, ki nyilatkozik, mit adunk át, jegyzőkönyvi nyilatkozatok kezelése, ügyvéd jelenléte.
-- Önbejelentési és incidenskezelési eljárásrend kész intézkedési tervvel.
-- Jogorvoslati stratégia: mikor fizetünk és zárunk (CATL-modell), mikor támadunk (Semcorp, EcoPro-arányosság); azonnali jogvédelem minden felfüggesztésnél.
-- A támogatási szerződések és a kiemelt státusz jogi átvilágítása a felülvizsgálat előtt; folyamatos, dokumentált kapcsolat az önkormányzattal és a helyi közösséggel.
+A kormány hozzáfogott a szabályozási rendszer átalakításához. A változás eddig elsősorban a jogalkalmazás nyilvánosságát érinti, a jogalap nagyrészt az előző kormányé maradt.
 
-## IX. A JOGI KÉPVISELŐ SZEREPE
+1. 1144/2026. (V. 14.) Korm. határozat: a „nemzetgazdasági szempontból kiemelt beruházások” átfogó, gyorsított felülvizsgálata. A kiemelt státuszt visszavonják, ha fenntartása jelentős társadalmi, infrastrukturális vagy környezeti kockázattal járna. 2026. július 20-án a miniszterelnök bejelentette, hogy egy egyedi kínai befektetésű projekttel kapcsolatos valamennyi korábbi kormányzati döntést, tárgyalást és állami kötelezettségvállalást felülvizsgálnak (támogatás, adókedvezmény, gyorsított engedélyezés, infrastruktúra). A 140/2026. (IX. 1.) Korm. rendelettel visszavont első kiemelt státuszok között nem volt kínai akkumulátoripari projekt.
 
-A belső compliance szükséges, de nem elégséges. A hatósági eljárás magyar nyelvű és határidős; a jegyzőkönyvi nyilatkozat később bizonyíték; a felfüggesztő határozat azonnal végrehajtható; a 2026. október 25-től hatályos bírságrezsimben a korábbi végleges döntések száma és jellege – nem csak a bírság összege – számít; az engedélyezés és a támogatás-felülvizsgálat tárgyalási helyzet, amelyben a beruházó pozícióját a dokumentáció minősége dönti el. A DHH Budapest Office (Czudar DHH Ügyvédi Iroda) a DHH Beijing magyarországi és uniós stratégiai partnereként a következő, standardizált szolgáltatáscsomagokkal áll a kínai befektetők rendelkezésére:
+2. 92/2026. (VI. 5.) Korm. rendelet (hatályos 2026. június 6-tól): vendégmunkás-tartózkodási engedély alapján történő új foglalkoztatáshoz már egyetlen küldő ország sincs kijelölve, vagyis új vendégmunkás-engedélyt gyakorlatilag nem adnak ki. A foglalkoztatási célú tartózkodási engedély továbbra is elérhető. A meglévő engedélyek, a hosszabbítások és a folyamatban lévő kérelmek átmeneti védelmet élveznek. A rendelet a kínai vagy koreai anyavállalatok kiküldött munkavállalóit általában nem érinti, de a helyes engedélytípus megválasztását az idegenrendészeti hatóság vizsgálja.
 
-- Hatósági szigor-audit: a telephely teljes körű, az országos ellenőrzési program logikáját követő jogi átvilágítása, írásos hiányelemzéssel és intézkedési tervvel.
-- Ellenőrzési készenlét állandó megbízás alapján: jelenlét és képviselet a hatósági ellenőrzésen, a jegyzőkönyv és a nyilatkozatok szakmai kezelése, kínai nyelvű kapcsolattartás az anyavállalattal.
-- Képviselet bírság-, felfüggesztési és tilalmi ügyekben: közigazgatási jogorvoslat, közigazgatási per azonnali jogvédelemmel, egyeztetett helyreállítási program a felügyelt újraindításhoz; szükség esetén a büntetőjogi védelem koordinációja.
-- Engedélyezési és támogatási képviselet: használatbavételi és környezethasználati engedélyek, kiemelt státusz, támogatási szerződések felülvizsgálata.
-- Alvállalkozói és munkaerő-compliance csomag: szerződéses compliance-lánc, idegenrendészeti és munkajogi átvilágítás, foglalkoztatási struktúra átalakítása.
+3. 1181/2026. (VI. 5.), 1182/2026. és 1184/2026. Korm. határozat:
+- új, önálló országos környezetvédelmi hatóság előkészítése;
+- az akkumulátoripari értéklánc egészére (anód, katód, elektrolit, szeparátor, cella, modul) kiterjedő országos ellenőrzés, 2026. szeptember 30-i határidővel. A határidő lejárt, összesített eredményt e sorok írásakor nem tettek közzé;
+- a környezeti felelősség és szankciók szigorítására vonatkozó javaslat október 1-jéig;
+- a miniszter telephely-kijelölési jogkörének megszüntetése;
+- technológiasemleges szabályok az akkumulátoriparban.
 
-Irodánk több mint tíz éve képviseli Magyarországon működő ázsiai gyártókat; referenciáink között szerepel telephely-bezáratás elleni sikeres jogorvoslat, önkormányzati környezetvédelmi rendelet elleni jogi vélemény, ipari tevékenység bejelentése és engedélyeztetése, valamint kínai és koreai vállalatok folyamatos bevándorlási és cégjogi képviselete. Díjainkról egyedi ajánlatot adunk.
+4. 2026. évi XXXV. törvény: a környezetterhelési díjról szóló törvény módosításával a kén-dioxid, a nitrogén-oxidok és a nem toxikus szálló por levegőterhelési díjtételei 2026. október 1-jétől megkétszereződtek. A kísérő csomag bejelentette a multinacionális vállalatok adókedvezményeinek fokozatos kivezetését és a nagy vízfelhasználókra vonatkozó külön szabályokat.
 
-## X. NAPTÁR 2026 IV. NEGYEDÉV – 2027
+5. Országos akkumulátoripari ellenőrzési program (2026. augusztus 1-jétől): az engedélyek helyszíni összevetése a tényleges kapacitással, alapanyagokkal, oldószer-felhasználással, kibocsátással, vízhasználattal és veszélyeshulladék-kezeléssel. Az ellenőrzés a beszállítókra és a kapcsolódó létesítményekre is kiterjedhet, környezeti mintavétellel. Súlyos jogsértés közvetlenül végrehajtási intézkedéshez vezethet.
 
-- 2026. szeptember 30.: az országos akkumulátoripari ellenőrzési program határideje (1181/2026. (VI. 5.) Korm. határozat).
-- 2026. október 1.: a levegőterhelési díjtételek megkétszereződése (2026. évi XXXV. törvény); a környezeti felelősségi rendszer megerősítésére vonatkozó javaslat határideje (1182/2026. (VI. 5.) Korm. határozat).
-- 2026. október 25.: hatályba lépett a 280/2026. (X. 9.) Korm. rendelet – a bírság felső határa az előző évi nettó árbevétel 5%-a, legfeljebb ötmilliárd forint; ismételt vagy súlyos korábbi jogsértésnél legalább az árbevétel 0,5%-a [314/2005. (XII. 25.) Korm. r. 26. § (4a)–(4d)].
-- 2026 ősze: az építészeti törvény módosításának parlamenti tárgyalása; a kiemelt beruházások felülvizsgálatának eredményei.
-- 2027. január 1.: az Országos Élőkörnyezet-felügyeleti Főhatóság tervezett működéskezdete.
+6. Az építészeti törvény módosításáról benyújtott törvényjavaslat: ha egy kiemelt beruházásnál környezetvédelmi jogsértést állapítanak meg, a jogsértés megszűnését követően legalább hat hónapig nem adható ki további engedély.
 
-Magyarország nem zárja be a kaput a kínai tőke előtt – a kormány és a kínai nagykövet egybehangzóan a jogkövető, megkülönböztetésmentes működést nevezi feltételnek. A kapu kulcsa azonban mostantól a jogkövetés: bizonyítható, dokumentált, magyar nyelvű, és olyan jogi képviselettel, amely a hatósági eljárás első percétől jelen van.
+7. A bírságrendszer érdemi reformja (hatályos) és az Országos Élőkörnyezet-felügyeleti Főhatóság (előkészítés alatt):
+- **Az új bírságszabályok.** A 314/2005. és a 156/2025. Korm. rendeletet módosító 280/2026. (X. 9.) Korm. rendelet 2026. október 25-én hatályba lépett. A 100 millió forintot meghaladó éves nettó árbevételű vállalkozásnál az egységes környezethasználati engedély nélküli vagy attól eltérő tevékenység bírsága elérheti az előző évi nettó árbevétel 5%-át, legfeljebb ötmilliárd forintot (korábban kétmilliárd forint). A bírság legalább az előző évi nettó árbevétel 0,5%-a, de legalább ötmillió forint, ha a vállalkozás öt éven belül legalább kétszer kapott végleges bírságot környezetszennyezés miatt, vagy végleges döntés környezetveszélyeztetést vagy -károsítást okozó jogsértést állapított meg vele szemben [314/2005. Korm. r. 26. § (4a)–(4d)].
+- **Hulladékgazdálkodási bírság.** Megszűnt a jogi személyekre vonatkozó, rögzített 500 millió forintos plafon; az összeget ma a jogszabályi számítási szabályok határozzák meg.
+- **A szabályozás célja és alapja.** A minisztérium közlése szerint a cél az, hogy a nagy hatású iparágak, például az akkumulátorgyártás vállalatai ne tekinthessék a bírságot kiszámítható üzleti költségnek. Az alap a bírságolt vállalkozás, vagyis a magyar leányvállalat nettó árbevétele, nem a csoport konszolidált adata. A kínai anyavállalatoknak ezt a magyar leányvállalat tőke- és elszámolási struktúrájában is figyelembe kell venniük.
+- **Az Országos Élőkörnyezet-felügyeleti Főhatóság.** A létrehozásáról szóló kormányrendelet-tervezet társadalmi egyeztetése 2026. szeptember 30-án zárult. A hatóság tervezetten 2027. január 1-jétől működik, országos engedélyezési, ellenőrzési és szankcionálási hatáskörrel, az akkumulátorgyártás kiemelt területként. A tervezet szerint döntései ellen közigazgatási jogorvoslatnak nincs helye, csak bírósághoz lehet fordulni.
+
+
+## IV. KI FELÜGYEL? A MAGYAR HATÓSÁGOK
+
+Más országokhoz hasonlóan a Magyarországon működő vállalatokat több, egymástól független hatóság felügyeli párhuzamosan. Mindegyik maga hozza meg döntéseit, és saját szankciós jogkörrel rendelkezik.
+
+1. A kormányhivatalokban a környezetvédelem, a munkaügy, a munkavédelem, a tűzvédelem és az építésügyi engedélyezés külön, egymástól független szervezeti egységhez tartozik.
+
+2. A rendőrség folytatja a büntetőeljárásokat. Az ipari működés szempontjából releváns bűncselekmények elsősorban a Büntető Törvénykönyv szerinti környezetkárosítás, a hulladékgazdálkodás rendjének megsértése és a gondatlan veszélyeztetés. Jogi személlyel szemben is alkalmazható pénzbírság és a tevékenység korlátozása. A kínai anyavállalatoknak előre büntetőjogi megfelelési és védekezési tervet érdemes készíteniük kiküldött vezetőik számára.
+
+3. Egyéb szervek: az Országos Idegenrendészeti Főigazgatóság vizsgálja a tartózkodási engedélyeket; a munkaügyi hatóság a munkaidőt és a bérezést; a Gazdasági Versenyhivatal a piaci magatartást felügyeli; a Nemzeti Adó- és Vámhivatal az adóügyekben jár el; a Nemzeti Befektetési Ügynökség pedig a támogatásokról és a kiemelt státuszról dönt.
+
+
+## V. ELJÁRÁSI KOCKÁZATOK A MAGYAR JOGALKALMAZÁSBAN
+
+A hatósági eljárásokra elsősorban az általános közigazgatási rendtartásról szóló törvény és a közigazgatási perrendtartás az irányadó. Négy eljárási pont különösen nagy kockázatot jelent a vállalatok számára:
+
+1. A felfüggesztő vagy tiltó határozat főszabály szerint a közléssel végrehajthatóvá válik. A vármegyei kormányhivatalok döntései ellen nincs közigazgatási fellebbezés; a kézhezvételtől számított 30 napon belül keresetet kell benyújtani a bírósághoz. A kereset benyújtása a végrehajtást nem függeszti fel. Ahhoz, hogy a vállalatnak esélye legyen az intézkedés felfüggesztésére, egyidejűleg azonnali jogvédelmet kell kérnie.
+
+2. A helyszíni ellenőrzés során felvett jegyzőkönyvek a közigazgatási és a büntetőeljárásban is bizonyítékként használhatók. Amit a helyszíni munkatársak mondanak, rögzíti az ügy tényállását. Ezért ügyvédet kell bevonni a kezdetektől, különben a következmények visszafordíthatatlanok és költségesek lehetnek.
+
+3. Meghatározatlan számú érdekeltet érintő ügyekben a hatóságok honlapjukon is közzéteszik döntéseiket. A vállalat jogorvoslati határideje a döntés tényleges kézhezvételétől fut, nem az online közzététel napjától.
+
+4. Minden közigazgatási eljárás hivatalos nyelve a magyar. A hatóságok nem fogadnak el más nyelvű naplót, jelentést vagy feliratot. A jegyzőkönyv magyarul készül, a fordítás a vállalat költségére és kockázatára történik. A magyar kis nyelv, és a jog is ezen a nyelven íródik. A magyar jog alkalmazását ezért magyar ügyvédekre kell bízni, hogy a kínai befektetők érdekei hatékonyan érvényesüljenek.
+
+
+## VI. A LEGGYAKORIBB JOGSÉRTÉSEK A MAGYAR AKKUMULÁTORIPARBAN
+
+A közelmúlt hatósági ügyei a következő visszatérő megfelelési hiányosságokat mutatják az akkumulátoriparban:
+
+1. Veszélyeshulladék-kezelés: magyar címke nélküli tárolók, jelöletlen gyűjtőhelyek, hiányzó nyilvántartás, felügyelet nélküli gyűjtőhelyek, sérült vagy nyitott tárolók (pl. SK Battery, Samsung SDI).
+
+2. Az engedélytől eltérően kezelt csapadékvíz és ipari szennyvíz: az előkezelési engedéllyel ellentétes működés, tesztfolyadékok vagy mosóvíz bevezetése a közcsatornába (pl. HALMS Hungary / Huashuo Technology).
+
+3. A talaj- és talajvízmonitoring eljárási hibái: akkor is önálló jogsértés és bírságolható a késedelmes mintavétel vagy a monitoringjelentés késedelmes benyújtása, ha végül szennyezést nem találnak (pl. a Semcorp eljárási bírsága).
+
+4. Munkahelyi expozíció veszélyes anyagoknak: elmaradt légtérmérések, be nem jelentett nikkel- és kobaltexpozíció, nem megfelelő védőfelszerelés, elmaradt foglalkozás-egészségügyi vizsgálatok (pl. SK On, Samsung SDI).
+
+5. Az építési szakasz kockázatai: földmunka, termőföld-eltávolítás, hulladékszállítás, emelési biztonság, halálos balesetek (pl. a BYD építési területe).
+
+6. Harmadik országbeli munkavállalók és az alvállalkozói lánc: hiányos nyilvántartás a tartózkodási jogállásról, a munkaidőről és a bérekről. Az alvállalkozó jogsértése közvetlenül rontja a beruházó hírnevét, és felelősséget is keletkeztethet.
+
+7. A jóváhagyott dokumentációtól eltérő tűz- és iparbiztonság: a biztonsági jelentéssel össze nem egyeztethető működés, hibás oltórendszer, hibás csőtömítések (pl. EcoPro).
+
+8. Külső kommunikáció és közösségi kapcsolatok: idegen nyelvű dokumentumok benyújtása, az ellenőrzés akadályozása, a közmeghallgatások rossz kezelése, az önkormányzattal folytatott kommunikáció hiányos dokumentálása.
+
+
+## VII. HÁROM GYAKORLATI TANULSÁG A KÖZELMÚLT ÜGYEIBŐL
+
+### 1. tanulság: az önkéntes bejelentéshez teljes helyreállítási terv kell
+
+Egy kínai vállalat jogszerűen bejelentette, hogy munkavállalóinál emelkedett nikkelszintet mértek – a bejelentés önmagában teljesítette a jogszabályi kötelezettséget. A helyszíni ellenőrzés azonban nem megfelelő védőfelszerelést talált, és a hatóság azonnal megtiltotta a munkavégzést az érintett üzemrészekben.
+
+Gyakorlati megjegyzés: ha a vállalatnak biztonsági vagy környezeti eseményt kell bejelentenie, ne csak a problémát tárja fel, hanem ezzel egyidejűleg nyújtsa be a teljes helyreállítási dokumentációt. Ide tartozik a védőfelszerelési terv, a munkavállalók orvosi utánkövetése, a technológiai módosítások és az alátámasztó dokumentáció. Helyreállítási terv nélkül a hatóság a vállalat saját helyreállítása helyett hatósági tilalmat alkalmaz.
+
+### 2. tanulság: az alvállalkozó hibája nem mentesíti az engedélyest a közigazgatási felelősség alól
+
+Bár az érintett szennyvizet egy alvállalkozó bocsátotta ki, a szankciót a kínai vállalat mint engedélyes kapta. Ha pedig egy alvállalkozó nagy bírságot kap, a sajtó a beruházóra mutat.
+
+Az országos ellenőrzési program kifejezetten kiterjed a beszállítókra. Egy kínai vállalat 2026 májusában alvállalkozói megfelelési nyilatkozatot vezetett be. Ez minimális standard, amely önmagában nem tudja elhatárolni a közigazgatási kockázatot. A közigazgatási eljárás alanya mindig az engedélyes marad. A tulajdonos csak utólag, az alvállalkozói szerződés alapján fordulhat az alvállalkozóhoz, ezért a megtérítési és biztosítéki megoldásokat előre kell rögzíteni.
+
+Javaslat: az alvállalkozói szerződésekben teljes megfelelési láncot kell kiépíteni, és ezt bankgaranciával és visszatartott fizetéssel kell alátámasztani, nem csupán egy aláírt megfelelési nyilatkozattal. A lánc elemei:
+- belépéskori átvilágítás;
+- jelentési kötelezettségek;
+- ellenőrzési jog;
+- különleges felmondási jogok;
+- kártalanítás.
+
+### 3. tanulság: az engedélyezési dokumentáció minősége dönti el az ütemezés és a finanszírozás biztonságát
+
+Egy kínai vállalat második ütemre vonatkozó kérelmét nem környezetvédelmi okból, hanem helyszínrajzi hibák miatt utasították el. Az építészeti törvény módosításáról benyújtott törvényjavaslat szerint kiemelt beruházásnál környezetvédelmi jogsértés után legalább hat hónapig nem adnak ki új engedélyt, a kormány pedig visszavonhatja a kiemelt státuszt. Az engedélyezési dokumentáció tehát már nem adminisztratív formalitás, hanem az ütemezés és a finanszírozás alapvető kockázata.
+
+Egy másik példa: 2026. október 18-án a másodfokú környezetvédelmi hatóság megsemmisítette egy koreai tulajdonú sóskúti elektrolitgyár egységes környezethasználati engedélyét. Indoka az volt, hogy az elektrolitgyártás önálló környezeti hatásvizsgálatot igényel, és nem lehetett egy veszélyeshulladék-engedély módosításába „csomagolni”. Ha rossz engedélyezési útvonalat választanak, a projektnek újra kell kérelmeznie és újra kell terveznie.
+
+Javaslat:
+- A kínai műszaki csapat és jogosultsággal rendelkező magyar tanácsadók kettős felülvizsgálatot végezzenek: tételesen ellenőrizzék a rajzokat és a beadványokat, és a benyújtás előtt informálisan egyeztessenek a hatósággal.
+- A dokumentumverziókat szigorúan kell kezelni. A környezeti vizsgálatot minden elrendezési vagy technológiai változáskor frissíteni kell, teljes körű nyilvántartással.
+- A szakaszos projekteket külön benyújtási egységekre kell bontani, hogy egy hiba ne tartsa fel az egészet.
+- A finanszírozási szerződésekbe az engedélyek késedelmére vonatkozó folyósítási és kockázatmegosztási rendelkezéseket kell foglalni. A szolgáltatási szerződésekben rendezni kell a hibákért és késedelemért való felelősséget, és a végső kifizetéseket a megszerzett engedélyekhez kell kötni.
+- Követni kell az új helyi szabályokat, és a felmerült hibákról vezetett listából belső benyújtási eljárásrendet (SOP) kell készíteni, hogy elkerülhető legyen a hat hónapos engedélyezési zárlat és a kiemelt státusz elvesztése.
+
+
+## VIII. TÍZPONTOS ELLENŐRZŐLISTA A KÖZIGAZGATÁSI SZANKCIÓK MEGELŐZÉSÉRE
+
+A hatályos szabályok, a 2026. október 25. óta hatályos új bírságrendszer és a 2027-re tervezett új hatóság fényében a kínai vállalatoknak a következő tíz intézkedést javasoljuk:
+
+1. Végezzenek jogalkalmazás-orientált megfelelési auditot az országos akkumulátoripari ellenőrzési program szempontjai szerint, kiterjedően a környezetvédelemre, a vízügyre, a veszélyes hulladékra, a munka- és iparbiztonságra, a tűzvédelemre, valamint az idegenrendészeti és foglalkoztatási modellre.
+
+2. Minden engedélyt tételesen vessenek össze a tényleges működéssel: kapacitás, alapanyagok, oldószer-felhasználás, vízhasználat és kibocsátás.
+
+3. Készítsék el a teljes magyar nyelvű dokumentációt: helyszíni feliratok, üzemnaplók, biztonsági jelentések és belső szabályzatok.
+
+4. Vezessenek monitoring- és jelentési naptárt minden határidővel és felelőssel; a késedelmes jelentés önmagában jogsértés.
+
+5. Vezessenek be egységes alvállalkozói megfelelési eszköztárat: megfelelési nyilatkozat, belépési jóváhagyás, a megrendelő ellenőrzési joga, különleges felmondási jogok, kártalanítás és biztosíték.
+
+6. Vezessék be a veszélyes anyagoknak való munkahelyi expozíció teljes körű kezelését: mérési terv, védőfelszerelési rendszer, a munkavállalók biomonitoringja és foglalkozás-egészségügyi nyilvántartás.
+
+7. Fogadjanak el belső protokollt a hatósági ellenőrzésekre: ki fogadja az ellenőröket, ki nyilatkozhat, milyen dokumentumok adhatók át, hogyan ellenőrzik a jegyzőkönyveket, és hogyan kerül ügyvéd a helyszínre.
+
+8. Alakítsanak ki eljárást az események és veszélyek önkéntes bejelentésére, azzal a követelménnyel, hogy minden hatósági bejelentéshez teljes helyreállítási terv tartozzon.
+
+9. Előre tervezzék meg a jogorvoslatokat: esetről esetre döntsenek a „szankció elfogadása, helyreállítás, lezárás” és a „bírósági megtámadás” között. Felfüggesztés vagy tilalom kézhezvételekor főszabály szerint egyidejűleg kérjenek azonnali jogvédelmet.
+
+10. A támogatások vagy a kiemelt státusz felülvizsgálatának megkezdése előtt végezzék el a jogi átvilágítást és az önvizsgálatot, és tartsanak fenn folyamatos, dokumentált kapcsolatot az önkormányzattal és a környező közösséggel. A támogatási szerződések nyilvánosságra kerülhetnek. 2026 októberében egy nagy akkumulátorgyártó támogatási szerződése közérdekű adatigénylés nyomán vált ismertté. Ebből kiderült:
+   - 129 milliárd forint vissza nem térítendő támogatás;
+   - 11 éves üzemeltetési kötelezettség;
+   - állami jelzálog;
+   - a kifizetések felfüggesztésének joga környezetvédelmi, munkavédelmi vagy foglalkoztatási jogsértés esetén.
+
+
+## IX. MIÉRT NÉLKÜLÖZHETETLEN A HELYI JOGI TÁMOGATÁS
+
+A belső megfelelési csapat szükséges, de nem elegendő a magyar szabályozási kockázat kezeléséhez. Ennek okai:
+- az eljárások magyar nyelven, szigorú határidőkkel folynak;
+- a jegyzőkönyvek bizonyítékká válnak;
+- a felfüggesztő határozatok azonnal végrehajthatók;
+- a 2026. október 25. óta hatályos bírságrendszerben a korábbi végleges döntések száma és jellege ugyanannyit számít, mint a bírság összege;
+- a támogatások és a kiemelt státusz felülvizsgálata valójában tárgyalás, amelyben a mozgástér az írásos bizonyítékok minőségén múlik.
+
+A DHH Budapest Office (Czudar DHH Ügyvédi Iroda) csapata régóta szolgálja a Magyarországon működő ázsiai gyártókat; vezető ügyvédei több mint tíz éve gyakorolják a hivatást. Az iroda a következő meghatározott jogi szolgáltatásokat nyújtja:
+
+1. Jogalkalmazás-orientált megfelelési audit: a telephely jogi átvilágítása az országos ellenőrzési szempontok szerint, kockázati jelentéssel és végrehajtható helyreállítási tervvel.
+
+2. Ügyeleti képviselet hatósági ellenőrzésnél: ellenőrzésről szóló értesítés esetén helyi ügyvéd a helyszínen, aki kezeli a meghallgatásokat és a ténynyilatkozatokat. A DHH kínai csapataival együttműködve valós időben, kínaiul tájékoztatja a kínai központot.
+
+3. Szankciókkal és felfüggesztéssel kapcsolatos viták: közigazgatási jogorvoslat és per azonnali jogvédelemmel, a működés újraindítási feltételeinek egyeztetése; szükség esetén összehangolt büntetőjogi védelem.
+
+4. Engedélyezés és támogatások: működési és környezetvédelmi engedélyek, kiemelt státusz felülvizsgálata, támogatási szerződések áttekintése.
+
+5. Alvállalkozói és foglalkoztatási megfelelés: az alvállalkozói kockázat szerződéses elhatárolása, idegenrendészeti és munkajogi átvilágítás, a munkaerő-struktúra optimalizálása.
+
+
+## FONTOS DÁTUMOK
+
+1. 2026. szeptember 30.: az országos akkumulátoripari ellenőrzési program határideje (1181/2026. Korm. határozat) – lejárt; az összesített eredmény még nem ismert.
+
+2. 2026. október 1.: a levegőterhelési díjtételek megkétszereződtek; a környezeti felelősség szigorítására vonatkozó javaslat határideje (1182/2026. Korm. határozat).
+
+3. 2026. október 25.: hatályba lépett a 280/2026. (X. 9.) Korm. rendelet. A bírság felső határa az előző évi nettó árbevétel 5%-a, legfeljebb 5 milliárd forint. Végleges döntéssel megállapított ismételt vagy súlyos korábbi jogsértés után a bírság legalább az árbevétel 0,5%-a.
+
+4. 2026 ősze: az Országgyűlés tárgyalja az építészeti törvény módosítását és az új környezetvédelmi hatóságra vonatkozó jogszabályokat; várhatók a kiemelt projektek felülvizsgálatának eredményei.
+
+5. 2027. január 1.: az Országos Élőkörnyezet-felügyeleti Főhatóság tervezett működéskezdete, a környezetvédelmi engedélyezési, ellenőrzési és szankcionálási hatáskörök összevonásával.
+
+
+## ZÁRSZÓ
+
+Magyarország nem zárta be kapuit a kínai tőke előtt. A magyar kormány és Kína magyarországi nagykövete is egyértelművé tette: a jogszerű működés a feltétel, a megkülönböztetésmentesség az elv. A befektetés biztonságának kulcsa ma a megfelelés. Ennek ellenőrizhetőnek, teljes körűen dokumentáltnak és magyar nyelvűnek kell lennie, és minden eljárás első pillanatától helyi ügyvédek támogatására kell épülnie.
+
+A DHH továbbra is elkötelezett a külföldre lépő kínai vállalatok kísérése mellett. Kész támogatni őket abban, hogy Magyarországon jogszerűen működjenek és kiegyensúlyozottan fejlődjenek, kihasználva az új szakasz lehetőségeit.
+
 
 ## Források
 
-- Csongrád-Csanád Vármegyei Kormányhivatal közleményei, 2026. 06. 01. és 06. 16. (BYD)
-- Hajdú-Bihar Vármegyei Kormányhivatal közleményei, 2026. 06. 24., 07. 03. (Semcorp), 08. 25. (CATL), 09. 11. (EcoPro, HB/21-TIO/00613-2/2026)
-- Kormány.hu: 100 millió forintos bírságot kapott az iváncsai akkumulátorgyár, 2026. 08. 21.; Gajdos László nyilatkozata, 2026. 06. 21.; adó- és környezetvédelmi csomag, 2026. 07. 17.; a Főhatóság bejelentése, 2026. 09. 05.
-- Magyar Közlöny 2026/64. (92/2026. Korm. r.; 1181–1184/2026. Korm. hat.); 140/2026. (IX. 1.) Korm. r.; 2026. évi XXXV. törvény és indokolása (njt.hu)
-- GVH közleményei: Temu, 2026. 04. 28. és 07. 20.; eMAG, 2026. 08. 13.; Allegro, 2026. 06. 30.
-- Telex, 2026. 05. 28., 06. 05., 07. 06., 08. 24., 08. 26. (CATL, Semcorp; G7: hét vizsgálat és négy bírság); G7, 2026. 08. 19. (NBÜ közlése a 24.hu-nak); Portfolio, 2026. 08. 25., 09. 01.; Világgazdaság, 2026. 08. 07. (AE Industry-helyreigazítás), 2026. 09. 02. (CATL hongkongi árfolyam); 444, 2026. 08. 07.; mfor.hu (építészeti tv. módosítása); SCMP, 2026. 05. 19. (BYD alvállalkozói megfelelési nyilatkozat); Bloomberg, 2026. 07. 18. és Daily News Hungary, 2026. 07. 19. (Vitézy Dávid nyilatkozata)
-- Átlátszó, 2026. 07. 14.: a gödi Samsung SDI 61 határozata, 405,3 M Ft (2018–2025); Telex, 2026. 02. 23. (Latorcai Csaba: >400 M Ft); Telex, 2025. 07. 02. (100 M Ft munkavédelmi bírság, 2025. március); Átlátszó, 2023. 08. 23. (SungEel felfüggesztése) és 2023. 08. 30. (Abasár, 103 M Ft); Index/Telex, 2023. 08. 04. (SK On Iváncsa, ~14 M Ft); Átlátszó/HVG, 2026. 06. 12. (SK Battery Komárom); Debreciner (HALMS, Semcorp 2025); Telex, 2026. 03. 21. (Semcorp tűzvédelmi bírság); police.hu, 2026. 02. 27.
-- Daily News Hungary, 2026. 09. 09. (Gong Tao nagykövet interjúja); Telex/Index, 2026. 09. 13.; 北京大学中外人文交流研究基地 (朱兆一), 2026. 04. 29.; 环球时报, 2026. 04. 15.
-- Czudar DHH – Cheng Tao: Kínai befektetések Magyarországon az új kormány alatt: jogi gyakorlati útmutató a megfeleléshez (I. rész), 2026. július.
+- A Csongrád-Csanád Vármegyei Kormányhivatal közleményei
+- A Hajdú-Bihar Vármegyei Kormányhivatal közleményei
+- kormany.hu
+- Magyar Közlöny
+- A Gazdasági Versenyhivatal (GVH) döntései
+- Telex, Portfolio és más vezető orgánumok
+- Átlátszó, közérdekű adatok
+- Daily News Hungary, interjú Kína magyarországi nagykövetével
+- 北京大学中外人文交流研究基地, kutatási jelentés
+- A sorozat I. része (2026. július): „Kínai befektetések Magyarországon az új kormány alatt: jogi gyakorlati útmutató a megfeleléshez”
+- 280/2026. (X. 9.) Korm. rendelet; 314/2005. (XII. 25.) Korm. rendelet 26. § (4a)–(4d) (njt.hu); az Országos Élőkörnyezet-felügyeleti Főhatóságról szóló kormányrendelet-tervezet (társadalmi egyeztetés, 2026. szeptember)
+- Portfolio, 2026. szeptember 29. és október 19.; Infostart, 2026. október 25.; Economx és 444, 2026. október 18. és 20.
