@@ -88,7 +88,7 @@ export const home = {
   },
   zh: {
     heroTitle: '量身定制的法律解决方案',
-    heroSub: '高效、务实的法律保障——德和衡（匈牙利）律师事务所，北京德和衡律师事务所的匈牙利分所。',
+    heroSub: '高效、务实的法律保障——德和衡布达佩斯办公室（DHH Budapest Office / Czudar DHH Law Firm – Hungary），北京德和衡律师事务所在匈牙利的成员机构。',
     valuesTitle: '我们的理念',
     values: [
       { t: '专业服务', d: '我们以深厚的专业功底、务实的问题解决能力、恪守职业道德的态度，为客户提供切实可行的法律方案。' },
