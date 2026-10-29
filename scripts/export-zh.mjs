@@ -15,7 +15,7 @@ out.push('');
 out.push('Ez a fájl a drczudar.hu tervezett honlap MINDEN kínai szövegét tartalmazza, hogy egyben átnézhető legyen: nyelvtan, szakmai regiszter, ázsiai kulturális kontextus. Kérjük „eredeti → javasolt" párokban a javaslatokat.');
 
 H('0) Cégnevek, regisztráció, névhasználati szabály (fix adatok)');
-L('- Bejegyzett/megjelenő cégnév (ZH): 北京德和衡（布达佩斯）律师事务所');
+L('- Megjelenő irodanév (ZH): 德和衡布达佩斯办公室 – teljes forma: 德和衡布达佩斯办公室（DHH Budapest Office / Czudar DHH Law Firm – Hungary）');
 L('- Rövid latin márkanév: Czudar DHH / CZUDAR DHH LAW FIRM');
 L('- Hálózati anyacég (ZH): 北京德和衡律师事务所 (angol: DeHeng Law Offices / Beijing DHH Law Firm)');
 L('- Mottó (ZH, jelenleg hagyományos írásjegy): 和實生物，同則不繼 (a《国语·郑语》-ból)');

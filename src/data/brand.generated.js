@@ -1,14 +1,14 @@
 // AUTOMATIKUSAN GENERÁLT — NE SZERKESZD KÉZZEL.
-// Forrás: czudar-brand/brand-tokens.yaml · generálva: 2026-09-19T23:39:43.693Z
+// Forrás: czudar-brand/brand-tokens.yaml · generálva: 2026-10-29T08:56:27.926Z
 // Újragenerálás: npm run sync (a build ezt automatikusan lefuttatja).
 export default {
-  "_generatedAt": "2026-09-19T23:39:43.693Z",
+  "_generatedAt": "2026-10-29T08:56:27.926Z",
   "_source": "czudar-brand/brand-tokens.yaml",
   "brand": {
     "name": {
       "hu": "Czudar DHH Ügyvédi Iroda",
       "en": "Czudar DHH Law Firm",
-      "zh": "德和衡（匈牙利）律师事务所",
+      "zh": "德和衡布达佩斯办公室",
       "ko": "Czudar DHH 법률사무소"
     },
     "networkLabel": "DHH Budapest Office",
